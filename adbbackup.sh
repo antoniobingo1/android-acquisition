@@ -28,7 +28,7 @@ echo "Performing a backup of device $device_name saved on '$file_name'"
 
 
 #Run backup
-#.apk files, .obb files, shared storage, all installed apps and system
+#.apk files, shared storage, all installed apps and system
 #https://developer.android.com/studio/command-line/adb.html
 adb backup -apk -shared -all -f $file_name
 echo "Finshed backup! Now the hash of the backup will be calculated..."

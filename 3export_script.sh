@@ -3,18 +3,22 @@
 #root_list=$(adb shell ls -la /)
 
 #adb shell ls -a | while read line
-for line in $(adb shell ls -a)
-do
-	line=${line//[^a-zA-Z0-9]/}
-	if [ "$line" = "d" ] || [ "$line" = "proc" ]
-	then
-		echo "Skipped"
-	else
-		echo "$line"
-		adb pull -a $line ./pull_latest
-		if [ ! $? -eq 0 ]
+pull_recur(){
+	for line in $(adb shell ls -a $1)
+	do
+		line="${line//[^a-zA-Z0-9_.-]/}"
+		if [ "$line" = "etc" ]
 		then
-			echo "Niet gelukt: $line"
+			echo "Skipped"
+		else
+			line="$1"/"$line"
+			echo "$line"
+			adb pull -a $line /mnt/isaacscript/pull_latest2/"$line"
+			if [ ! $? -eq 0 ]
+			then
+				echo "Niet gelukt: $line"
+			fi
 		fi
-	fi
-done
+	done
+}
+pull_recur $1
