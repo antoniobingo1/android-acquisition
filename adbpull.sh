@@ -59,3 +59,7 @@ pull_recur(){
 	done
 }
 pull_recur $remote_location
+
+#Make a hash of all pulled files
+find $local_location -type f | while read files; do echo $(sha256sum "$files"); done > $local_location/hash_files.txt
+
