@@ -40,6 +40,6 @@ echo "The hash of the file is: $hashAB"
 #Extract backup
 echo "Extracting backup"
 mkdir $extract_folder
-( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 adbbackuptest.ab ) | tar xfz - -C $extract_folder
+( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 $file_name ) | tar xfz - -C $extract_folder
 hashExtract=$(tar c $extract_folder | sha256sum)
 echo "Extracted data hash: $hashExtract"

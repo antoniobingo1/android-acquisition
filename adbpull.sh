@@ -16,16 +16,16 @@ local_location=$2
 device_name=$(adb devices | tail -2 | head -1 | awk '{print $1}')
 device_state=$(adb devices | tail -2 | head -1 | awk '{print $2}')
 
+#Start ADB server
+adb start-server
+echo "ADB server started"
+echo "Performing a backup of device $device_name saved on '$local_location'"
+
 #Check device state
 if [[ $device_state = "unauthorized" ]]; then
 	echo "Device '$device_name' is unauthorized, please authorize on device and start script again."
 	exit
 fi
-
-#Start ADB server
-adb start-server
-echo "ADB server started"
-echo "Performing a backup of device $device_name saved on '$local_location'"
 
 mkdir $local_location
 #adb shell ls -a | while read line
@@ -33,15 +33,17 @@ pull_recur(){
 	pull_object=$1
 	# Remove backslash if already there
 
-	for line in $(adb shell ls -a $pull_object)
+	for line in $(adb shell ls -al $pull_object | grep -v ^l | grep -Eo "[^ ]+$")
 	do
                 if [[ $pull_object = "/" ]]; then
                         pull_object=""
+		else
+			mkdir -p "$local_location""$remote_location"
                 fi
 		# Sanitize ls output
 		line="${line//[^a-zA-Z0-9_.-]/}"
 		# Skip /proc directory to prevent timeout errors
-		if [ "$line" = "d" ] || [ "$line" = "proc" ] || [ "$line" = "sys" ]
+		if [ "$line" = "d" ] || [ "$line" = "proc" ] || [ "$line" = "sys" ] || [ "$line" = "13016" ]
 		then
 			echo "Skipped $line"
 		else
