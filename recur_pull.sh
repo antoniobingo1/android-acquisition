@@ -49,7 +49,7 @@ pull_recur(){
 			for file in $list_of_files
 			do
 				local file="$(echo -n "$file" | tr -d '\r')"
-				if [ "$pull_object/$file" == "//proc/mlog" ] || [ "$pull_object/$file" == "//proc/ccci_log" ] || [ "$pull_object/$file" == "//proc/sysram" ] || [ "$pull_object/$file" == "//proc/zraminfo" ]
+				if [ "$pull_object/$file" == "//proc/mlog" ] || [ "$pull_object/$file" == "//proc/ccci_log" ] || [ "$pull_object/$file" == "//proc/sysram" ] || [ "$pull_object/$file" == "//proc/zraminfo" ] || [ "$pull_object/$file" == "//proc/sysram_flag" ]
 				then
 					continue;
 				fi
