@@ -28,42 +28,72 @@ if [[ $device_state = "unauthorized" ]]; then
 fi
 
 mkdir $local_location
-
-counter=0
-
 pull_recur(){
-	declare -A pull_object=()
-	counter=$(($counter+1))
-	pull_object[$counter]=$1
-	echo "Pull object is: ${pull_object[$counter]} and counter is: $counter"
+	local pull_object=$1
+	echo "Pull object is: $pull_object"
+	if [ "$pull_object" == "//acct" ] || [ "$pull_object" == "//mnt/shell/emulated/0/Android" ]; then
+		return;
+	fi;
 
 	# Pull files
-	file=""
-	for file in $(adb shell "ls -la ${pull_object[$counter]} | grep '^-' | grep -Eo '[^ ]+$'")
-	do
-		#line=$(echo $line | tr -d '\\t')
-		file="${file//[^a-zA-Z0-9_.-]/}"
-		echo "Trying to pull: ${pull_object[$counter]}"/"$file"
-		adb pull -a "${pull_object[$counter]}"/"$file" "$local_location"/"${pull_object[$counter]}"/
-		if [ ! $? -eq 0 ]
+	local list_of_files=$(adb shell "ls -la '$pull_object' | grep '^-' | grep -Eo '[^ ]+$'")
+        echo "$list_of_files" | grep 'No such file' &> /dev/null
+	if [ $? == 0 ]
+	then
+	        echo "Failure on list for files: No such file or directory"
+        else
+        	echo "$list_of_files" | grep 'opendir failed' &> /dev/null
+		if [ ! $? == 0 ]
 		then
-			echo "Fail: ${pull_object[$counter]}/$file"
+			echo "Our pretty list of files is $list_of_files"
+			for file in $list_of_files
+			do
+				local file="$(echo -n "$file" | tr -d '\r')"
+				if [ "$pull_object/$file" == "//proc/mlog" ] || [ "$pull_object/$file" == "//proc/ccci_log" ] || [ "$pull_object/$file" == "//proc/sysram" ] || [ "$pull_object/$file" == "//proc/zraminfo" ]
+				then
+					continue;
+				fi
+				echo "Trying to pull: $pull_object"/"$file"
+				adb pull -a "$pull_object"/"$file" "$local_location"/"$pull_object"/
+				if [ ! $? -eq 0 ]
+				then
+					echo "Fail: $pull_object/$file"
+				fi
+			done
+		else
+			echo "Failure on list for files: opendir failed, Permission denied"
 		fi
-	done
-	echo -e "\n\nPulled all files in directory: ${pull_object[$counter]} \n\n"
+	fi
+	echo -e "\n\nPulled all files in directory: $pull_object \n\n"
 
 	# Recurse through directories
-	directory=""
-	for directory in $(adb shell "ls -la ${pull_object[$counter]} | grep '^d' | grep -Eo '[^ ]+$'")
-	do
-		echo "Before $directory - $counter - ${pull_object[$counter]}"
-		directory="${directory//[^a-zA-Z0-9_.-]/}"
-		echo "After $directory"
-		adb shell "ls -la ${pull_object[$counter]} | grep '^d' | grep -Eo '[^ ]+$'"
-		mkdir -p "$local_location"/"{$pull_object[$counter]}"/"$directory"
-		echo -e "\n\n Calling function pull_recur ${pull_object[$counter]}/$directory \n\n"
-		pull_recur "${pull_object[$counter]}/$directory"
-	done
+	local list_of_dirs=$(adb shell "ls -la '$pull_object' | grep '^d' | grep -Eo '[^ ]+$'")
+        echo $list_of_dirs | grep 'No such file' &> /dev/null
+	if [ $? == 0 ]
+	then
+		echo "Failure on list for directories: No such file or directory"
+	else
+		echo $list_of_dirs | grep 'opendir failed' &> /dev/null
+		if [ ! $? == 0 ]
+		then
+			if [ ! -z "$list_of_dirs" ]
+			then
+				for directory in $list_of_dirs
+				do
+					local directory="$(echo -n "$directory" | tr -d '\r')"
+					echo "List of dirs = $list_of_dirs"
+					mkdir -p "$local_location"/"$pull_object"/"$directory"
+					echo "Pull_object = $pull_object and dir = $directory"
+					echo -e "\n\n Calling function pull_recur $pull_object/$directory \n\n"
+					pull_recur "$pull_object/$directory"
+				done
+			else
+				echo "No directories found"
+			fi
+		else
+			echo "Failure on list for directories: opendir, Permission denied"
+		fi
+	fi
 }
 pull_recur $remote_location
 
