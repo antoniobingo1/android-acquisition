@@ -1,0 +1,3008 @@
+<android-forensics>
+<date-time>20150101.0157</date-time>
+<IMSI>null</IMSI>
+<IMEI-MEID>869785027670542</IMEI-MEID>
+<phone-type>1</phone-type>
+<MSISDN-MDN>null</MSISDN-MDN>
+<ICCID>null</ICCID>
+<build>
+	<version.release>5.1</version.release>
+	<version.sdk>22</version.sdk>
+	<version.incremental>C577B125</version.incremental>
+	<board>CUN-L01</board>
+	<brand>HUAWEI</brand>
+	<device>HWCUN-L6735</device>
+	<display>CUN-L01C577B125</display>
+	<fingerprint>HUAWEI/CUN-L01/HWCUN-L6735:5.1/HUAWEICUN-L01/C577B125:user/release-keys</fingerprint>
+	<host>WUH1000003794</host>
+	<id>HUAWEICUN-L01</id>
+	<model>HUAWEI CUN-L01</model>
+	<product>CUN-L01</product>
+	<tags>release-keys</tags>
+	<time>1481027181000</time>
+	<type>user</type>
+	<user>jslave</user>
+</build>
+<applications>
+	<app>
+		<label>YouTube</label>
+		<className>com.google.android.apps.youtube.app.YouTubeApplication</className>
+		<dataDir>/data/data/com.google.android.youtube</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>14171717</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.youtube</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.youtube</processName>
+		<publicSourceDir>/system/app/YouTube/YouTube.apk</publicSourceDir>
+		<sourceDir>/system/app/YouTube/YouTube.apk</sourceDir>
+		<taskAffinity>com.google.android.youtube</taskAffinity>
+		<uid>10095</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>111956133</versionCode>
+			<versionName>11.19.56</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Camera</label>
+		<className>com.huawei.camera.controller.CameraApplication</className>
+		<dataDir>/data/data/com.huawei.camera</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1087913541</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.camera</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.camera</processName>
+		<publicSourceDir>/system/priv-app/HwCamera/HwCamera.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/HwCamera/HwCamera.apk</sourceDir>
+		<taskAffinity>com.huawei.camera</taskAffinity>
+		<uid>10016</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Huawei Home</label>
+		<className>com.huawei.android.launcher.LauncherApplication</className>
+		<dataDir>/data/data/com.huawei.android.launcher</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.launcher</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.launcher</processName>
+		<publicSourceDir>/system/app/HwLauncher6/HwLauncher6.apk</publicSourceDir>
+		<sourceDir>/system/app/HwLauncher6/HwLauncher6.apk</sourceDir>
+		<taskAffinity>com.huawei.android.launcher</taskAffinity>
+		<uid>10059</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>63025</versionCode>
+			<versionName>6.3.25</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Music</label>
+		<className>com.android.mediacenter.startup.MusicApplication</className>
+		<dataDir>/data/data/com.android.mediacenter</dataDir>
+		<descriptionRes>2131558419</descriptionRes>
+		<flags>1082670661</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.mediacenter</packageName>
+		<permission>null</permission>
+		<processName>com.android.mediacenter</processName>
+		<publicSourceDir>/system/priv-app/HwMediaCenter/HwMediaCenter.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/HwMediaCenter/HwMediaCenter.apk</sourceDir>
+		<taskAffinity>com.android.mediacenter</taskAffinity>
+		<uid>10017</uid>
+		<enabled>true</enabled>
+		<description>Music (system)</description>
+		<packageinfo>			<versionCode>701040</versionCode>
+			<versionName>V7.1.40</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Phone/Messaging Storage</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.telephony</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670597</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.telephony</packageName>
+		<permission>null</permission>
+		<processName>com.android.phone</processName>
+		<publicSourceDir>/system/priv-app/TelephonyProvider/TelephonyProvider.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/TelephonyProvider/TelephonyProvider.apk</sourceDir>
+		<taskAffinity>com.android.providers.telephony</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google App</label>
+		<className>com.google.android.apps.gsa.velvet.VelvetApplication</className>
+		<dataDir>/data/data/com.google.android.googlequicksearchbox</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1088142917</flags>
+		<manageSpaceActivityName>com.google.android.apps.gsa.managespace.VelvetManageSpaceActivity</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.googlequicksearchbox</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.googlequicksearchbox</processName>
+		<publicSourceDir>/system/priv-app/Velvet/Velvet.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Velvet/Velvet.apk</sourceDir>
+		<taskAffinity>com.google.android.googlequicksearchbox</taskAffinity>
+		<uid>10031</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>300653219</versionCode>
+			<versionName>5.13.31.21.arm</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Calendar Storage</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.calendar</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.calendar</packageName>
+		<permission>null</permission>
+		<processName>com.android.providers.calendar</processName>
+		<publicSourceDir>/system/app/CalendarProvider/CalendarProvider.apk</publicSourceDir>
+		<sourceDir>/system/app/CalendarProvider/CalendarProvider.apk</sourceDir>
+		<taskAffinity>com.android.providers.calendar</taskAffinity>
+		<uid>10035</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>HiCare</label>
+		<className>com.huawei.hicare.system.application.PhoneServiceApplication</className>
+		<dataDir>/data/data/com.huawei.hicare</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864965</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.hicare</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.hicare</processName>
+		<publicSourceDir>/system/priv-app/HwPhoneService/HwPhoneService.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/HwPhoneService/HwPhoneService.apk</sourceDir>
+		<taskAffinity>com.huawei.hicare</taskAffinity>
+		<uid>10018</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>20004301</versionCode>
+			<versionName>2.0.4.301_OVE_C</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Files</label>
+		<className>com.huawei.hidisk.DBankApplication</className>
+		<dataDir>/data/data/com.huawei.hidisk</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>-2134360507</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.hidisk</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.hidisk</processName>
+		<publicSourceDir>/system/app/HwFileManager/HwFileManager.apk</publicSourceDir>
+		<sourceDir>/system/app/HwFileManager/HwFileManager.apk</sourceDir>
+		<taskAffinity>com.huawei.hidisk</taskAffinity>
+		<uid>10055</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>70101303</versionCode>
+			<versionName>7.1.1.303_L</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Import via Bluetooth</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.bluetooth</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.bluetooth</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.bluetooth</processName>
+		<publicSourceDir>/system/app/HwBluetoothImport/HwBluetoothImport.apk</publicSourceDir>
+		<sourceDir>/system/app/HwBluetoothImport/HwBluetoothImport.apk</sourceDir>
+		<taskAffinity>com.huawei.bluetooth</taskAffinity>
+		<uid>10051</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>17</versionCode>
+			<versionName>5.2.017</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Media Storage</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.media</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086897733</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.media</packageName>
+		<permission>null</permission>
+		<processName>android.process.media</processName>
+		<publicSourceDir>/system/priv-app/MediaProvider/MediaProvider.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/MediaProvider/MediaProvider.apk</sourceDir>
+		<taskAffinity>com.android.providers.media</taskAffinity>
+		<uid>10005</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>730</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Themes</label>
+		<className>com.huawei.android.thememanager.ThemeManagerApp</className>
+		<dataDir>/data/data/com.huawei.android.thememanager</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123077</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.thememanager</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.thememanager</processName>
+		<publicSourceDir>/system/app/HwThemeManager/HwThemeManager.apk</publicSourceDir>
+		<sourceDir>/system/app/HwThemeManager/HwThemeManager.apk</sourceDir>
+		<taskAffinity>com.huawei.android.thememanager</taskAffinity>
+		<uid>10064</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>70102</versionCode>
+			<versionName>7.1.2</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>RawDataTest</label>
+		<className>com.crash.CrashApplication</className>
+		<dataDir>/data/data/com.goodix.rawdata</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.goodix.rawdata</packageName>
+		<permission>null</permission>
+		<processName>com.goodix.rawdata</processName>
+		<publicSourceDir>/system/app/RawDataTest_v1.6.0_20150915/RawDataTest_v1.6.0_20150915.apk</publicSourceDir>
+		<sourceDir>/system/app/RawDataTest_v1.6.0_20150915/RawDataTest_v1.6.0_20150915.apk</sourceDir>
+		<taskAffinity>com.goodix.rawdata</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>v1.8.5</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google One Time Init</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.onetimeinitializer</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.onetimeinitializer</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.onetimeinitializer</processName>
+		<publicSourceDir>/system/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk</sourceDir>
+		<taskAffinity>com.google.android.onetimeinitializer</taskAffinity>
+		<uid>10012</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>FwkPlugin</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.fwk.plugin</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.fwk.plugin</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.fwk.plugin</processName>
+		<publicSourceDir>/system/plugin/FwkPlugin/FwkPlugin.apk</publicSourceDir>
+		<sourceDir>/system/plugin/FwkPlugin/FwkPlugin.apk</sourceDir>
+		<taskAffinity>com.mediatek.fwk.plugin</taskAffinity>
+		<uid>10096</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Information</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.autoinstallapkfrommcc</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.autoinstallapkfrommcc</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.autoinstallapkfrommcc</processName>
+		<publicSourceDir>/data/cust/app/AutoInStallAPKFromMcc.apk</publicSourceDir>
+		<sourceDir>/data/cust/app/AutoInStallAPKFromMcc.apk</sourceDir>
+		<taskAffinity>com.huawei.autoinstallapkfrommcc</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.android.wallpapercropper</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.wallpapercropper</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.wallpapercropper</packageName>
+		<permission>null</permission>
+		<processName>com.android.wallpapercropper</processName>
+		<publicSourceDir>/system/priv-app/WallpaperCropper/WallpaperCropper.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/WallpaperCropper/WallpaperCropper.apk</sourceDir>
+		<taskAffinity>com.android.wallpapercropper</taskAffinity>
+		<uid>10028</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Floating dock</label>
+		<className>com.huawei.android.FloatTasks.FloatTaskApp</className>
+		<dataDir>/data/data/com.huawei.android.FloatTasks</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.FloatTasks</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.FloatTasks</processName>
+		<publicSourceDir>/system/app/HwFloatTasks/HwFloatTasks.apk</publicSourceDir>
+		<sourceDir>/system/app/HwFloatTasks/HwFloatTasks.apk</sourceDir>
+		<taskAffinity>com.huawei.android.FloatTasks</taskAffinity>
+		<uid>10053</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Motions</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.motionservice</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123077</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.motionservice</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.motionservice</processName>
+		<publicSourceDir>/system/app/HwMotionRecognition/HwMotionRecognition.apk</publicSourceDir>
+		<sourceDir>/system/app/HwMotionRecognition/HwMotionRecognition.apk</sourceDir>
+		<taskAffinity>com.huawei.motionservice</taskAffinity>
+		<uid>10054</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>91326</versionCode>
+			<versionName>9.1.326</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>SmartcardService</label>
+		<className>null</className>
+		<dataDir>/data/data/org.simalliance.openmobileapi.service</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>org.simalliance.openmobileapi.service</packageName>
+		<permission>null</permission>
+		<processName>org.simalliance.openmobileapi.service</processName>
+		<publicSourceDir>/system/app/SmartcardService/SmartcardService.apk</publicSourceDir>
+		<sourceDir>/system/app/SmartcardService/SmartcardService.apk</sourceDir>
+		<taskAffinity>org.simalliance.openmobileapi.service</taskAffinity>
+		<uid>1050</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>5</versionCode>
+			<versionName>3.1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Documents</label>
+		<className>com.android.documentsui.DocumentsApplication</className>
+		<dataDir>/data/data/com.android.documentsui</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.documentsui</packageName>
+		<permission>null</permission>
+		<processName>com.android.documentsui</processName>
+		<publicSourceDir>/system/app/DocumentsUI/DocumentsUI.apk</publicSourceDir>
+		<sourceDir>/system/app/DocumentsUI/DocumentsUI.apk</sourceDir>
+		<taskAffinity>com.android.documentsui</taskAffinity>
+		<uid>10041</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Black Hole</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.galaxy4</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.galaxy4</packageName>
+		<permission>null</permission>
+		<processName>com.android.galaxy4</processName>
+		<publicSourceDir>/system/app/Galaxy4/Galaxy4.apk</publicSourceDir>
+		<sourceDir>/system/app/Galaxy4/Galaxy4.apk</sourceDir>
+		<taskAffinity>com.android.galaxy4</taskAffinity>
+		<uid>10044</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Magnifier</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.magnifier</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.magnifier</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.magnifier</processName>
+		<publicSourceDir>/system/app/Magnifier/Magnifier.apk</publicSourceDir>
+		<sourceDir>/system/app/Magnifier/Magnifier.apk</sourceDir>
+		<taskAffinity>com.huawei.magnifier</taskAffinity>
+		<uid>10070</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>External Storage</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.externalstorage</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.externalstorage</packageName>
+		<permission>null</permission>
+		<processName>com.android.externalstorage</processName>
+		<publicSourceDir>/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk</sourceDir>
+		<taskAffinity>com.android.externalstorage</taskAffinity>
+		<uid>10007</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>YGPS</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.ygps</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.ygps</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.ygps</processName>
+		<publicSourceDir>/system/app/YGPS/YGPS.apk</publicSourceDir>
+		<sourceDir>/system/app/YGPS/YGPS.apk</sourceDir>
+		<taskAffinity>com.mediatek.ygps</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>2</versionCode>
+			<versionName>1.1</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>FM Radio</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.android.FMRadio</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086897733</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.FMRadio</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.FMRadio</processName>
+		<publicSourceDir>/system/priv-app/FmRadio/FmRadio.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/FmRadio/FmRadio.apk</sourceDir>
+		<taskAffinity>com.huawei.android.FMRadio</taskAffinity>
+		<uid>10010</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>HTML Viewer</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.htmlviewer</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.htmlviewer</packageName>
+		<permission>null</permission>
+		<processName>com.android.htmlviewer</processName>
+		<publicSourceDir>/system/app/HTMLViewer/HTMLViewer.apk</publicSourceDir>
+		<sourceDir>/system/app/HTMLViewer/HTMLViewer.apk</sourceDir>
+		<taskAffinity>com.android.htmlviewer</taskAffinity>
+		<uid>10046</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>MmsService</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.mms.service</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670661</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.mms.service</packageName>
+		<permission>null</permission>
+		<processName>com.android.phone</processName>
+		<publicSourceDir>/system/priv-app/MmsService/MmsService.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/MmsService/MmsService.apk</sourceDir>
+		<taskAffinity>com.android.mms.service</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Weather</label>
+		<className>com.huawei.android.totemweather.WeatherApp</className>
+		<dataDir>/data/data/com.huawei.android.totemweather</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.totemweather</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.totemweather</processName>
+		<publicSourceDir>/system/app/HwWeatherClock/HwWeatherClock.apk</publicSourceDir>
+		<sourceDir>/system/app/HwWeatherClock/HwWeatherClock.apk</sourceDir>
+		<taskAffinity>com.huawei.android.totemweather</taskAffinity>
+		<uid>10073</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>51083</versionCode>
+			<versionName>5.1.83</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Download Manager</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.downloads</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864965</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.downloads</packageName>
+		<permission>null</permission>
+		<processName>android.process.media</processName>
+		<publicSourceDir>/system/priv-app/DownloadProvider/DownloadProvider.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/DownloadProvider/DownloadProvider.apk</sourceDir>
+		<taskAffinity>com.android.providers.downloads</taskAffinity>
+		<uid>10005</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Huawei Swype</label>
+		<className>com.nuance.swype.input.HuaweiIMEApplication</className>
+		<dataDir>/data/data/com.nuance.swype.emui</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864965</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.nuance.swype.emui</packageName>
+		<permission>null</permission>
+		<processName>com.nuance.swype.emui</processName>
+		<publicSourceDir>/system/priv-app/Huawei_Swype/Huawei_Swype.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Huawei_Swype/Huawei_Swype.apk</sourceDir>
+		<taskAffinity>com.nuance.swype.emui</taskAffinity>
+		<uid>10026</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>47078</versionCode>
+			<versionName>1.7.8.47078</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>EngineerMode</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.engineermode</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.engineermode</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.engineermode</processName>
+		<publicSourceDir>/system/app/EngineerMode/EngineerMode.apk</publicSourceDir>
+		<sourceDir>/system/app/EngineerMode/EngineerMode.apk</sourceDir>
+		<taskAffinity>com.mediatek.engineermode</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.android.browser.provider</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.browser.provider</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.browser.provider</packageName>
+		<permission>null</permission>
+		<processName>com.android.browser.provider</processName>
+		<publicSourceDir>/system/app/BrowserProviderProxy/BrowserProviderProxy.apk</publicSourceDir>
+		<sourceDir>/system/app/BrowserProviderProxy/BrowserProviderProxy.apk</sourceDir>
+		<taskAffinity>com.android.browser.provider</taskAffinity>
+		<uid>10033</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Privacy protection</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.privacymode</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155845</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.privacymode</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.privacymode</processName>
+		<publicSourceDir>/system/app/HwPrivacyMode/HwPrivacyMode.apk</publicSourceDir>
+		<sourceDir>/system/app/HwPrivacyMode/HwPrivacyMode.apk</sourceDir>
+		<taskAffinity>com.huawei.privacymode</taskAffinity>
+		<uid>10057</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0.01</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.android.partnerbrowsercustomizations.tmobile</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.partnerbrowsercustomizations.tmobile</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.partnerbrowsercustomizations.tmobile</packageName>
+		<permission>null</permission>
+		<processName>com.android.partnerbrowsercustomizations.tmobile</processName>
+		<publicSourceDir>/system/app/ChromeHomePage/ChromeHomePage.apk</publicSourceDir>
+		<sourceDir>/system/app/ChromeHomePage/ChromeHomePage.apk</sourceDir>
+		<taskAffinity>com.android.partnerbrowsercustomizations.tmobile</taskAffinity>
+		<uid>10038</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1473044571</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>ConfigUpdater</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.configupdater</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.configupdater</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.configupdater</processName>
+		<publicSourceDir>/system/app/ConfigUpdater/ConfigUpdater.apk</publicSourceDir>
+		<sourceDir>/system/app/ConfigUpdater/ConfigUpdater.apk</sourceDir>
+		<taskAffinity>com.google.android.configupdater</taskAffinity>
+		<uid>10039</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Recorder</label>
+		<className>com.android.soundrecorder.SoundRecordApplication</className>
+		<dataDir>/data/data/com.android.soundrecorder</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.soundrecorder</packageName>
+		<permission>null</permission>
+		<processName>com.android.soundrecorder</processName>
+		<publicSourceDir>/system/app/HwSoundRecorder/HwSoundRecorder.apk</publicSourceDir>
+		<sourceDir>/system/app/HwSoundRecorder/HwSoundRecorder.apk</sourceDir>
+		<taskAffinity>com.android.soundrecorder</taskAffinity>
+		<uid>10062</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>3000002</versionCode>
+			<versionName>3.0.0.2</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Engineeringmode</label>
+		<className>null</className>
+		<dataDir>/data/data/com.enginner.engineering</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.enginner.engineering</packageName>
+		<permission>null</permission>
+		<processName>com.enginner.engineering</processName>
+		<publicSourceDir>/system/app/EngineeringMode/EngineeringMode.apk</publicSourceDir>
+		<sourceDir>/system/app/EngineeringMode/EngineeringMode.apk</sourceDir>
+		<taskAffinity>com.enginner.engineering</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Backup</label>
+		<className>com.huawei.KoBackup.KoBackupApplication</className>
+		<dataDir>/data/data/com.huawei.KoBackup</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.KoBackup</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.KoBackup</processName>
+		<publicSourceDir>/system/app/HwAllBackup_Local/HwAllBackup_Local.apk</publicSourceDir>
+		<sourceDir>/system/app/HwAllBackup_Local/HwAllBackup_Local.apk</sourceDir>
+		<taskAffinity>com.huawei.KoBackup</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>63104134</versionCode>
+			<versionName>6.31.41.34.L</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Package Access Helper</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.defcontainer</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670661</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.defcontainer</packageName>
+		<permission>null</permission>
+		<processName>com.android.defcontainer</processName>
+		<publicSourceDir>/system/priv-app/DefaultContainerService/DefaultContainerService.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/DefaultContainerService/DefaultContainerService.apk</sourceDir>
+		<taskAffinity>com.android.defcontainer</taskAffinity>
+		<uid>10003</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Downloads</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.downloads.ui</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.downloads.ui</packageName>
+		<permission>null</permission>
+		<processName>android.process.media</processName>
+		<publicSourceDir>/system/app/DownloadProviderUi/DownloadProviderUi.apk</publicSourceDir>
+		<sourceDir>/system/app/DownloadProviderUi/DownloadProviderUi.apk</sourceDir>
+		<taskAffinity>com.android.providers.downloads.ui</taskAffinity>
+		<uid>10005</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Play Store</label>
+		<className>com.google.android.finsky.FinskyApp</className>
+		<dataDir>/data/data/com.android.vending</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1087028805</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.vending</packageName>
+		<permission>null</permission>
+		<processName>com.android.vending</processName>
+		<publicSourceDir>/system/priv-app/Phonesky/Phonesky.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Phonesky/Phonesky.apk</sourceDir>
+		<taskAffinity>com.android.vending</taskAffinity>
+		<uid>10029</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>80641200</versionCode>
+			<versionName>6.4.12.C-all [0] 2744941</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>PacProcessor</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.pacprocessor</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.pacprocessor</packageName>
+		<permission>null</permission>
+		<processName>com.android.pacprocessor</processName>
+		<publicSourceDir>/system/app/PacProcessor/PacProcessor.apk</publicSourceDir>
+		<sourceDir>/system/app/PacProcessor/PacProcessor.apk</sourceDir>
+		<taskAffinity>com.android.pacprocessor</taskAffinity>
+		<uid>10079</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>androidhwext</label>
+		<className>null</className>
+		<dataDir>/data/data/androidhwext</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670593</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>androidhwext</packageName>
+		<permission>null</permission>
+		<processName>androidhwext</processName>
+		<publicSourceDir>/system/framework/framework-res-hwext.apk</publicSourceDir>
+		<sourceDir>/system/framework/framework-res-hwext.apk</sourceDir>
+		<taskAffinity>null</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Videos</label>
+		<className>com.huawei.hwvplayer.app.HwVPlayerApp</className>
+		<dataDir>/data/data/com.huawei.hwvplayer</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864965</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.hwvplayer</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.hwvplayer</processName>
+		<publicSourceDir>/system/priv-app/HwVPlayer/HwVPlayer.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/HwVPlayer/HwVPlayer.apk</sourceDir>
+		<taskAffinity>com.huawei.hwvplayer</taskAffinity>
+		<uid>10020</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>10700309</versionCode>
+			<versionName>1.7.0.309</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Certificate Installer</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.certinstaller</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.certinstaller</packageName>
+		<permission>null</permission>
+		<processName>com.android.certinstaller</processName>
+		<publicSourceDir>/system/app/CertInstaller/CertInstaller.apk</publicSourceDir>
+		<sourceDir>/system/app/CertInstaller/CertInstaller.apk</sourceDir>
+		<taskAffinity>com.android.certinstaller</taskAffinity>
+		<uid>10036</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>TalkBack</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.marvin.talkback</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13221445</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.marvin.talkback</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.marvin.talkback</processName>
+		<publicSourceDir>/system/app/talkback/talkback.apk</publicSourceDir>
+		<sourceDir>/system/app/talkback/talkback.apk</sourceDir>
+		<taskAffinity>com.google.android.marvin.talkback</taskAffinity>
+		<uid>10092</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>40500001</versionCode>
+			<versionName>4.5.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Vmall</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.rjl.vmall</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.rjl.vmall</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.rjl.vmall</processName>
+		<publicSourceDir>/system/delapp/vmall/vmall.apk</publicSourceDir>
+		<sourceDir>/system/delapp/vmall/vmall.apk</sourceDir>
+		<taskAffinity>com.huawei.rjl.vmall</taskAffinity>
+		<uid>10097</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>2</versionCode>
+			<versionName>20160301</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Android System</label>
+		<className>null</className>
+		<dataDir>/data/system</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086897673</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>android</packageName>
+		<permission>null</permission>
+		<processName>system</processName>
+		<publicSourceDir>/system/framework/framework-res.apk</publicSourceDir>
+		<sourceDir>/system/framework/framework-res.apk</sourceDir>
+		<taskAffinity>android</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Common Data Service</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.connectivity</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.connectivity</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.connectivity</processName>
+		<publicSourceDir>/system/priv-app/CDS_INFO/CDS_INFO.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/CDS_INFO/CDS_INFO.apk</sourceDir>
+		<taskAffinity>com.mediatek.connectivity</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>DisableTethering</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.cust</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.cust</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.cust</processName>
+		<publicSourceDir>/data/cust/app/DisableTethering.apk</publicSourceDir>
+		<sourceDir>/data/cust/app/DisableTethering.apk</sourceDir>
+		<taskAffinity>com.huawei.cust</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Huawei Contacts</label>
+		<className>com.android.contacts.ContactsApplication</className>
+		<dataDir>/data/data/com.android.contacts</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>-1060618683</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.contacts</packageName>
+		<permission>null</permission>
+		<processName>com.android.contacts</processName>
+		<publicSourceDir>/system/priv-app/Contacts/Contacts.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Contacts/Contacts.apk</sourceDir>
+		<taskAffinity>android.task.contacts</taskAffinity>
+		<uid>10004</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>30004</versionCode>
+			<versionName>V3.0.4</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>SIM Toolkit</label>
+		<className>com.android.stk.StkApp</className>
+		<dataDir>/data/data/com.android.stk</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.stk</packageName>
+		<permission>null</permission>
+		<processName>com.android.phone</processName>
+		<publicSourceDir>/system/app/Stk/Stk.apk</publicSourceDir>
+		<sourceDir>/system/app/Stk/Stk.apk</sourceDir>
+		<taskAffinity>com.android.stk</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.android.backupconfirm</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.backupconfirm</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670597</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.backupconfirm</packageName>
+		<permission>android.permission.CONFIRM_FULL_BACKUP</permission>
+		<processName>com.android.backupconfirm</processName>
+		<publicSourceDir>/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk</sourceDir>
+		<taskAffinity>com.android.backupconfirm</taskAffinity>
+		<uid>10000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Gmail</label>
+		<className>com.google.android.gm.MailMigrationApplication</className>
+		<dataDir>/data/data/com.google.android.gm</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13352517</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.gm</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.gm</processName>
+		<publicSourceDir>/system/app/Gmail2/Gmail2.apk</publicSourceDir>
+		<sourceDir>/system/app/Gmail2/Gmail2.apk</sourceDir>
+		<taskAffinity>com.google.android.gm</taskAffinity>
+		<uid>10061</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>58261681</versionCode>
+			<versionName>6.5-1.123769152.release</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>MtkFloatMenu</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.floatmenu</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.floatmenu</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.floatmenu</processName>
+		<publicSourceDir>/system/app/MtkFloatMenu/MtkFloatMenu.apk</publicSourceDir>
+		<sourceDir>/system/app/MtkFloatMenu/MtkFloatMenu.apk</sourceDir>
+		<taskAffinity>com.mediatek.floatmenu</taskAffinity>
+		<uid>10075</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Android HwResolver</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.android.internal.app</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.internal.app</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.internal.app</processName>
+		<publicSourceDir>/system/app/HwResolver/HwResolver.apk</publicSourceDir>
+		<sourceDir>/system/app/HwResolver/HwResolver.apk</sourceDir>
+		<taskAffinity>com.huawei.android.internal.app</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.android.wallpaper.holospiral</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.wallpaper.holospiral</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.wallpaper.holospiral</packageName>
+		<permission>null</permission>
+		<processName>com.android.wallpaper.holospiral</processName>
+		<publicSourceDir>/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk</publicSourceDir>
+		<sourceDir>/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk</sourceDir>
+		<taskAffinity>com.android.wallpaper.holospiral</taskAffinity>
+		<uid>10049</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Provisioning message</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.omacp</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.omacp</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.omacp</processName>
+		<publicSourceDir>/system/app/OMACP/OMACP.apk</publicSourceDir>
+		<sourceDir>/system/app/OMACP/OMACP.apk</sourceDir>
+		<taskAffinity>com.huawei.omacp</taskAffinity>
+		<uid>10078</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>TestCamera</label>
+		<className>null</className>
+		<dataDir>/data/data/com.example.testcamera</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.example.testcamera</packageName>
+		<permission>null</permission>
+		<processName>com.example.testcamera</processName>
+		<publicSourceDir>/system/app/TestCamera/TestCamera.apk</publicSourceDir>
+		<sourceDir>/system/app/TestCamera/TestCamera.apk</sourceDir>
+		<taskAffinity>com.example.testcamera</taskAffinity>
+		<uid>10085</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Calendar</label>
+		<className>com.android.calendar.CalendarApplication</className>
+		<dataDir>/data/data/com.android.calendar</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>-2134360507</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.calendar</packageName>
+		<permission>null</permission>
+		<processName>com.android.calendar</processName>
+		<publicSourceDir>/system/app/Calendar/Calendar.apk</publicSourceDir>
+		<sourceDir>/system/app/Calendar/Calendar.apk</sourceDir>
+		<taskAffinity>android.task.calendar</taskAffinity>
+		<uid>10042</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>6</versionCode>
+			<versionName>JB_Calendar_V100R001C00B006</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Phase Beam</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.phasebeam</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.phasebeam</packageName>
+		<permission>null</permission>
+		<processName>com.android.phasebeam</processName>
+		<publicSourceDir>/system/app/PhaseBeam/PhaseBeam.apk</publicSourceDir>
+		<sourceDir>/system/app/PhaseBeam/PhaseBeam.apk</sourceDir>
+		<taskAffinity>com.android.phasebeam</taskAffinity>
+		<uid>10080</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>DRM-Protected Content Storage</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.providers.drm</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.providers.drm</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.providers.drm</processName>
+		<publicSourceDir>/system/app/DrmProvider/DrmProvider.apk</publicSourceDir>
+		<sourceDir>/system/app/DrmProvider/DrmProvider.apk</sourceDir>
+		<taskAffinity>com.mediatek.providers.drm</taskAffinity>
+		<uid>10040</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Setup Wizard</label>
+		<className>com.google.android.setupwizard.SetupWizardApplication</className>
+		<dataDir>/data/data/com.google.android.setupwizard</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086897669</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.setupwizard</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.setupwizard</processName>
+		<publicSourceDir>/system/priv-app/SetupWizard/SetupWizard.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/SetupWizard/SetupWizard.apk</sourceDir>
+		<taskAffinity>com.android.wizard</taskAffinity>
+		<uid>10025</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>200</versionCode>
+			<versionName>2.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Settings Storage</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.settings</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703365</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.settings</packageName>
+		<permission>null</permission>
+		<processName>system</processName>
+		<publicSourceDir>/system/priv-app/SettingsProvider/SettingsProvider.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/SettingsProvider/SettingsProvider.apk</sourceDir>
+		<taskAffinity>com.android.providers.settings</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.android.sharedstoragebackup</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.sharedstoragebackup</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082768901</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.sharedstoragebackup</packageName>
+		<permission>android.permission.CONFIRM_FULL_BACKUP</permission>
+		<processName>com.android.sharedstoragebackup</processName>
+		<publicSourceDir>/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk</sourceDir>
+		<taskAffinity>com.android.sharedstoragebackup</taskAffinity>
+		<uid>10024</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.mediatek.batterywarning</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.batterywarning</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.batterywarning</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.batterywarning</processName>
+		<publicSourceDir>/system/app/BatteryWarning/BatteryWarning.apk</publicSourceDir>
+		<sourceDir>/system/app/BatteryWarning/BatteryWarning.apk</sourceDir>
+		<taskAffinity>null</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Play Music</label>
+		<className>com.google.android.music.MusicApplication</className>
+		<dataDir>/data/data/com.google.android.music</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928869</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.music</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.music:main</processName>
+		<publicSourceDir>/system/app/Music2/Music2.apk</publicSourceDir>
+		<sourceDir>/system/app/Music2/Music2.apk</sourceDir>
+		<taskAffinity>com.google.android.music.task</taskAffinity>
+		<uid>10093</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>2817</versionCode>
+			<versionName>6.8.2817A.2862803</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Print Spooler</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.printspooler</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.printspooler</packageName>
+		<permission>null</permission>
+		<processName>com.android.printspooler</processName>
+		<publicSourceDir>/system/app/PrintSpooler/PrintSpooler.apk</publicSourceDir>
+		<sourceDir>/system/app/PrintSpooler/PrintSpooler.apk</sourceDir>
+		<taskAffinity>com.android.printspooler</taskAffinity>
+		<uid>10084</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Basic Daydreams</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.dreams.basic</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.dreams.basic</packageName>
+		<permission>null</permission>
+		<processName>com.android.dreams.basic</processName>
+		<publicSourceDir>/system/app/BasicDreams/BasicDreams.apk</publicSourceDir>
+		<sourceDir>/system/app/BasicDreams/BasicDreams.apk</sourceDir>
+		<taskAffinity>com.android.dreams.basic</taskAffinity>
+		<uid>10032</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>InCallUI</label>
+		<className>com.android.incallui.InCallApp</className>
+		<dataDir>/data/data/com.android.incallui</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086897733</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.incallui</packageName>
+		<permission>null</permission>
+		<processName>com.android.incallui</processName>
+		<publicSourceDir>/system/priv-app/InCallUI/InCallUI.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/InCallUI/InCallUI.apk</sourceDir>
+		<taskAffinity>com.android.incallui</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Phone Manager</label>
+		<className>com.huawei.systemmanager.SystemManagerApplication</className>
+		<dataDir>/data/data/com.huawei.systemmanager</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.systemmanager</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.systemmanager</processName>
+		<publicSourceDir>/system/app/HwSystemManager/HwSystemManager.apk</publicSourceDir>
+		<sourceDir>/system/app/HwSystemManager/HwSystemManager.apk</sourceDir>
+		<taskAffinity>com.huawei.systemmanager</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>330510</versionCode>
+			<versionName>3.30.510</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Input Devices</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.inputdevices</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703365</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.inputdevices</packageName>
+		<permission>null</permission>
+		<processName>system</processName>
+		<publicSourceDir>/system/priv-app/InputDevices/InputDevices.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/InputDevices/InputDevices.apk</sourceDir>
+		<taskAffinity>com.android.inputdevices</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.mediatek</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670593</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek</processName>
+		<publicSourceDir>/system/framework/mediatek-res/mediatek-res.apk</publicSourceDir>
+		<sourceDir>/system/framework/mediatek-res/mediatek-res.apk</sourceDir>
+		<taskAffinity>null</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Drive</label>
+		<className>com.google.android.apps.docs.drive.MultidexDriveApplication</className>
+		<dataDir>/data/data/com.google.android.apps.docs</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.apps.docs</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.apps.docs</processName>
+		<publicSourceDir>/system/app/Drive/Drive.apk</publicSourceDir>
+		<sourceDir>/system/app/Drive/Drive.apk</sourceDir>
+		<taskAffinity>com.google.android.apps.docs</taskAffinity>
+		<uid>10047</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>61811334</versionCode>
+			<versionName>2.4.181.13.34</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Maps</label>
+		<className>com.google.android.apps.gmm.base.app.GoogleMapsApplication</className>
+		<dataDir>/data/data/com.google.android.apps.maps</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>14171717</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.apps.maps</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.apps.maps</processName>
+		<publicSourceDir>/system/app/Maps/Maps.apk</publicSourceDir>
+		<sourceDir>/system/app/Maps/Maps.apk</sourceDir>
+		<taskAffinity>com.google.android.apps.maps</taskAffinity>
+		<uid>10090</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>926101123</versionCode>
+			<versionName>9.26.1</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>AutoReboot</label>
+		<className>null</className>
+		<dataDir>/data/data/com.zh.reboot</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.zh.reboot</packageName>
+		<permission>null</permission>
+		<processName>com.zh.reboot</processName>
+		<publicSourceDir>/system/app/Reboot/Reboot.apk</publicSourceDir>
+		<sourceDir>/system/app/Reboot/Reboot.apk</sourceDir>
+		<taskAffinity>com.zh.reboot</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Mobile broadcasts</label>
+		<className>com.android.cellbroadcastreceiver.CellBroadcastReceiverApp</className>
+		<dataDir>/data/data/com.android.cellbroadcastreceiver</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864965</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.cellbroadcastreceiver</packageName>
+		<permission>null</permission>
+		<processName>com.android.cellbroadcastreceiver</processName>
+		<publicSourceDir>/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/CellBroadcastReceiver/CellBroadcastReceiver.apk</sourceDir>
+		<taskAffinity>com.android.cellbroadcastreceiver</taskAffinity>
+		<uid>10002</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Android System WebView</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.webview</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>-2138522043</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.webview</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.webview</processName>
+		<publicSourceDir>/system/app/WebViewGoogle/WebViewGoogle.apk</publicSourceDir>
+		<sourceDir>/system/app/WebViewGoogle/WebViewGoogle.apk</sourceDir>
+		<taskAffinity>com.google.android.webview</taskAffinity>
+		<uid>10089</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>266108600</versionCode>
+			<versionName>50.0.2661.86</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.factory.factoryservice</label>
+		<className>null</className>
+		<dataDir>/data/data/com.factory.factoryservice</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.factory.factoryservice</packageName>
+		<permission>null</permission>
+		<processName>com.factory.factoryservice</processName>
+		<publicSourceDir>/system/priv-app/FactoryServiceHQ/FactoryServiceHQ.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/FactoryServiceHQ/FactoryServiceHQ.apk</sourceDir>
+		<taskAffinity>com.factory.factoryservice</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>203</versionCode>
+			<versionName>2.0.3</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>One Time Init</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.onetimeinitializer</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.onetimeinitializer</packageName>
+		<permission>null</permission>
+		<processName>com.android.onetimeinitializer</processName>
+		<publicSourceDir>/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/OneTimeInitializer/OneTimeInitializer.apk</sourceDir>
+		<taskAffinity>com.android.onetimeinitializer</taskAffinity>
+		<uid>10021</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>MTK NLP Service</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.nlpservice</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928845</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.nlpservice</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.nlpservice</processName>
+		<publicSourceDir>/system/app/NlpService/NlpService.apk</publicSourceDir>
+		<sourceDir>/system/app/NlpService/NlpService.apk</sourceDir>
+		<taskAffinity>com.mediatek.nlpservice</taskAffinity>
+		<uid>10074</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Phone</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.server.telecom</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864965</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.server.telecom</packageName>
+		<permission>null</permission>
+		<processName>system</processName>
+		<publicSourceDir>/system/priv-app/Telecom/Telecom.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Telecom/Telecom.apk</sourceDir>
+		<taskAffinity>com.android.server.telecom</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Contacts Sync</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.syncadapters.contacts</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.syncadapters.contacts</packageName>
+		<permission>null</permission>
+		<processName>com.google.process.gapps</processName>
+		<publicSourceDir>/system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk</publicSourceDir>
+		<sourceDir>/system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk</sourceDir>
+		<taskAffinity>com.google.android.syncadapters.contacts</taskAffinity>
+		<uid>10009</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Notepad</label>
+		<className>null</className>
+		<dataDir>/data/data/com.example.android.notepad</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864901</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.example.android.notepad</packageName>
+		<permission>null</permission>
+		<processName>com.example.android.notepad</processName>
+		<publicSourceDir>/system/priv-app/HwNotePad/HwNotePad.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/HwNotePad/HwNotePad.apk</sourceDir>
+		<taskAffinity>com.example.android.notepad</taskAffinity>
+		<uid>10015</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>10</versionCode>
+			<versionName>010</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Key Chain</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.keychain</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.keychain</packageName>
+		<permission>null</permission>
+		<processName>com.android.keychain</processName>
+		<publicSourceDir>/system/app/KeyChain/KeyChain.apk</publicSourceDir>
+		<sourceDir>/system/app/KeyChain/KeyChain.apk</sourceDir>
+		<taskAffinity>com.android.keychain</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Keyguard</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.keyguard</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.keyguard</packageName>
+		<permission>null</permission>
+		<processName>com.android.keyguard</processName>
+		<publicSourceDir>/system/priv-app/Keyguard/Keyguard.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Keyguard/Keyguard.apk</sourceDir>
+		<taskAffinity>com.android.keyguard</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>30000</versionCode>
+			<versionName>3.0.5.1</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Chrome</label>
+		<className>com.google.android.apps.chrome.ChromeApplicationInternal</className>
+		<dataDir>/data/data/com.android.chrome</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.chrome</packageName>
+		<permission>null</permission>
+		<processName>com.android.chrome</processName>
+		<publicSourceDir>/system/app/Chrome/Chrome.apk</publicSourceDir>
+		<sourceDir>/system/app/Chrome/Chrome.apk</sourceDir>
+		<taskAffinity>com.android.chrome</taskAffinity>
+		<uid>10050</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>266108901</versionCode>
+			<versionName>50.0.2661.89</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Gallery</label>
+		<className>com.android.gallery3d.app.GalleryAppImpl</className>
+		<dataDir>/data/data/com.android.gallery3d</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1087913029</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.gallery3d</packageName>
+		<permission>null</permission>
+		<processName>com.android.gallery3d</processName>
+		<publicSourceDir>/system/priv-app/Gallery2/Gallery2.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Gallery2/Gallery2.apk</sourceDir>
+		<taskAffinity>com.android.gallery3d</taskAffinity>
+		<uid>10014</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>3100001</versionCode>
+			<versionName>3.1.0.1</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Play services</label>
+		<className>com.google.android.gms.common.app.GmsApplication</className>
+		<dataDir>/data/data/com.google.android.gms</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>-1060618683</flags>
+		<manageSpaceActivityName>com.google.android.gms.app.settings.ManageSpaceActivity</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.gms</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.gms</processName>
+		<publicSourceDir>/system/priv-app/GmsCore/GmsCore.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/GmsCore/GmsCore.apk</sourceDir>
+		<taskAffinity>com.google.android.gms</taskAffinity>
+		<uid>10009</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>8705236</versionCode>
+			<versionName>8.7.05 (2944354-236)</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Services Framework</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.gsf</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670661</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.gsf</packageName>
+		<permission>null</permission>
+		<processName>com.google.process.gapps</processName>
+		<publicSourceDir>/system/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk</sourceDir>
+		<taskAffinity>com.google.android.gsf</taskAffinity>
+		<uid>10009</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Text-to-speech engine</label>
+		<className>com.google.android.tts.service.GoogleTTSApplication</className>
+		<dataDir>/data/data/com.google.android.tts</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.tts</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.tts</processName>
+		<publicSourceDir>/system/app/GoogleTTS/GoogleTTS.apk</publicSourceDir>
+		<sourceDir>/system/app/GoogleTTS/GoogleTTS.apk</sourceDir>
+		<taskAffinity>com.google.android.tts</taskAffinity>
+		<uid>10048</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>210308171</versionCode>
+			<versionName>3.8.17</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>HwStartupGuide</label>
+		<className>com.huawei.hwstartupguide.utils.CrashApplication</className>
+		<dataDir>/data/data/com.huawei.hwstartupguide</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.hwstartupguide</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.hwstartupguide</processName>
+		<publicSourceDir>/system/app/HwStartupGuide/HwStartupGuide.apk</publicSourceDir>
+		<sourceDir>/system/app/HwStartupGuide/HwStartupGuide.apk</sourceDir>
+		<taskAffinity>com.huawei.hwstartupguide</taskAffinity>
+		<uid>10063</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>105</versionCode>
+			<versionName>1.0.5</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Partner Set Up</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.partnersetup</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670661</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.partnersetup</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.partnersetup</processName>
+		<publicSourceDir>/system/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk</sourceDir>
+		<taskAffinity>com.google.android.partnersetup</taskAffinity>
+		<uid>10013</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1.1-2176675</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Usage management</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.android.usageManager</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.usageManager</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.usageManager</processName>
+		<publicSourceDir>/system/app/UsageManager/UsageManager.apk</publicSourceDir>
+		<sourceDir>/system/app/UsageManager/UsageManager.apk</sourceDir>
+		<taskAffinity>com.huawei.android.usageManager</taskAffinity>
+		<uid>10086</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Package installer</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.packageinstaller</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.packageinstaller</packageName>
+		<permission>null</permission>
+		<processName>com.android.packageinstaller</processName>
+		<publicSourceDir>/system/app/PackageInstaller/PackageInstaller.apk</publicSourceDir>
+		<sourceDir>/system/app/PackageInstaller/PackageInstaller.apk</sourceDir>
+		<taskAffinity>com.android.packageinstaller</taskAffinity>
+		<uid>10082</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Play Movies & TV</label>
+		<className>com.google.android.videos.mobile.MobileVideosApplication</className>
+		<dataDir>/data/data/com.google.android.videos</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>14270021</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.videos</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.videos</processName>
+		<publicSourceDir>/system/app/Videos/Videos.apk</publicSourceDir>
+		<sourceDir>/system/app/Videos/Videos.apk</sourceDir>
+		<taskAffinity>com.google.android.videos</taskAffinity>
+		<uid>10094</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>31404001</versionCode>
+			<versionName>3.14.4</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Pico TTS</label>
+		<className>null</className>
+		<dataDir>/data/data/com.svox.pico</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.svox.pico</packageName>
+		<permission>null</permission>
+		<processName>com.svox.pico</processName>
+		<publicSourceDir>/system/priv-app/PicoTts/PicoTts.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/PicoTts/PicoTts.apk</sourceDir>
+		<taskAffinity>com.svox.pico</taskAffinity>
+		<uid>10022</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>AFLogical OSE</label>
+		<className>null</className>
+		<dataDir>/data/data/com.viaforensics.android.aflogical_ose</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8422468</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.viaforensics.android.aflogical_ose</packageName>
+		<permission>null</permission>
+		<processName>com.viaforensics.android.aflogical_ose</processName>
+		<publicSourceDir>/data/app/com.viaforensics.android.aflogical_ose-1/base.apk</publicSourceDir>
+		<sourceDir>/data/app/com.viaforensics.android.aflogical_ose-1/base.apk</sourceDir>
+		<taskAffinity>com.viaforensics.android.aflogical_ose</taskAffinity>
+		<uid>10101</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>152</versionCode>
+			<versionName>1.5.2_OSE</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.huawei.qrcode.dispatcher</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.qrcode.dispatcher</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.qrcode.dispatcher</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.qrcode.dispatcher</processName>
+		<publicSourceDir>/system/app/HwQrcodeDispatcher/HwQrcodeDispatcher.apk</publicSourceDir>
+		<sourceDir>/system/app/HwQrcodeDispatcher/HwQrcodeDispatcher.apk</sourceDir>
+		<taskAffinity>com.huawei.qrcode.dispatcher</taskAffinity>
+		<uid>10058</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>ProxyHandler</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.proxyhandler</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.proxyhandler</packageName>
+		<permission>null</permission>
+		<processName>com.android.proxyhandler</processName>
+		<publicSourceDir>/system/priv-app/ProxyHandler/ProxyHandler.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/ProxyHandler/ProxyHandler.apk</sourceDir>
+		<taskAffinity>com.android.proxyhandler</taskAffinity>
+		<uid>10023</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>MMI test instruction</label>
+		<className>null</className>
+		<dataDir>/data/data/com.cunkun.mmichoose</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.cunkun.mmichoose</packageName>
+		<permission>null</permission>
+		<processName>com.cunkun.mmichoose</processName>
+		<publicSourceDir>/system/app/MmiChoose/MmiChoose.apk</publicSourceDir>
+		<sourceDir>/system/app/MmiChoose/MmiChoose.apk</sourceDir>
+		<taskAffinity>com.cunkun.mmichoose</taskAffinity>
+		<uid>10072</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Android Keyboard (AOSP)</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.inputmethod.latin</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.inputmethod.latin</packageName>
+		<permission>null</permission>
+		<processName>com.android.inputmethod.latin</processName>
+		<publicSourceDir>/system/app/LatinIME/LatinIME.apk</publicSourceDir>
+		<sourceDir>/system/app/LatinIME/LatinIME.apk</sourceDir>
+		<taskAffinity>com.android.inputmethod.latin</taskAffinity>
+		<uid>10077</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Market Feedback Agent</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.feedback</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.feedback</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.feedback</processName>
+		<publicSourceDir>/system/priv-app/GoogleFeedback/GoogleFeedback.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/GoogleFeedback/GoogleFeedback.apk</sourceDir>
+		<taskAffinity>com.google.android.feedback</taskAffinity>
+		<uid>10011</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Music Visualisation Wallpaper</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.musicvis</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.musicvis</packageName>
+		<permission>null</permission>
+		<processName>com.android.musicvis</processName>
+		<publicSourceDir>/system/app/VisualizationWallpapers/VisualizationWallpapers.apk</publicSourceDir>
+		<sourceDir>/system/app/VisualizationWallpapers/VisualizationWallpapers.apk</sourceDir>
+		<taskAffinity>com.android.musicvis</taskAffinity>
+		<uid>10087</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Photos</label>
+		<className>com.google.android.apps.photos.app.PhotosApplication</className>
+		<dataDir>/data/data/com.google.android.apps.photos</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>14204485</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.apps.photos</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.apps.photos</processName>
+		<publicSourceDir>/system/app/Photos/Photos.apk</publicSourceDir>
+		<sourceDir>/system/app/Photos/Photos.apk</sourceDir>
+		<taskAffinity>com.google.android.apps.photos</taskAffinity>
+		<uid>10091</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>239782</versionCode>
+			<versionName>1.21.0.123444480</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Calendar Sync</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.syncadapters.calendar</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.syncadapters.calendar</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.syncadapters.calendar</processName>
+		<publicSourceDir>/system/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk</publicSourceDir>
+		<sourceDir>/system/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk</sourceDir>
+		<taskAffinity>com.google.android.syncadapters.calendar</taskAffinity>
+		<uid>10045</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Device Provisioner</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.managedprovisioning</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703365</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.managedprovisioning</packageName>
+		<permission>null</permission>
+		<processName>com.android.managedprovisioning</processName>
+		<publicSourceDir>/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk</sourceDir>
+		<taskAffinity>com.android.managedprovisioning</taskAffinity>
+		<uid>10019</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Atci_service</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.atci.service</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.atci.service</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.atci.service</processName>
+		<publicSourceDir>/system/app/AtciService/AtciService.apk</publicSourceDir>
+		<sourceDir>/system/app/AtciService/AtciService.apk</sourceDir>
+		<taskAffinity>com.mediatek.atci.service</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Photo Screensavers</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.dreams.phototable</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>10010181</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.dreams.phototable</packageName>
+		<permission>null</permission>
+		<processName>com.android.dreams.phototable</processName>
+		<publicSourceDir>/system/app/PhotoTable/PhotoTable.apk</publicSourceDir>
+		<sourceDir>/system/app/PhotoTable/PhotoTable.apk</sourceDir>
+		<taskAffinity>com.android.dreams.phototable</taskAffinity>
+		<uid>10083</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Bubbles</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.noisefield</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.noisefield</packageName>
+		<permission>null</permission>
+		<processName>com.android.noisefield</processName>
+		<publicSourceDir>/system/app/NoiseField/NoiseField.apk</publicSourceDir>
+		<sourceDir>/system/app/NoiseField/NoiseField.apk</sourceDir>
+		<taskAffinity>com.android.noisefield</taskAffinity>
+		<uid>10076</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.android.providers.partnerbookmarks</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.partnerbookmarks</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.partnerbookmarks</packageName>
+		<permission>null</permission>
+		<processName>com.android.providers.partnerbookmarks</processName>
+		<publicSourceDir>/system/app/PartnerBookmarksProvider/PartnerBookmarksProvider.apk</publicSourceDir>
+		<sourceDir>/system/app/PartnerBookmarksProvider/PartnerBookmarksProvider.apk</sourceDir>
+		<taskAffinity>com.android.providers.partnerbookmarks</taskAffinity>
+		<uid>10081</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Updater</label>
+		<className>com.huawei.android.hwouc.HwOucApplication</className>
+		<dataDir>/data/data/com.huawei.android.hwouc</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.hwouc</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.hwouc</processName>
+		<publicSourceDir>/system/app/HwOUC/HwOUC.apk</publicSourceDir>
+		<sourceDir>/system/app/HwOUC/HwOUC.apk</sourceDir>
+		<taskAffinity>com.huawei.android.hwouc</taskAffinity>
+		<uid>10056</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>14514</versionCode>
+			<versionName>14.5.14</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Account Manager</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.gsf.login</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086897733</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.gsf.login</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.gsf.login</processName>
+		<publicSourceDir>/system/priv-app/GoogleLoginService/GoogleLoginService.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/GoogleLoginService/GoogleLoginService.apk</sourceDir>
+		<taskAffinity>com.google.android.gsf.login</taskAffinity>
+		<uid>10009</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1.1-3031930</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>com.android.smspush</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.smspush</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.smspush</packageName>
+		<permission>null</permission>
+		<processName>com.android.smspush</processName>
+		<publicSourceDir>/system/app/WAPPushManager/WAPPushManager.apk</publicSourceDir>
+		<sourceDir>/system/app/WAPPushManager/WAPPushManager.apk</sourceDir>
+		<taskAffinity>com.android.smspush</taskAffinity>
+		<uid>10088</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Wi-Fi Direct</label>
+		<className>com.huawei.android.wfdft.common.WiFiDirectFTApplication</className>
+		<dataDir>/data/data/com.huawei.android.wfdft</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.android.wfdft</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.android.wfdft</processName>
+		<publicSourceDir>/system/app/HwWiFiDirect/HwWiFiDirect.apk</publicSourceDir>
+		<sourceDir>/system/app/HwWiFiDirect/HwWiFiDirect.apk</sourceDir>
+		<taskAffinity>com.huawei.android.wfdft</taskAffinity>
+		<uid>10065</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>6008</versionCode>
+			<versionName>6.0.8</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>BSPTelephonyDevTool</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mtk.telephony</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mtk.telephony</packageName>
+		<permission>null</permission>
+		<processName>com.mtk.telephony</processName>
+		<publicSourceDir>/system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk</publicSourceDir>
+		<sourceDir>/system/app/BSPTelephonyDevTool/BSPTelephonyDevTool.apk</sourceDir>
+		<taskAffinity>com.mtk.telephony</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Live Wallpaper Picker</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.wallpaper.livepicker</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.wallpaper.livepicker</packageName>
+		<permission>null</permission>
+		<processName>com.android.wallpaper.livepicker</processName>
+		<publicSourceDir>/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk</publicSourceDir>
+		<sourceDir>/system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk</sourceDir>
+		<taskAffinity>com.android.wallpaper.livepicker</taskAffinity>
+		<uid>10066</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Power Genie</label>
+		<className>com.huawei.powergenie.pgmgmt.PGApp</className>
+		<dataDir>/data/data/com.huawei.powergenie</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928781</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.powergenie</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.powergenie</processName>
+		<publicSourceDir>/system/app/HwPowerGenieEngine3/HwPowerGenieEngine3.apk</publicSourceDir>
+		<sourceDir>/system/app/HwPowerGenieEngine3/HwPowerGenieEngine3.apk</sourceDir>
+		<taskAffinity>com.huawei.powergenie</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>56010121</versionCode>
+			<versionName>5.6.1.12.1</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Google Backup Transport</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.backuptransport</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.backuptransport</packageName>
+		<permission>null</permission>
+		<processName>com.google.process.location</processName>
+		<publicSourceDir>/system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk</sourceDir>
+		<taskAffinity>com.google.android.backuptransport</taskAffinity>
+		<uid>10009</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Settings</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.settings</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864965</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.settings</packageName>
+		<permission>null</permission>
+		<processName>com.android.settings</processName>
+		<publicSourceDir>/system/priv-app/Settings/Settings.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Settings/Settings.apk</sourceDir>
+		<taskAffinity>null</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Streaming provider</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.streaming</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.streaming</packageName>
+		<permission>null</permission>
+		<processName>com.android.providers.streaming</processName>
+		<publicSourceDir>/system/app/StreamingProvider/StreamingProvider.apk</publicSourceDir>
+		<sourceDir>/system/app/StreamingProvider/StreamingProvider.apk</sourceDir>
+		<taskAffinity>null</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Calculator</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.calculator2</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.calculator2</packageName>
+		<permission>null</permission>
+		<processName>com.android.calculator2</processName>
+		<publicSourceDir>/system/app/Calculator/Calculator.apk</publicSourceDir>
+		<sourceDir>/system/app/Calculator/Calculator.apk</sourceDir>
+		<taskAffinity>com.android.calculator2</taskAffinity>
+		<uid>10037</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>LocationEM2</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.lbs.em2.ui</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.lbs.em2.ui</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.lbs.em2.ui</processName>
+		<publicSourceDir>/system/app/LocationEM2/LocationEM2.apk</publicSourceDir>
+		<sourceDir>/system/app/LocationEM2/LocationEM2.apk</sourceDir>
+		<taskAffinity>com.mediatek.lbs.em2.ui</taskAffinity>
+		<uid>10067</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>MMI Test II</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.factory_mmi2</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8928837</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.factory_mmi2</packageName>
+		<permission>null</permission>
+		<processName>com.android.phone</processName>
+		<publicSourceDir>/system/app/FactoryKitTest2/FactoryKitTest2.apk</publicSourceDir>
+		<sourceDir>/system/app/FactoryKitTest2/FactoryKitTest2.apk</sourceDir>
+		<taskAffinity>com.android.factory_mmi2</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>4</versionCode>
+			<versionName>4.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>VpnDialogs</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.vpndialogs</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670661</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.vpndialogs</packageName>
+		<permission>null</permission>
+		<processName>com.android.vpndialogs</processName>
+		<publicSourceDir>/system/priv-app/VpnDialogs/VpnDialogs.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/VpnDialogs/VpnDialogs.apk</sourceDir>
+		<taskAffinity>com.android.vpndialogs</taskAffinity>
+		<uid>10027</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Hangouts</label>
+		<className>com.google.android.apps.hangouts.phone.Hangouts_Application</className>
+		<dataDir>/data/data/com.google.android.talk</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13221445</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.talk</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.talk</processName>
+		<publicSourceDir>/system/app/Hangouts/Hangouts.apk</publicSourceDir>
+		<sourceDir>/system/app/Hangouts/Hangouts.apk</sourceDir>
+		<taskAffinity>com.google.android.talk</taskAffinity>
+		<uid>10069</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>23142340</versionCode>
+			<versionName>8.1.121732641</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Email</label>
+		<className>com.android.email.EmailApplication</className>
+		<dataDir>/data/data/com.android.email</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864965</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.email</packageName>
+		<permission>null</permission>
+		<processName>com.android.email</processName>
+		<publicSourceDir>/system/priv-app/Email/Email.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Email/Email.apk</sourceDir>
+		<taskAffinity>com.android.email</taskAffinity>
+		<uid>10008</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>3100027</versionCode>
+			<versionName>3.1.0.27</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Phone</label>
+		<className>com.android.phone.PhoneApp</className>
+		<dataDir>/data/data/com.android.phone</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864973</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.phone</packageName>
+		<permission>null</permission>
+		<processName>com.android.phone</processName>
+		<publicSourceDir>/system/priv-app/TeleService/TeleService.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/TeleService/TeleService.apk</sourceDir>
+		<taskAffinity>com.android.phone</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Shell</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.shell</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.shell</packageName>
+		<permission>null</permission>
+		<processName>com.android.shell</processName>
+		<publicSourceDir>/system/priv-app/Shell/Shell.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Shell/Shell.apk</sourceDir>
+		<taskAffinity>com.android.shell</taskAffinity>
+		<uid>2000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>News Republic</label>
+		<className>android.ext.app.Application</className>
+		<dataDir>/data/data/com.mobilesrepublic.appy</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>12074565</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mobilesrepublic.appy</packageName>
+		<permission>null</permission>
+		<processName>com.mobilesrepublic.appy</processName>
+		<publicSourceDir>/system/delapp/NewsRepublic559/NewsRepublic559.apk</publicSourceDir>
+		<sourceDir>/system/delapp/NewsRepublic559/NewsRepublic559.apk</sourceDir>
+		<taskAffinity>com.mobilesrepublic.appy</taskAffinity>
+		<uid>10099</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>6102</versionCode>
+			<versionName>6.1.2</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>User Dictionary</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.providers.userdictionary</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961541</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.userdictionary</packageName>
+		<permission>null</permission>
+		<processName>android.process.acore</processName>
+		<publicSourceDir>/system/app/UserDictionaryProvider/UserDictionaryProvider.apk</publicSourceDir>
+		<sourceDir>/system/app/UserDictionaryProvider/UserDictionaryProvider.apk</sourceDir>
+		<taskAffinity>com.android.providers.userdictionary</taskAffinity>
+		<uid>10004</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>PredefinedEapSim</label>
+		<className>null</className>
+		<dataDir>/data/data/com.huawei.wifieapsimplmn</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.wifieapsimplmn</packageName>
+		<permission>null</permission>
+		<processName>com.huawei.wifieapsimplmn</processName>
+		<publicSourceDir>/data/cust/app/PredefinedEapSim.apk</publicSourceDir>
+		<sourceDir>/data/cust/app/PredefinedEapSim.apk</sourceDir>
+		<taskAffinity>com.huawei.wifieapsimplmn</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Mms suspend window</label>
+		<className>com.huawei.floatMms.FloatMmsApp</className>
+		<dataDir>/data/data/com.huawei.floatMms</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155845</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.huawei.floatMms</packageName>
+		<permission>null</permission>
+		<processName>system</processName>
+		<publicSourceDir>/system/app/HwFloatMms/HwFloatMms.apk</publicSourceDir>
+		<sourceDir>/system/app/HwFloatMms/HwFloatMms.apk</sourceDir>
+		<taskAffinity>com.huawei.floatMms</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Fused Location</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.location.fused</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.location.fused</packageName>
+		<permission>null</permission>
+		<processName>system</processName>
+		<publicSourceDir>/system/priv-app/FusedLocation/FusedLocation.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/FusedLocation/FusedLocation.apk</sourceDir>
+		<taskAffinity>com.android.location.fused</taskAffinity>
+		<uid>1000</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Clock</label>
+		<className>com.android.deskclock.DeskClockApplication</className>
+		<dataDir>/data/data/com.android.deskclock</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>-2134360507</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.deskclock</packageName>
+		<permission>null</permission>
+		<processName>com.android.deskclock</processName>
+		<publicSourceDir>/system/app/HwDeskClock/HwDeskClock.apk</publicSourceDir>
+		<sourceDir>/system/app/HwDeskClock/HwDeskClock.apk</sourceDir>
+		<taskAffinity>com.android.deskclock</taskAffinity>
+		<uid>10052</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>6101</versionCode>
+			<versionName>6.1.01</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>System UI</label>
+		<className>com.android.systemui.SystemUIApplication</className>
+		<dataDir>/data/data/com.android.systemui</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1086864909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.systemui</packageName>
+		<permission>null</permission>
+		<processName>com.android.systemui</processName>
+		<publicSourceDir>/system/priv-app/SystemUI/SystemUI.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/SystemUI/SystemUI.apk</sourceDir>
+		<taskAffinity>com.android.systemui</taskAffinity>
+		<uid>10030</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>JB_SystemUI_V100R001C00B003</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Exchange Services</label>
+		<className>com.android.exchange.Exchange</className>
+		<dataDir>/data/data/com.android.exchange</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670661</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.exchange</packageName>
+		<permission>null</permission>
+		<processName>com.android.exchange</processName>
+		<publicSourceDir>/system/priv-app/Exchange2/Exchange2.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/Exchange2/Exchange2.apk</sourceDir>
+		<taskAffinity>com.android.exchange</taskAffinity>
+		<uid>10006</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>3100027</versionCode>
+			<versionName>3.1.0.27</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>MMI Test</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.factory</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.factory</packageName>
+		<permission>null</permission>
+		<processName>com.android.phone</processName>
+		<publicSourceDir>/system/app/FactoryKitTest/FactoryKitTest.apk</publicSourceDir>
+		<sourceDir>/system/app/FactoryKitTest/FactoryKitTest.apk</sourceDir>
+		<taskAffinity>com.android.factory</taskAffinity>
+		<uid>1001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>4</versionCode>
+			<versionName>4.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>MTKLogger</label>
+		<className>com.mediatek.mtklogger.MyApplication</className>
+		<dataDir>/data/data/com.mediatek.mtklogger</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.mtklogger</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.mtklogger</processName>
+		<publicSourceDir>/system/app/MTKLogger/MTKLogger.apk</publicSourceDir>
+		<sourceDir>/system/app/MTKLogger/MTKLogger.apk</sourceDir>
+		<taskAffinity>com.mediatek.mtklogger</taskAffinity>
+		<uid>10071</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>40000</versionCode>
+			<versionName>4.0.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Terminal Test</label>
+		<className>null</className>
+		<dataDir>/data/data/com.focaltech.ft_terminal_test</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.focaltech.ft_terminal_test</packageName>
+		<permission>null</permission>
+		<processName>com.focaltech.ft_terminal_test</processName>
+		<publicSourceDir>/system/app/FT_Terminal_Test/FT_Terminal_Test.apk</publicSourceDir>
+		<sourceDir>/system/app/FT_Terminal_Test/FT_Terminal_Test.apk</sourceDir>
+		<taskAffinity>com.focaltech.ft_terminal_test</taskAffinity>
+		<uid>10043</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>256</versionCode>
+			<versionName>v2.6.6</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>MTK Android Suite Daemon</label>
+		<className>null</className>
+		<dataDir>/data/data/com.mediatek.apst.target</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.mediatek.apst.target</packageName>
+		<permission>null</permission>
+		<processName>com.mediatek.apst.target</processName>
+		<publicSourceDir>/system/app/MTKAndroidSuiteDaemon/MTKAndroidSuiteDaemon.apk</publicSourceDir>
+		<sourceDir>/system/app/MTKAndroidSuiteDaemon/MTKAndroidSuiteDaemon.apk</sourceDir>
+		<taskAffinity>com.mediatek.apst.target</taskAffinity>
+		<uid>10068</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>2</versionCode>
+			<versionName>1.1</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Bluetooth Share</label>
+		<className>com.android.bluetooth.btservice.AdapterApp</className>
+		<dataDir>/data/data/com.android.bluetooth</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13155909</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.bluetooth</packageName>
+		<permission>null</permission>
+		<processName>com.android.bluetooth</processName>
+		<publicSourceDir>/system/app/Bluetooth/Bluetooth.apk</publicSourceDir>
+		<sourceDir>/system/app/Bluetooth/Bluetooth.apk</sourceDir>
+		<taskAffinity>com.android.bluetooth</taskAffinity>
+		<uid>1002</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Android Work Assistant</label>
+		<className>null</className>
+		<dataDir>/data/data/com.google.android.androidforwork</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082703429</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.google.android.androidforwork</packageName>
+		<permission>null</permission>
+		<processName>com.google.android.androidforwork</processName>
+		<publicSourceDir>/system/priv-app/AndroidForWork/AndroidForWork.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/AndroidForWork/AndroidForWork.apk</sourceDir>
+		<taskAffinity>com.google.android.androidforwork</taskAffinity>
+		<uid>10001</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1743759</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Contacts Storage</label>
+		<className>com.android.providers.contacts.hap.ProviderApplication</className>
+		<dataDir>/data/data/com.android.providers.contacts</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>1082670669</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.providers.contacts</packageName>
+		<permission>null</permission>
+		<processName>android.process.acore</processName>
+		<publicSourceDir>/system/priv-app/ContactsProvider/ContactsProvider.apk</publicSourceDir>
+		<sourceDir>/system/priv-app/ContactsProvider/ContactsProvider.apk</sourceDir>
+		<taskAffinity>com.android.providers.contacts</taskAffinity>
+		<uid>10004</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>30001</versionCode>
+			<versionName>Huawei_V3.0.1</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>CaptivePortalLogin</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.captiveportallogin</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.captiveportallogin</packageName>
+		<permission>null</permission>
+		<processName>com.android.captiveportallogin</processName>
+		<publicSourceDir>/system/app/CaptivePortalLogin/CaptivePortalLogin.apk</publicSourceDir>
+		<sourceDir>/system/app/CaptivePortalLogin/CaptivePortalLogin.apk</sourceDir>
+		<taskAffinity>com.android.captiveportallogin</taskAffinity>
+		<uid>10034</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>22</versionCode>
+			<versionName>5.1-1481024942</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Mirror</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.hwmirror</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>13123141</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.hwmirror</packageName>
+		<permission>null</permission>
+		<processName>com.android.hwmirror</processName>
+		<publicSourceDir>/system/delapp/HwMirror/HwMirror.apk</publicSourceDir>
+		<sourceDir>/system/delapp/HwMirror/HwMirror.apk</sourceDir>
+		<taskAffinity>com.android.hwmirror</taskAffinity>
+		<uid>10098</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0.0.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>Easy Key</label>
+		<className>null</className>
+		<dataDir>/data/data/com.android.huawei.smartkey</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>8961605</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>com.android.huawei.smartkey</packageName>
+		<permission>null</permission>
+		<processName>com.android.huawei.smartkey</processName>
+		<publicSourceDir>/system/app/HwSmartKey/HwSmartKey.apk</publicSourceDir>
+		<sourceDir>/system/app/HwSmartKey/HwSmartKey.apk</sourceDir>
+		<taskAffinity>com.android.huawei.smartkey</taskAffinity>
+		<uid>10060</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>1</versionCode>
+			<versionName>1.0</versionName>
+		</packageinfo>	</app>
+	<app>
+		<label>WPS Office</label>
+		<className>cn.wps.moffice.OfficeApp</className>
+		<dataDir>/data/data/cn.wps.moffice_eng</dataDir>
+		<descriptionRes>0</descriptionRes>
+		<flags>9977413</flags>
+		<manageSpaceActivityName>null</manageSpaceActivityName>
+		<name>null</name>
+		<packageName>cn.wps.moffice_eng</packageName>
+		<permission>null</permission>
+		<processName>cn.wps.moffice_eng</processName>
+		<publicSourceDir>/system/delapp/wps/wps.apk</publicSourceDir>
+		<sourceDir>/system/delapp/wps/wps.apk</sourceDir>
+		<taskAffinity>cn.wps.moffice_eng</taskAffinity>
+		<uid>10100</uid>
+		<enabled>true</enabled>
+		<description>null</description>
+		<packageinfo>			<versionCode>151</versionCode>
+			<versionName>9.7</versionName>
+		</packageinfo>	</app>
+</applications>
+</android-forensics>

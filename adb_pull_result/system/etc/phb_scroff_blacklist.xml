@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This xml file is used for PHB(Pending Heart Beat) to config black list and white list;
+Packages in "black_list" which alarms will be moved to pending alarm list when screen is off, so these alarms will disabled untill screen is on;
+Packages in "white_list" will not active in PHB, because UHB may store some packages which may result in issues in PHB.
+-->
+<list>
+
+    <array type="black_list" version="1.0">
+        <!-- news  begin -->
+        <item>com.tencent.news</item>
+        <item>com.sohu.newsclient</item>
+        <item>com.ifeng.news2</item>
+        <item>com.palmtrends.rmrb</item>
+        <item>com.netease.newsreader.activity</item>
+        <!-- news  end -->
+        <!-- browser  begin -->
+        <item>com.mx.browser</item>
+        <item>com.apc.browser</item>
+        <item>com.dolphin.browser.xf</item>
+        <item>com.baidu.browser.apps</item>
+        <item>com.tiantianmini.android.browser</item>
+        <item>com.skyfire.browser</item>
+        <item>org.mozilla.firefox</item>
+        <item>sogou.mobile.explorer</item>
+        <item>com.oupeng.mini.android</item>
+        <!-- browser  end -->
+        <!-- video  begin -->
+        <item>com.tiantian.android.player</item>
+        <item>com.qiyi.video</item>
+        <item>com.kascend.video</item>
+        <item>com.qvod.player</item>
+        <item>tv.pps.mobile</item>
+        <item>com.baidu.video</item>
+        <item>com.youku.phone</item>
+        <item>dopool.player</item>
+        <item>com.tudou.android</item>
+        <item>com.pplive.androidphone</item>
+        <item>com.duowan.mobile</item>
+        <item>com.tencent.research.drop</item>
+        <item>com.storm.smart</item>
+        <item>com.kandian.vodapp</item>
+        <!-- video  end -->
+        <!-- ebook  begin -->
+        <item>com.lectek.android.sfreader</item>
+        <item>com.nd.android.pandareader</item>
+        <item>com.shuqi.controller</item>
+        <item>com.snda.cloudary</item>
+        <!-- ebook  end -->
+        <!-- game  begin -->
+        <item>com.kiloo.subwaysurf</item>
+        <item>com.popcap.pvz2cthdbddk</item>
+        <!-- game  end -->
+        <!-- other begin -->
+        <item>com.taobao.taobao</item>
+        <item>com.youdao.dict</item>
+        <item>com.infinit.wostore.ui</item>
+        <item>com.meitu.mtxx.huawei</item>
+        <item>cn.wps.moffice</item>
+        <item>com.intsig.BizCardReader</item>
+        <item>com.neusoft.td.android.wo116114</item>
+        <!-- other  end -->
+    </array>
+
+    <array type="white_list" version="1.0">
+        <item>android</item>
+        <item>com.huawei.message</item>
+    </array>
+
+</list>

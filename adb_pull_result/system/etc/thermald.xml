@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2012 Huawei Inc.
+ * PowerGenie thermal Config
+ *
+ -->
+<thermal version="1">
+ <!-- 
+cpu_sensor
+thresholds       65                     70         75
+thresholds_clr   60                     65         70
+actions          cpu+gpu                cpu        cpu+shutdown
+action_info      1200000+240000         1000000    800000+6000
+ -->
+ <sensor_temp name="cpu" type="0" enable="true">
+	 <item>
+        <thresholds>51</thresholds>
+        <thresholds_clr>49</thresholds_clr>
+        <action>
+            <cpu>998400</cpu> 
+        </action>
+    </item>
+    <item>
+        <thresholds>54</thresholds>
+        <thresholds_clr>52</thresholds_clr>
+        <action>
+            <cpu>800000</cpu>
+            <battery>720</battery>
+        </action>
+    </item>
+ </sensor_temp>
+ 
+ <!--warning temperature-->
+ <warning_temperature sensor_type="0">68</warning_temperature> 
+
+ <!--action interface-->
+ <action_interface>
+   <action_filenode name="battery">/sys/class/power_supply/battery/hot_current_limit</action_filenode>
+ </action_interface>
+
+</thermal>

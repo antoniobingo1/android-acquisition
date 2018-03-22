@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Huawei Inc.
+ * the configuration is for power monitor.
+ * including scene current and switches etc.
+ -->
+
+<powermonitor_config version="1">
+    <!-- scene current confirguration -->
+    <item name="ebook" id="10003" current="302"/>
+    <item name="game3d" id="10002" current="600"/>
+    <item name="game2d" id="10011" current="295"/>
+    <item name="camera" id="10007" current="550"/>
+    <item name="browser" id="10001" current="378"/>
+    <item name="launcher" id="10010" current="180"/>
+    <item name="screen_off" id="3004" current="18"/>
+    <item name="video_play" id="10009" current="280"/>
+    <array name="max.elecquantity.node"> <!-- such as max battery elecquantity for mate is 4000mAh -->
+        <arrayItem>/sys/class/power_supply/Battery/capacity_fcc</arrayItem>
+        <arrayItem>/sys/class/power_supply/bms/charge_full_design</arrayItem>
+        <arrayItem>/sys/class/power_supply/ti-charger/charge_full_design</arrayItem>
+    </array>
+    <array name="curr.elecquantity.node.mAh">
+        <arrayItem>/sys/bus/platform/drivers/hisi_smartstar_coul/abs_cc</arrayItem>
+        <arrayItem>/sys/bus/platform/drivers/hisi_hi6421v300_coul/abs_cc</arrayItem>
+        <arrayItem>/sys/bus/i2c/drivers/ti,bq27510/ti-bms-prop/remaining_capacity</arrayItem>
+    </array>
+    <array name="curr.elecquantity.node.uAh">
+        <arrayItem>/sys/class/power_supply/bms/charge_counter_shadow</arrayItem>
+    </array>
+    <!-- powermonitor functions switch configuration -->
+    <!-- the switch to open normal power log -->
+    <bool config_isOpenNormalLog="true"/>
+    <!-- the switch to open screen off power abnormal Log -->
+    <bool config_isOpenScrOffLog="true"/>
+    <!-- the switch to open day act power abnormal Log -->
+    <bool config_isOpenDayActLog="true"/>
+    <!-- the switch to transfer android Log -->
+    <bool config_isOpenAndroidLog="true"/>
+    <!-- the power gate of screen off power abnormal -->
+    <integer config_scrOffPowerGate="4"/>
+    <!-- the duration time of screen off power abnormal -->
+    <integer config_scrOffDuration="4"/>
+    <!-- the power gate of day act power abnormal -->
+    <integer config_dayActPowerGate="60"/>
+</powermonitor_config>

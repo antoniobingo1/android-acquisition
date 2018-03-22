@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<toolbox>
+    <!-- BEGIN PN: DTS2015012301833, Modified by liugaolong 00273199, 2015/1/23 -->
+    <item>com.android.systemui.statusbar.toolbox.control.WifiTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.BluetoothTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.SilentTracker</item>
+    <!-- BEGIN   PN: DTS2015031106230 , Modify by xwx235955, 2015/05/05 -->
+    <item>com.android.systemui.statusbar.toolbox.control.SettingsTracker</item>
+    <!-- END   PN: DTS2015031106230 , Modify by xwx235955, 2015/05/05 -->
+    <item>com.android.systemui.statusbar.toolbox.control.WifiHotspotTracker</item> 
+    <item>com.android.systemui.statusbar.toolbox.control.DataSwitchTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.GPSTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.AirplaneModeTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.BusyModeTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.AutoRotateTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.ScreenshotTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.SingleHandTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.SuspendTasksTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.AirSharingTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.SuperPowerModeTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.FlashlightTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.SyncTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.VolumeTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.PowerRestartTracker</item>
+    <item>com.android.systemui.statusbar.toolbox.control.PowerOffTracker</item>
+    <!-- BEGIN   PN: DEFECT00005AP4 , Modify by lwx281547, 2015/10/21 -->
+    <item>com.android.systemui.statusbar.toolbox.control.LTETracker</item>
+    <!-- END   PN: DEFECT00005AP4 , Modify by lwx281547, 2015/10/21 -->
+    <!-- DTS2014071708746 l00182454 20140719 end -->
+</toolbox>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTS2014040801400 yufei 00205987 20140408 create -->
+<periodcheck>
+    <period_items>
+        <period_item name="current_battery" path="/sys/class/power_supply/battery/current_now" adjust = "" />
+        <period_item name="cpu_freq" path="/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq" adjust = "" />
+        <period_item name="gpu_freq" path="/sys/class/kgsl/kgsl-3d0/gpuclk" adjust = "" />
+        <period_item name="ddr_freq" path="/d/clk/bimc_clk/measure" adjust = "" />
+        <period_item name="ipps_policy" path="/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_policy" adjust = "" />
+        <period_item name="hot_temp" path="/sys/module/qpnp_adc_voltage/parameters/therm_cpu" adjust = "" />
+        <period_item name="cold_temp" path="/sys/module/qpnp_adc_voltage/parameters/therm_pa" adjust = "" />
+        <period_item name="pa0_temp" path="/sys/module/qpnp_adc_voltage/parameters/therm_pa" adjust = "" />
+        <period_item name="pa1_temp" path="/sys/module/qpnp_adc_voltage/parameters/therm_pa1" adjust = "" />
+        <period_item name="camera_temp" path="/sys/class/thermal/thermal_zone4/temp" adjust = "" />
+        <period_item name="flash_temp" path="/sys/class/thermal/temp:flash/val" adjust = "" />
+        <period_item name="cpu_temp" path="/sys/module/qpnp_adc_voltage/parameters/therm_cpu" adjust = "" />
+        <period_item name="gpu_temp" path="/sys/class/thermal/thermal_zone3/temp" adjust = "" />
+        <period_item name="battery_temp" path="/sys/class/power_supply/battery/temp" adjust = "0.1" />
+        <period_item name="brightness" path="/sys/class/leds/lcd-backlight/brightness" adjust = "" />
+        <period_item name="sys_devices_system_cpu_online" path="/sys/devices/system/cpu/online" adjust = "" />
+    </period_items>
+    <critical_items>
+        <critical_item name ="hot_log" value="50"/>
+        <critical_item name ="cold_log" value="50"/>
+        <critical_item name ="toast_temperature" value="49"/>
+        <critical_item name ="toast_tempure_boundry" value="5"/>
+        <critical_item name ="hot_diff" value="10"/>
+        <critical_item name ="temperature_tip_period" value="6"/>
+        <critical_item name ="default_period" value="2"/>
+        <critical_item name ="screen_period" value="1"/>
+    </critical_items>
+</periodcheck>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This xml file is used for PHB(Pending Heart Beat) to config black list and white list;
+Packages in "black_list" which alarms will be moved to pending alarm list when network is unavailable, so these alarms will disabled untill network connection is available;
+Packages in "white_list" will not active in PHB, because UHB may store some packages which may result in issues in PHB.
+-->
+<list>
+
+    <array type="black_list" version="1.0">
+        <item>com.google.android.gsf</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.google.android.location</item>
+        <item>com.huawei.android.totemweather</item>
+        <item>com.huawei.android.pushagent</item>
+        <item>com.huawei.powertools</item>
+        <item>com.rxnetworks.pgpsdownloader</item>
+        <item>com.sina.weibo</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.mm</item>
+        <item>com.hotalk</item>
+        <item>com.tencent.hd.qq</item>
+        <item>com.sohu.newsclient</item>
+        <item>com.youku.phone</item>
+        <item>cn.com.fetion</item>
+        <item>com.tencent.qqlive</item>
+        <item>com.ifeng.news2</item>
+        <item>com.palmtrends.rmrb</item>
+        <item>com.huawei.appmarket</item>
+        <item>com.taobao.taobao</item>
+        <item>com.youdao.dict</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.qzone</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.netease.newsreader.activity</item>
+        <item>com.android.email</item>
+        <item>com.autonavi.xmgd.navigator</item>
+        <item>com.baidu.searchbox_huawei</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.besttone.elocal</item>
+        <item>com.besttone.hall</item>
+        <item>com.chaozh.iReaderFree15</item>
+        <item>com.corp21cn.mail189</item>
+        <item>com.dianping.v1</item>
+        <item>com.erdo.android.FJDXCartoon</item>
+        <item>com.gwsoft.imusic.controller</item>
+        <item>com.mapbar.android.mapbarmap</item>
+        <item>com.pdager</item>
+        <item>com.qiyi.video</item>
+        <item>com.Qunar</item>
+        <item>com.sohu.sohuvideo</item>
+        <item>com.tencent.mtt</item>
+        <item>com.youdao.note</item>
+        <item>vStudio.Android.Camera360</item>
+        <item>com.tencent.news</item>
+        <item>ctrip.android.view</item>
+        <item>com.msfc.lazyboylistenbook</item>
+        <item>com.huawei.android.hwouc</item>
+        <item>com.moji.mjweather</item>
+        <item>com.sina.weibog3</item>
+        <item>im.yixin</item>
+        <item>com.qq.reader</item>
+        <item>com.baidu.netdisk</item>
+        <item>com.tencent.qqlite</item>
+        <item>cn.amazon.mShop.android</item>
+        <item>com.huawei.hwpplogservice</item>
+        <item>com.ximalaya.ting.android</item>
+        <item>com.ss.android.article.news</item>
+    </array>
+
+    <array type="white_list" version="1.0">
+        <item>android</item>
+        <item>com.huawei.message</item>
+    </array>
+
+</list>

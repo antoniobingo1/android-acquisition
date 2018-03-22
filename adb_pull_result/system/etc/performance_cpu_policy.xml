@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2012 Huawei Inc.
+ * Cpu Freq Config
+ * Notes:
+ * 
+ * cpu_maxprofile   sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq  
+ * cpu_minprofile    sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+ * check_load_delay   the delay time to check cpuload 
+ * check_load_mode   the mode for choose to check mode,avaliable mode:0(fastest),1(game),2(ui),3(default)
+ * 
+ * note:
+ * 1. if policy item has not configured, it means use default max or min cpupolicy value about mobile has started.
+ * 2. policy type default value is 0, policy value default value is -1
+ -->
+<!--
+  default scene , id must be lower than 10000
+-->
+<cpu_policy version="1">
+    <!--don't config any policy-->
+    <scenemode name="default_front" id="208">
+    </scenemode>
+
+    <!--don't config any policy-->
+    <scenemode name="screen_off" id="301">
+    </scenemode>
+    
+    <!--don't config any policy-->
+    <scenemode name="launcher_front" id="230">
+    </scenemode>
+
+    <scenemode name="battery_low" id="319">
+       <cpu_maxprofile>1000000</cpu_maxprofile>
+    </scenemode>
+
+    <scenemode name="battery_okay" id="320">
+    </scenemode>
+
+    <scenemode name="launcher_touch" id="236">
+        <cpu_minprofile>900000</cpu_minprofile>
+    </scenemode>
+
+    <scenemode name="gallery_front" id="206"> <!--gallery_front -->
+    </scenemode>
+
+    <scenemode name="gallery_touch" id="234"> <!--gallery_touch -->
+        <cpu_minprofile>900000</cpu_minprofile>
+    </scenemode>
+
+    <scenemode name="start_speedup" id="245">
+       <cpu_minprofile>1400000</cpu_minprofile>
+    </scenemode>
+</cpu_policy>
