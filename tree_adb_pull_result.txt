@@ -1,0 +1,2458 @@
+adb_pull_result/
+├── acct
+│   ├── cgroup.clone_children
+│   ├── cgroup.procs
+│   ├── cgroup.sane_behavior
+│   ├── cpuacct.stat
+│   ├── cpuacct.usage
+│   ├── cpuacct.usage_percpu
+│   ├── notify_on_release
+│   ├── release_agent
+│   ├── tasks
+│   ├── uid
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── uid_1000
+│   ├── uid_10002
+│   ├── uid_10004
+│   ├── uid_10005
+│   ├── uid_10006
+│   ├── uid_10007
+│   ├── uid_10008
+│   ├── uid_10009
+│   ├── uid_1001
+│   ├── uid_10012
+│   ├── uid_10013
+│   ├── uid_10014
+│   ├── uid_10015
+│   ├── uid_10017
+│   ├── uid_10019
+│   ├── uid_10021
+│   ├── uid_10026
+│   ├── uid_10029
+│   ├── uid_10030
+│   ├── uid_10031
+│   ├── uid_10035
+│   ├── uid_10039
+│   ├── uid_10042
+│   ├── uid_10050
+│   ├── uid_10052
+│   ├── uid_10053
+│   ├── uid_10054
+│   ├── uid_10056
+│   ├── uid_10059
+│   ├── uid_10061
+│   ├── uid_10063
+│   ├── uid_10064
+│   ├── uid_10069
+│   ├── uid_10071
+│   ├── uid_10073
+│   ├── uid_10074
+│   ├── uid_10075
+│   ├── uid_10077
+│   ├── uid_10078
+│   ├── uid_10084
+│   ├── uid_10088
+│   ├── uid_10090
+│   ├── uid_10091
+│   ├── uid_10092
+│   ├── uid_10093
+│   ├── uid_10095
+│   ├── uid_1037
+│   └── uid_1050
+├── cache
+│   └── test
+├── config
+├── cust
+├── data
+├── default.prop
+├── dev
+├── enableswap.sh
+├── factory_init.project.rc
+├── factory_init.rc
+├── file_contexts
+├── hash_files.txt
+├── meta_init.modem.rc
+├── meta_init.project.rc
+├── meta_init.rc
+├── mnt
+│   ├── asec
+│   ├── cd-rom
+│   ├── media_rw
+│   │   ├── sdcard1
+│   │   └── usbotg
+│   ├── obb
+│   ├── secure
+│   └── shell
+│       ├── emulated
+│       │   ├── 0
+│       │   │   ├── Alarms
+│       │   │   ├── Android
+│       │   │   │   ├── data
+│       │   │   │   │   ├── cn.wps.moffice_eng
+│       │   │   │   │   │   └── cache
+│       │   │   │   │   ├── com.android.browser.provider
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.calculator2
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.captiveportallogin
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.documentsui
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.dreams.basic
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.dreams.phototable
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.externalstorage
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.galaxy4
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.gallery3d
+│       │   │   │   │   │   ├── cache
+│       │   │   │   │   │   │   ├── imgcache.0
+│       │   │   │   │   │   │   ├── imgcache.1
+│       │   │   │   │   │   │   ├── imgcache.idx
+│       │   │   │   │   │   │   ├── multiscreen
+│       │   │   │   │   │   │   ├── rev_geocoding.0
+│       │   │   │   │   │   │   ├── rev_geocoding.1
+│       │   │   │   │   │   │   └── rev_geocoding.idx
+│       │   │   │   │   │   └── VolumeId
+│       │   │   │   │   │       └── 2092526650
+│       │   │   │   │   ├── com.android.htmlviewer
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.huawei.smartkey
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.inputmethod.latin
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.managedprovisioning
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.mediacenter
+│       │   │   │   │   │   └── cache
+│       │   │   │   │   │       ├── 0028D02A8430514E608299474633B7AF
+│       │   │   │   │   │       ├── 0B05E0F4585092EA0A4DD45A00BEECEA
+│       │   │   │   │   │       ├── 4323E646061BE6E1D42977B92EDEF0B7
+│       │   │   │   │   │       └── 9E7A9491BCB85AFDFF9122B05A13003B
+│       │   │   │   │   ├── com.android.musicvis
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.noisefield
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.onetimeinitializer
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.pacprocessor
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.partnerbrowsercustomizations.tmobile
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.phasebeam
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.providers.downloads.ui
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.providers.media
+│       │   │   │   │   │   └── albumthumbs
+│       │   │   │   │   │       ├── 1420070413199
+│       │   │   │   │   │       ├── 1420070413709
+│       │   │   │   │   │       ├── 1420070414071
+│       │   │   │   │   │       └── 1420070414359
+│       │   │   │   │   ├── com.android.providers.partnerbookmarks
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.providers.userdictionary
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.proxyhandler
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.smspush
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.vending
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.wallpapercropper
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.wallpaper.holospiral
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.android.wallpaper.livepicker
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.cunkun.mmichoose
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.focaltech.ft_terminal_test
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.androidforwork
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.apps.docs
+│       │   │   │   │   │   └── cache
+│       │   │   │   │   │       └── projector
+│       │   │   │   │   ├── com.google.android.apps.maps
+│       │   │   │   │   │   ├── cache
+│       │   │   │   │   │   │   ├── cache_vts_GMM.m
+│       │   │   │   │   │   │   └── cache_vts_psm_GMM.m
+│       │   │   │   │   │   ├── files
+│       │   │   │   │   │   └── testdata
+│       │   │   │   │   ├── com.google.android.apps.photos
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.backuptransport
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.feedback
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.googlequicksearchbox
+│       │   │   │   │   │   └── files
+│       │   │   │   │   │       └── download_cache
+│       │   │   │   │   ├── com.google.android.gsf.login
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.marvin.talkback
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.music
+│       │   │   │   │   │   ├── cache
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.onetimeinitializer
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.setupwizard
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.syncadapters.calendar
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.syncadapters.contacts
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.videos
+│       │   │   │   │   │   └── files
+│       │   │   │   │   │       └── Movies
+│       │   │   │   │   ├── com.google.android.webview
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.google.android.youtube
+│       │   │   │   │   │   ├── cache
+│       │   │   │   │   │   │   ├── cronet_media_cache
+│       │   │   │   │   │   │   └── exo
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.huawei.android.FMRadio
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.huawei.android.usageManager
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.huawei.privacymode
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.mediatek.apst.target
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.mediatek.floatmenu
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.mediatek.fwk.plugin
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.mediatek.lbs.em2.ui
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.mediatek.mtklogger
+│       │   │   │   │   │   └── files
+│       │   │   │   │   ├── com.mobilesrepublic.appy
+│       │   │   │   │   │   └── cache
+│       │   │   │   │   │       └── http
+│       │   │   │   │   │           └── journal
+│       │   │   │   │   ├── com.svox.pico
+│       │   │   │   │   │   └── files
+│       │   │   │   │   └── com.viaforensics.android.aflogical_ose
+│       │   │   │   │       └── files
+│       │   │   │   └── media
+│       │   │   │       └── com.google.android.talk
+│       │   │   │           ├── Notifications
+│       │   │   │           │   └── hangouts_message.ogg
+│       │   │   │           └── Ringtones
+│       │   │   │               └── hangouts_incoming_call.ogg
+│       │   │   ├── CloudDrive
+│       │   │   ├── DCIM
+│       │   │   │   └── Camera
+│       │   │   │       ├── cache
+│       │   │   │       │   └── latest
+│       │   │   │       │       └── IMG_20100108_023212.thumbnail
+│       │   │   │       ├── IMG_20100101_000218.jpg
+│       │   │   │       ├── IMG_20100101_000228.jpg
+│       │   │   │       ├── IMG_20100101_000243.jpg
+│       │   │   │       ├── IMG_20100108_023201.jpg
+│       │   │   │       └── IMG_20100108_023212.jpg
+│       │   │   ├── Direct
+│       │   │   ├── documents
+│       │   │   ├── Download
+│       │   │   │   ├── an2018-mpls.pdf
+│       │   │   │   └── an2018-quic.pdf
+│       │   │   ├── forensics
+│       │   │   │   └── 20150101.0157
+│       │   │   │       ├── info.xml
+│       │   │   │       ├── MMS.csv
+│       │   │   │       ├── MMSParts.csv
+│       │   │   │       └── SMS.csv
+│       │   │   ├── HWThemes
+│       │   │   ├── Movies
+│       │   │   ├── mtklog
+│       │   │   │   └── aee_exp_backup
+│       │   │   │       ├── db.fatal.00.KE
+│       │   │   │       │   ├── db.fatal.00.KE.dbg
+│       │   │   │       │   └── ZZ_INTERNAL
+│       │   │   │       ├── db.fatal.01.KE
+│       │   │   │       │   ├── db.fatal.01.KE.dbg
+│       │   │   │       │   └── ZZ_INTERNAL
+│       │   │   │       ├── db.fatal.02.KE
+│       │   │   │       │   ├── db.fatal.02.KE.dbg
+│       │   │   │       │   └── ZZ_INTERNAL
+│       │   │   │       └── db.fatal.03.KE
+│       │   │   │           ├── db.fatal.03.KE.dbg
+│       │   │   │           └── ZZ_INTERNAL
+│       │   │   ├── Music
+│       │   │   ├── Notifications
+│       │   │   ├── Pictures
+│       │   │   ├── Podcasts
+│       │   │   └── Ringtones
+│       │   ├── legacy
+│       │   └── obb
+│       └── test
+├── nvdata
+├── persist
+├── proc
+├── property_contexts
+├── protect_f
+├── protect_s
+├── root
+├── sbin
+├── seapp_contexts
+├── selinux_version
+├── sepolicy
+├── service_contexts
+├── storage
+│   ├── emulated
+│   ├── sdcard1
+│   └── usbotg
+├── sys
+├── system
+│   ├── app
+│   │   ├── AtciService
+│   │   │   ├── arm
+│   │   │   │   └── AtciService.odex
+│   │   │   └── AtciService.apk
+│   │   ├── BasicDreams
+│   │   │   ├── arm
+│   │   │   │   └── BasicDreams.odex
+│   │   │   └── BasicDreams.apk
+│   │   ├── BatteryWarning
+│   │   │   ├── arm
+│   │   │   │   └── BatteryWarning.odex
+│   │   │   └── BatteryWarning.apk
+│   │   ├── Bluetooth
+│   │   │   ├── Bluetooth.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── BrowserProviderProxy
+│   │   │   ├── arm
+│   │   │   │   └── BrowserProviderProxy.odex
+│   │   │   └── BrowserProviderProxy.apk
+│   │   ├── BSPTelephonyDevTool
+│   │   │   ├── arm
+│   │   │   │   └── BSPTelephonyDevTool.odex
+│   │   │   └── BSPTelephonyDevTool.apk
+│   │   ├── Calculator
+│   │   │   ├── arm
+│   │   │   │   └── Calculator.odex
+│   │   │   └── Calculator.apk
+│   │   ├── Calendar
+│   │   │   ├── arm
+│   │   │   │   └── Calendar.odex
+│   │   │   └── Calendar.apk
+│   │   ├── CalendarProvider
+│   │   │   ├── arm
+│   │   │   │   └── CalendarProvider.odex
+│   │   │   └── CalendarProvider.apk
+│   │   ├── CaptivePortalLogin
+│   │   │   ├── arm
+│   │   │   │   └── CaptivePortalLogin.odex
+│   │   │   └── CaptivePortalLogin.apk
+│   │   ├── CertInstaller
+│   │   │   ├── arm
+│   │   │   │   └── CertInstaller.odex
+│   │   │   └── CertInstaller.apk
+│   │   ├── Chrome
+│   │   │   ├── Chrome.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           └── libchromium_android_linker.so
+│   │   ├── ChromeHomePage
+│   │   │   └── ChromeHomePage.apk
+│   │   ├── ConfigUpdater
+│   │   │   ├── arm
+│   │   │   │   └── ConfigUpdater.odex
+│   │   │   └── ConfigUpdater.apk
+│   │   ├── DocumentsUI
+│   │   │   ├── arm
+│   │   │   │   └── DocumentsUI.odex
+│   │   │   └── DocumentsUI.apk
+│   │   ├── DownloadProviderUi
+│   │   │   ├── arm
+│   │   │   │   └── DownloadProviderUi.odex
+│   │   │   └── DownloadProviderUi.apk
+│   │   ├── Drive
+│   │   │   ├── Drive.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           ├── libbitmap_parcel.so
+│   │   │           ├── libdocscanner_image.so
+│   │   │           ├── libfoxit.so
+│   │   │           ├── librawpixeldata_native.so
+│   │   │           ├── librectifier.so
+│   │   │           └── libwebp_android.so
+│   │   ├── DrmProvider
+│   │   │   ├── arm
+│   │   │   │   └── DrmProvider.odex
+│   │   │   └── DrmProvider.apk
+│   │   ├── EngineeringMode
+│   │   │   ├── arm
+│   │   │   │   └── EngineeringMode.odex
+│   │   │   ├── EngineeringMode.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── EngineerMode
+│   │   │   ├── arm
+│   │   │   │   └── EngineerMode.odex
+│   │   │   └── EngineerMode.apk
+│   │   ├── FactoryKitTest
+│   │   │   ├── arm
+│   │   │   │   └── FactoryKitTest.odex
+│   │   │   ├── FactoryKitTest.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── FactoryKitTest2
+│   │   │   ├── arm
+│   │   │   │   └── FactoryKitTest2.odex
+│   │   │   ├── FactoryKitTest2.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── FT_Terminal_Test
+│   │   │   ├── FT_Terminal_Test.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           └── libfti2cjni.so
+│   │   ├── Galaxy4
+│   │   │   ├── arm
+│   │   │   │   └── Galaxy4.odex
+│   │   │   ├── Galaxy4.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           └── dummy.so
+│   │   ├── Gmail2
+│   │   │   ├── arm
+│   │   │   │   └── Gmail2.odex
+│   │   │   └── Gmail2.apk
+│   │   ├── GoogleCalendarSyncAdapter
+│   │   │   ├── arm
+│   │   │   │   └── GoogleCalendarSyncAdapter.odex
+│   │   │   └── GoogleCalendarSyncAdapter.apk
+│   │   ├── GoogleContactsSyncAdapter
+│   │   │   ├── arm
+│   │   │   │   └── GoogleContactsSyncAdapter.odex
+│   │   │   └── GoogleContactsSyncAdapter.apk
+│   │   ├── GoogleTTS
+│   │   │   ├── arm
+│   │   │   │   └── GoogleTTS.odex
+│   │   │   ├── GoogleTTS.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           ├── libtts_android_neon.so
+│   │   │           └── libtts_android.so
+│   │   ├── Hangouts
+│   │   │   ├── Hangouts.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           ├── libcrashreporterer.so
+│   │   │           ├── libcronet.so
+│   │   │           ├── libframesequence.so
+│   │   │           └── libvideochat_jni.so
+│   │   ├── HoloSpiralWallpaper
+│   │   │   ├── arm
+│   │   │   │   └── HoloSpiralWallpaper.odex
+│   │   │   ├── HoloSpiralWallpaper.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           └── dummy.so
+│   │   ├── HTMLViewer
+│   │   │   ├── arm
+│   │   │   │   └── HTMLViewer.odex
+│   │   │   └── HTMLViewer.apk
+│   │   ├── HwAllBackup_Local
+│   │   │   └── HwAllBackup_Local.apk
+│   │   ├── HwBluetoothImport
+│   │   │   ├── arm
+│   │   │   │   └── HwBluetoothImport.odex
+│   │   │   └── HwBluetoothImport.apk
+│   │   ├── HwDeskClock
+│   │   │   ├── arm
+│   │   │   │   └── HwDeskClock.odex
+│   │   │   └── HwDeskClock.apk
+│   │   ├── HwFileManager
+│   │   │   ├── HwFileManager.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           └── libhidisk_security.so
+│   │   ├── HwFloatMms
+│   │   │   ├── arm
+│   │   │   │   └── HwFloatMms.odex
+│   │   │   └── HwFloatMms.apk
+│   │   ├── HwFloatTasks
+│   │   │   ├── arm
+│   │   │   │   └── HwFloatTasks.odex
+│   │   │   └── HwFloatTasks.apk
+│   │   ├── HwLauncher6
+│   │   │   ├── arm
+│   │   │   │   └── HwLauncher6.odex
+│   │   │   └── HwLauncher6.apk
+│   │   ├── HwMotionRecognition
+│   │   │   └── HwMotionRecognition.apk
+│   │   ├── HwOUC
+│   │   │   ├── HwOUC.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           └── libbspatchhwouc.so
+│   │   ├── HwPowerGenieEngine3
+│   │   │   ├── arm
+│   │   │   │   └── HwPowerGenieEngine3.odex
+│   │   │   └── HwPowerGenieEngine3.apk
+│   │   ├── HwPrivacyMode
+│   │   │   ├── arm
+│   │   │   │   └── HwPrivacyMode.odex
+│   │   │   └── HwPrivacyMode.apk
+│   │   ├── HwQrcodeDispatcher
+│   │   │   ├── arm
+│   │   │   │   └── HwQrcodeDispatcher.odex
+│   │   │   ├── HwQrcodeDispatcher.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── HwResolver
+│   │   │   ├── arm
+│   │   │   │   └── HwResolver.odex
+│   │   │   └── HwResolver.apk
+│   │   ├── HwSmartKey
+│   │   │   ├── arm
+│   │   │   │   └── HwSmartKey.odex
+│   │   │   └── HwSmartKey.apk
+│   │   ├── HwSoundRecorder
+│   │   │   ├── arm
+│   │   │   │   └── HwSoundRecorder.odex
+│   │   │   └── HwSoundRecorder.apk
+│   │   ├── HwStartupGuide
+│   │   │   └── HwStartupGuide.apk
+│   │   ├── HwSystemManager
+│   │   │   ├── HwSystemManager.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           ├── libams-1.1.4-mfr.so
+│   │   │           ├── libams-1.1.5-64b-mfr.so
+│   │   │           ├── libcryptor-1.0.0-mfr.so
+│   │   │           ├── libdce-1.1.3-mfr.so
+│   │   │           ├── libdexanalysis.so
+│   │   │           ├── liblocSDK4.so
+│   │   │           ├── libposeidon-1.0.0-mfr.so
+│   │   │           ├── libsmartdialer_oem_module.so
+│   │   │           ├── libsmscheck-1.0.2-mfr.so
+│   │   │           ├── libstlport_shared.so
+│   │   │           ├── libTmsdk-2.0.6-mfr.so
+│   │   │           └── libTmsdk-2.0.7-mfr.so
+│   │   ├── HwThemeManager
+│   │   │   ├── arm
+│   │   │   │   └── HwThemeManager.odex
+│   │   │   └── HwThemeManager.apk
+│   │   ├── HwWeatherClock
+│   │   │   ├── HwWeatherClock.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           └── liblocSDK6a.so
+│   │   ├── HwWiFiDirect
+│   │   │   ├── arm
+│   │   │   │   └── HwWiFiDirect.odex
+│   │   │   └── HwWiFiDirect.apk
+│   │   ├── KeyChain
+│   │   │   ├── arm
+│   │   │   │   └── KeyChain.odex
+│   │   │   └── KeyChain.apk
+│   │   ├── LatinIME
+│   │   │   ├── arm
+│   │   │   │   └── LatinIME.odex
+│   │   │   ├── LatinIME.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── LiveWallpapersPicker
+│   │   │   ├── arm
+│   │   │   │   └── LiveWallpapersPicker.odex
+│   │   │   └── LiveWallpapersPicker.apk
+│   │   ├── LocationEM2
+│   │   │   ├── arm
+│   │   │   │   └── LocationEM2.odex
+│   │   │   └── LocationEM2.apk
+│   │   ├── Magnifier
+│   │   │   ├── arm
+│   │   │   │   └── Magnifier.odex
+│   │   │   └── Magnifier.apk
+│   │   ├── Maps
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       ├── libgmm-jni.so
+│   │   │   │       └── libmognet_jni.so
+│   │   │   └── Maps.apk
+│   │   ├── MmiChoose
+│   │   │   ├── arm
+│   │   │   │   └── MmiChoose.odex
+│   │   │   └── MmiChoose.apk
+│   │   ├── MTKAndroidSuiteDaemon
+│   │   │   ├── arm
+│   │   │   │   └── MTKAndroidSuiteDaemon.odex
+│   │   │   └── MTKAndroidSuiteDaemon.apk
+│   │   ├── MtkFloatMenu
+│   │   │   ├── arm
+│   │   │   │   └── MtkFloatMenu.odex
+│   │   │   └── MtkFloatMenu.apk
+│   │   ├── MTKLogger
+│   │   │   ├── arm
+│   │   │   │   └── MTKLogger.odex
+│   │   │   └── MTKLogger.apk
+│   │   ├── Music2
+│   │   │   └── Music2.apk
+│   │   ├── NlpService
+│   │   │   ├── arm
+│   │   │   │   └── NlpService.odex
+│   │   │   └── NlpService.apk
+│   │   ├── NoiseField
+│   │   │   ├── arm
+│   │   │   │   └── NoiseField.odex
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       └── dummy.so
+│   │   │   └── NoiseField.apk
+│   │   ├── OMACP
+│   │   │   ├── arm
+│   │   │   │   └── OMACP.odex
+│   │   │   └── OMACP.apk
+│   │   ├── PackageInstaller
+│   │   │   ├── arm
+│   │   │   │   └── PackageInstaller.odex
+│   │   │   └── PackageInstaller.apk
+│   │   ├── PacProcessor
+│   │   │   ├── arm
+│   │   │   │   └── PacProcessor.odex
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   └── PacProcessor.apk
+│   │   ├── PartnerBookmarksProvider
+│   │   │   ├── arm
+│   │   │   │   └── PartnerBookmarksProvider.odex
+│   │   │   └── PartnerBookmarksProvider.apk
+│   │   ├── PhaseBeam
+│   │   │   ├── arm
+│   │   │   │   └── PhaseBeam.odex
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       └── dummy.so
+│   │   │   └── PhaseBeam.apk
+│   │   ├── Photos
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       ├── libcrashreporterer.so
+│   │   │   │       ├── libcronet.so
+│   │   │   │       ├── libfilterframework_jni.so
+│   │   │   │       ├── libframesequence.so
+│   │   │   │       ├── libmoviemaker-jni.so
+│   │   │   │       └── libnative.so
+│   │   │   └── Photos.apk
+│   │   ├── PhotoTable
+│   │   │   ├── arm
+│   │   │   │   └── PhotoTable.odex
+│   │   │   └── PhotoTable.apk
+│   │   ├── PrintSpooler
+│   │   │   ├── arm
+│   │   │   │   └── PrintSpooler.odex
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   └── PrintSpooler.apk
+│   │   ├── RawDataTest_v1.6.0_20150915
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       └── libopenshort.so
+│   │   │   └── RawDataTest_v1.6.0_20150915.apk
+│   │   ├── Reboot
+│   │   │   ├── arm
+│   │   │   │   └── Reboot.odex
+│   │   │   └── Reboot.apk
+│   │   ├── RuntimeTest
+│   │   │   ├── arm
+│   │   │   │   └── RuntimeTest.odex
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   └── RuntimeTest.apk
+│   │   ├── SmartcardService
+│   │   │   ├── arm
+│   │   │   │   └── SmartcardService.odex
+│   │   │   └── SmartcardService.apk
+│   │   ├── Stk
+│   │   │   ├── arm
+│   │   │   │   └── Stk.odex
+│   │   │   └── Stk.apk
+│   │   ├── StreamingProvider
+│   │   │   ├── arm
+│   │   │   │   └── StreamingProvider.odex
+│   │   │   └── StreamingProvider.apk
+│   │   ├── talkback
+│   │   │   ├── arm
+│   │   │   │   └── talkback.odex
+│   │   │   └── talkback.apk
+│   │   ├── TestCamera
+│   │   │   ├── arm
+│   │   │   │   └── TestCamera.odex
+│   │   │   └── TestCamera.apk
+│   │   ├── UsageManager
+│   │   │   ├── arm
+│   │   │   │   └── UsageManager.odex
+│   │   │   └── UsageManager.apk
+│   │   ├── UserDictionaryProvider
+│   │   │   ├── arm
+│   │   │   │   └── UserDictionaryProvider.odex
+│   │   │   └── UserDictionaryProvider.apk
+│   │   ├── Videos
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       └── libWVphoneAPI.so
+│   │   │   └── Videos.apk
+│   │   ├── VisualizationWallpapers
+│   │   │   ├── arm
+│   │   │   │   └── VisualizationWallpapers.odex
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       └── dummy.so
+│   │   │   └── VisualizationWallpapers.apk
+│   │   ├── WAPPushManager
+│   │   │   ├── arm
+│   │   │   │   └── WAPPushManager.odex
+│   │   │   └── WAPPushManager.apk
+│   │   ├── WebViewGoogle
+│   │   │   ├── arm
+│   │   │   │   └── WebViewGoogle.odex
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       └── libwebviewchromium.so
+│   │   │   └── WebViewGoogle.apk
+│   │   ├── YGPS
+│   │   │   ├── arm
+│   │   │   │   └── YGPS.odex
+│   │   │   └── YGPS.apk
+│   │   └── YouTube
+│   │       ├── lib
+│   │       │   └── arm
+│   │       │       ├── libambisonic_audio_renderer.so
+│   │       │       ├── libcronet.so
+│   │       │       ├── libfilterframework_jni.so
+│   │       │       ├── libframesequence.so
+│   │       │       ├── libluajit.so
+│   │       │       ├── libmoxieclient.so
+│   │       │       ├── libmoxie.so
+│   │       │       ├── libvpxJNI.so
+│   │       │       ├── libvpx.so
+│   │       │       ├── libvrtoolkit.so
+│   │       │       └── libwebp_android.so
+│   │       └── YouTube.apk
+│   ├── asr
+│   │   ├── hwdrive
+│   │   │   ├── grm.irf
+│   │   │   ├── ivCMScore_16K.irf
+│   │   │   ├── ivCMScore_8K.irf
+│   │   │   ├── ivDTree_16K.irf
+│   │   │   ├── ivDTree_8K.irf
+│   │   │   ├── ivFiller_16K.irf
+│   │   │   ├── ivFiller_8K.irf
+│   │   │   ├── ivHmmRes_16K.irf
+│   │   │   ├── ivHmmRes_8K.irf
+│   │   │   ├── ivModel_16K.irf
+│   │   │   ├── ivModel_8K.irf
+│   │   │   ├── ivTMRes_16K.irf
+│   │   │   ├── ivTMRes_8K.irf
+│   │   │   └── ivVadModels.irf
+│   │   ├── iflytek
+│   │   │   └── grammar.zip
+│   │   ├── splitdict
+│   │   │   ├── ListWord_DB.txt
+│   │   │   ├── Resource.irf
+│   │   │   └── tables
+│   │   │       ├── namexp_ch_compname.tbl
+│   │   │       ├── namexp_ch_familyname.tbl
+│   │   │       ├── namexp_en_name_pre.tbl
+│   │   │       ├── namexp_en_name_to_ch_name.tbl
+│   │   │       ├── namexp_family.tbl
+│   │   │       └── namexp_title.tbl
+│   │   └── wakeup
+│   │       ├── ivModel_HelloMate.irf
+│   │       └── ivModel_wakeupinMainScreen.irf
+│   ├── bin
+│   ├── build.prop
+│   ├── data
+│   │   ├── misc
+│   │   │   └── ProjectConfig.mk
+│   │   └── recovery_rootcheck
+│   ├── delapp
+│   │   ├── HwMirror
+│   │   │   └── HwMirror.apk
+│   │   ├── NewsRepublic559
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       └── libweibosdkcore.so
+│   │   │   └── NewsRepublic559.apk
+│   │   ├── vmall
+│   │   │   └── vmall.apk
+│   │   └── wps
+│   │       ├── lib
+│   │       │   └── arm
+│   │       │       ├── libBDRC4_V1_1.so
+│   │       │       ├── libfreetype-jni.so
+│   │       │       ├── libKSOStatEncryption.so
+│   │       │       ├── libkwopdf.so
+│   │       │       ├── libOoxmlDecrypt.so
+│   │       │       └── libweibosdkcore.so
+│   │       └── wps.apk
+│   ├── etc
+│   │   ├── agps_profiles_conf2.xml
+│   │   ├── apns-conf.xml
+│   │   ├── appwidget
+│   │   │   └── 3dwidgets.xml
+│   │   ├── audio_device.xml
+│   │   ├── audio_effects.conf
+│   │   ├── audio_policy.conf
+│   │   ├── autorun.iso
+│   │   ├── benchmar_app.xml
+│   │   ├── bluetooth
+│   │   │   ├── auto_pair_blacklist.conf
+│   │   │   ├── auto_pair_devlist.conf
+│   │   │   ├── btconfig.xml
+│   │   │   ├── bt_did.conf
+│   │   │   └── bt_stack.conf
+│   │   ├── clatd.conf
+│   │   ├── custom.conf
+│   │   ├── default_order.xml
+│   │   ├── dexopt
+│   │   │   └── shell_identify_and_oat_clean.xml
+│   │   ├── dhcpcd
+│   │   │   ├── dhcpcd-hooks
+│   │   │   │   ├── 20-dns.conf
+│   │   │   │   └── 95-configured
+│   │   │   └── dhcpcd-run-hooks
+│   │   ├── disableapplist.txt
+│   │   ├── ecc_list.xml
+│   │   ├── envoke_rogue_app_intent.xml
+│   │   ├── event-log-tags
+│   │   ├── facerecognition
+│   │   │   └── face_detect_classifiers
+│   │   │       ├── CAMERA_HAAR_11.dat
+│   │   │       ├── CAMERA_HAAR_12.dat
+│   │   │       ├── CAMERA_HAAR_1.dat
+│   │   │       ├── CAMERA_HAAR_Weight.dat
+│   │   │       ├── CAMERA_LAB_11.dat
+│   │   │       ├── CAMERA_LAB_12.dat
+│   │   │       └── CAMERA_LAB_1.dat
+│   │   ├── factory.ini
+│   │   ├── fallback_fonts.xml
+│   │   ├── firmware
+│   │   │   ├── catcher_filter_1_lwg_n.bin
+│   │   │   ├── dsp_1_lwg_n.bin
+│   │   │   ├── modem_1_lwg_n.img
+│   │   │   ├── mt6627
+│   │   │   │   ├── mt6627_fm_v1_coeff.bin
+│   │   │   │   ├── mt6627_fm_v1_patch.bin
+│   │   │   │   ├── mt6627_fm_v2_coeff.bin
+│   │   │   │   ├── mt6627_fm_v2_patch.bin
+│   │   │   │   ├── mt6627_fm_v3_coeff.bin
+│   │   │   │   ├── mt6627_fm_v3_patch.bin
+│   │   │   │   ├── mt6627_fm_v4_coeff.bin
+│   │   │   │   ├── mt6627_fm_v4_patch.bin
+│   │   │   │   ├── mt6627_fm_v5_coeff.bin
+│   │   │   │   └── mt6627_fm_v5_patch.bin
+│   │   │   ├── ROMv2_lm_patch_1_0_hdr.bin
+│   │   │   ├── ROMv2_lm_patch_1_1_hdr.bin
+│   │   │   ├── S_ANDRO_SFL.ini
+│   │   │   ├── WIFI_RAM_CODE_6735
+│   │   │   └── WMT_SOC.cfg
+│   │   ├── fmr
+│   │   │   └── mt6627_fm_cust.cfg
+│   │   ├── fonts.xml
+│   │   ├── gallery
+│   │   │   └── filter
+│   │   │       └── dehaze.xml
+│   │   ├── geocoding.db
+│   │   ├── globalAutoAdapt-conf.xml
+│   │   ├── globalMatchs-conf.xml
+│   │   ├── hosts
+│   │   ├── HwResourceManager.xml
+│   │   ├── jankbdcfg.json
+│   │   ├── jankcfg.json
+│   │   ├── mccTable_V2.xml
+│   │   ├── mddb
+│   │   │   ├── BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_MP_V42_P40_1_lwg_n
+│   │   │   └── DbgInfo_LR9.W1444.MD.LWTG.MP_HQ6753_65C_B1N_L1_MOLY_LR9_W1444_MD_LWTG_MP_V42_P40_2016_10_13_14_18_1_lwg_n
+│   │   ├── media_codecs.xml
+│   │   ├── mkshrc
+│   │   ├── mtklog-config.prop
+│   │   ├── mtk_omx_core.cfg
+│   │   ├── normal_cpu_policy.xml
+│   │   ├── NOTICE.html.gz
+│   │   ├── NumberHeadWithIDToByte
+│   │   ├── performance_cpu_policy.xml
+│   │   ├── perfservapplist.txt
+│   │   ├── perfservboosttbl.txt
+│   │   ├── perfservscntbl.txt
+│   │   ├── period_check_config.xml
+│   │   ├── permissions
+│   │   │   ├── android.hardware.bluetooth_le.xml
+│   │   │   ├── android.hardware.bluetooth.xml
+│   │   │   ├── android.hardware.camera.xml
+│   │   │   ├── android.hardware.faketouch.multitouch.distinct.xml
+│   │   │   ├── android.hardware.faketouch.multitouch.jazzhand.xml
+│   │   │   ├── android.hardware.faketouch.xml
+│   │   │   ├── android.hardware.location.gps.xml
+│   │   │   ├── android.hardware.microphone.xml
+│   │   │   ├── android.hardware.sensor.accelerometer.xml
+│   │   │   ├── android.hardware.sensor.compass.xml
+│   │   │   ├── android.hardware.sensor.light.xml
+│   │   │   ├── android.hardware.sensor.proximity.xml
+│   │   │   ├── android.hardware.telephony.gsm.xml
+│   │   │   ├── android.hardware.touchscreen.multitouch.distinct.xml
+│   │   │   ├── android.hardware.touchscreen.multitouch.jazzhand.xml
+│   │   │   ├── android.hardware.touchscreen.multitouch.xml
+│   │   │   ├── android.hardware.touchscreen.xml
+│   │   │   ├── android.hardware.usb.accessory.xml
+│   │   │   ├── android.hardware.usb.host.xml
+│   │   │   ├── android.hardware.wifi.direct.xml
+│   │   │   ├── android.hardware.wifi.xml
+│   │   │   ├── android.software.live_wallpaper.xml
+│   │   │   ├── android.software.sip.voip.xml
+│   │   │   ├── android.software.sip.xml
+│   │   │   ├── android.software.webview.xml
+│   │   │   ├── com.android.contacts.separated.xml
+│   │   │   ├── com.android.location.provider.xml
+│   │   │   ├── com.android.mediadrm.signer.xml
+│   │   │   ├── com.android.media.remotedisplay.xml
+│   │   │   ├── com.google.android.maps.xml
+│   │   │   ├── com.google.android.media.effects.xml
+│   │   │   ├── com.google.widevine.software.drm.xml
+│   │   │   ├── com.huawei.hwpostcamera.xml
+│   │   │   ├── com.huawei.systemmanager.separated.xml
+│   │   │   ├── com.mediatek.effect.xml
+│   │   │   ├── handheld_core_hardware.xml
+│   │   │   ├── hwcustframework.xml
+│   │   │   ├── hwframework.xml
+│   │   │   ├── org.simalliance.openmobileapi.xml
+│   │   │   └── platform.xml
+│   │   ├── phb_no_net.xml
+│   │   ├── phb_scroff_blacklist.xml
+│   │   ├── powermonitor_config.xml
+│   │   ├── ppp
+│   │   │   └── ip-up-vpn
+│   │   ├── preferred-apps
+│   │   │   └── google.xml
+│   │   ├── preloaded-classes
+│   │   ├── radvd
+│   │   │   └── radvd.conf
+│   │   ├── recovery.fstab
+│   │   ├── recovery-resource.dat
+│   │   ├── recovery.xml
+│   │   ├── resmonwhitelist.txt
+│   │   ├── security
+│   │   │   ├── cacerts
+│   │   │   │   ├── 00673b5b.0
+│   │   │   │   ├── 02b73561.0
+│   │   │   │   ├── 03f2b8cf.0
+│   │   │   │   ├── 04f60c28.0
+│   │   │   │   ├── 052e396b.0
+│   │   │   │   ├── 08aef7bb.0
+│   │   │   │   ├── 0d188d89.0
+│   │   │   │   ├── 0d69c7e1.0
+│   │   │   │   ├── 10531352.0
+│   │   │   │   ├── 111e6273.0
+│   │   │   │   ├── 119afc2e.0
+│   │   │   │   ├── 124bbd54.0
+│   │   │   │   ├── 12d55845.0
+│   │   │   │   ├── 1676090a.0
+│   │   │   │   ├── 17b51fe6.0
+│   │   │   │   ├── 1dac3003.0
+│   │   │   │   ├── 1dcd6f4c.0
+│   │   │   │   ├── 1df5a75f.0
+│   │   │   │   ├── 1e1eab7c.0
+│   │   │   │   ├── 1e8e7201.0
+│   │   │   │   ├── 1eb37bdf.0
+│   │   │   │   ├── 1f58a078.0
+│   │   │   │   ├── 21855f49.0
+│   │   │   │   ├── 219d9499.0
+│   │   │   │   ├── 23f4c490.0
+│   │   │   │   ├── 27af790d.0
+│   │   │   │   ├── 2add47b6.0
+│   │   │   │   ├── 2afc57aa.0
+│   │   │   │   ├── 2d9dafe4.0
+│   │   │   │   ├── 2fa87019.0
+│   │   │   │   ├── 2fb1850a.0
+│   │   │   │   ├── 33815e15.0
+│   │   │   │   ├── 33815e15.1
+│   │   │   │   ├── 343eb6cb.0
+│   │   │   │   ├── 35105088.0
+│   │   │   │   ├── 399e7759.0
+│   │   │   │   ├── 3a3b02ce.0
+│   │   │   │   ├── 3ad48a91.0
+│   │   │   │   ├── 3c58f906.0
+│   │   │   │   ├── 3c860d51.0
+│   │   │   │   ├── 3c9a4d3b.0
+│   │   │   │   ├── 3d441de8.0
+│   │   │   │   ├── 3e7271e8.0
+│   │   │   │   ├── 40dc992e.0
+│   │   │   │   ├── 418595b9.0
+│   │   │   │   ├── 450c6e38.0
+│   │   │   │   ├── 455f1b52.0
+│   │   │   │   ├── 48a195d8.0
+│   │   │   │   ├── 4d654d1d.0
+│   │   │   │   ├── 4e18c148.0
+│   │   │   │   ├── 4fbd6bfa.0
+│   │   │   │   ├── 5021a0a2.0
+│   │   │   │   ├── 5046c355.0
+│   │   │   │   ├── 524d9b43.0
+│   │   │   │   ├── 52b525c7.0
+│   │   │   │   ├── 56b8a0b6.0
+│   │   │   │   ├── 57692373.0
+│   │   │   │   ├── 58a44af1.0
+│   │   │   │   ├── 594f1775.0
+│   │   │   │   ├── 5a3f0ff8.0
+│   │   │   │   ├── 5cf9d536.0
+│   │   │   │   ├── 5e4e69e7.0
+│   │   │   │   ├── 5f47b495.0
+│   │   │   │   ├── 60afe812.0
+│   │   │   │   ├── 63a2c897.0
+│   │   │   │   ├── 67495436.0
+│   │   │   │   ├── 69105f4f.0
+│   │   │   │   ├── 6e8bf996.0
+│   │   │   │   ├── 6fcc125d.0
+│   │   │   │   ├── 72f369af.0
+│   │   │   │   ├── 72fa7371.0
+│   │   │   │   ├── 74c26bd0.0
+│   │   │   │   ├── 75680d2e.0
+│   │   │   │   ├── 7651b327.0
+│   │   │   │   ├── 76579174.0
+│   │   │   │   ├── 7672ac4b.0
+│   │   │   │   ├── 7999be0d.0
+│   │   │   │   ├── 7a481e66.0
+│   │   │   │   ├── 7a819ef2.0
+│   │   │   │   ├── 7d3cd826.0
+│   │   │   │   ├── 7d453d8f.0
+│   │   │   │   ├── 81b9768f.0
+│   │   │   │   ├── 82223c44.0
+│   │   │   │   ├── 8470719d.0
+│   │   │   │   ├── 84cba82f.0
+│   │   │   │   ├── 85cde254.0
+│   │   │   │   ├── 86212b19.0
+│   │   │   │   ├── 87753b0d.0
+│   │   │   │   ├── 882de061.0
+│   │   │   │   ├── 895cad1a.0
+│   │   │   │   ├── 89c02a45.0
+│   │   │   │   ├── 8d6437c3.0
+│   │   │   │   ├── 91739615.0
+│   │   │   │   ├── 9339512a.0
+│   │   │   │   ├── 9576d26b.0
+│   │   │   │   ├── 95aff9e3.0
+│   │   │   │   ├── 961f5451.0
+│   │   │   │   ├── 9685a493.0
+│   │   │   │   ├── 9772ca32.0
+│   │   │   │   ├── 9ab62355.0
+│   │   │   │   ├── 9d6523ce.0
+│   │   │   │   ├── 9dbefe7b.0
+│   │   │   │   ├── 9f533518.0
+│   │   │   │   ├── a0bc6fbb.0
+│   │   │   │   ├── a2c66da8.0
+│   │   │   │   ├── a2df7ad7.0
+│   │   │   │   ├── a3896b44.0
+│   │   │   │   ├── a7605362.0
+│   │   │   │   ├── a7d2cf64.0
+│   │   │   │   ├── ab5346f4.0
+│   │   │   │   ├── add67345.0
+│   │   │   │   ├── aeb67534.0
+│   │   │   │   ├── b0ed035a.0
+│   │   │   │   ├── b0f3e76e.0
+│   │   │   │   ├── b3fb433b.0
+│   │   │   │   ├── b7db1890.0
+│   │   │   │   ├── b872f2b4.0
+│   │   │   │   ├── bc3f2570.0
+│   │   │   │   ├── bda4cc84.0
+│   │   │   │   ├── bdacca6f.0
+│   │   │   │   ├── bf64f35b.0
+│   │   │   │   ├── c33a80d4.0
+│   │   │   │   ├── c3a6a9ad.0
+│   │   │   │   ├── c491639e.0
+│   │   │   │   ├── c51c224c.0
+│   │   │   │   ├── c527e4ab.0
+│   │   │   │   ├── c7e2a638.0
+│   │   │   │   ├── c90bc37d.0
+│   │   │   │   ├── cb156124.0
+│   │   │   │   ├── ccc52f49.0
+│   │   │   │   ├── cdaebb72.0
+│   │   │   │   ├── cf701eeb.0
+│   │   │   │   ├── d06393bb.0
+│   │   │   │   ├── d16a5865.0
+│   │   │   │   ├── d4c339cb.0
+│   │   │   │   ├── d59297b8.0
+│   │   │   │   ├── d64f06f3.0
+│   │   │   │   ├── d66b55d9.0
+│   │   │   │   ├── d7746a63.0
+│   │   │   │   ├── dbc54cab.0
+│   │   │   │   ├── ddc328ff.0
+│   │   │   │   ├── e268a4c5.0
+│   │   │   │   ├── e442e424.0
+│   │   │   │   ├── e48193cf.0
+│   │   │   │   ├── e60bf0c0.0
+│   │   │   │   ├── e775ed2d.0
+│   │   │   │   ├── e7b8d656.0
+│   │   │   │   ├── e8651083.0
+│   │   │   │   ├── ea169617.0
+│   │   │   │   ├── eb375c3e.0
+│   │   │   │   ├── ed39abd0.0
+│   │   │   │   ├── ed524cf5.0
+│   │   │   │   ├── ee7cd6fb.0
+│   │   │   │   ├── ee90b008.0
+│   │   │   │   ├── f58a60fe.0
+│   │   │   │   ├── f61bff45.0
+│   │   │   │   ├── f80cc7f6.0
+│   │   │   │   ├── fac084d7.0
+│   │   │   │   ├── facacbc6.0
+│   │   │   │   ├── fb126c6d.0
+│   │   │   │   ├── fde84897.0
+│   │   │   │   └── ff783690.0
+│   │   │   ├── cacerts_supl
+│   │   │   │   ├── 848ea856.0
+│   │   │   │   ├── c542733d.0
+│   │   │   │   └── f336e3d1.0
+│   │   │   ├── mac_permissions.xml
+│   │   │   └── otacerts.zip
+│   │   ├── spn-conf.xml
+│   │   ├── system_fonts.xml
+│   │   ├── thermald.xml
+│   │   ├── throttle.sh
+│   │   ├── trustzone.bin
+│   │   ├── updatecmds
+│   │   │   └── google_generic_update.txt
+│   │   ├── virtualNets-conf.xml
+│   │   ├── virtual-spn-conf-by-efgid1.xml
+│   │   ├── virtual-spn-conf-by-efpnn.xml
+│   │   ├── virtual-spn-conf-by-efspn.xml
+│   │   ├── virtual-spn-conf-by-imsi.xml
+│   │   ├── voicemail-conf.xml
+│   │   ├── wide-dhcpv6
+│   │   │   ├── dhcp6c.conf
+│   │   │   ├── dhcp6cctlkey
+│   │   │   ├── dhcp6cDNS.conf
+│   │   │   ├── dhcp6c.script
+│   │   │   └── dhcp6s.conf
+│   │   ├── wifi
+│   │   │   ├── p2p_supplicant_overlay.conf
+│   │   │   ├── wpa_supplicant.conf
+│   │   │   └── wpa_supplicant_overlay.conf
+│   │   ├── xlog-filter-default
+│   │   ├── xlog-filter-tags
+│   │   └── xml
+│   │       ├── app_widgets_white_list.xml
+│   │       ├── hw_defaults.xml
+│   │       ├── hw_easywakeupmotion_config.xml
+│   │       ├── hw_motion_config.xml
+│   │       ├── mms_config.xml
+│   │       └── power_profile.xml
+│   ├── fonts
+│   │   ├── AndroidClock_Highlight.ttf
+│   │   ├── AndroidClock_Solid.ttf
+│   │   ├── AndroidClock.ttf
+│   │   ├── CarroisGothicSC-Regular.ttf
+│   │   ├── Clockopia.ttf
+│   │   ├── ComingSoon.ttf
+│   │   ├── CutiveMono.ttf
+│   │   ├── DancingScript-Bold.ttf
+│   │   ├── DancingScript-Regular.ttf
+│   │   ├── DroidSansChinese.ttf
+│   │   ├── DroidSansFallback.ttf
+│   │   ├── DroidSansMono.ttf
+│   │   ├── Jomolhari.ttf
+│   │   ├── Lohit-Gujarati.ttf
+│   │   ├── Lohit-Odia.ttf
+│   │   ├── Lohit-Punjabi.ttf
+│   │   ├── MTLmr3m.ttf
+│   │   ├── NotoColorEmoji.ttf
+│   │   ├── NotoNaskh-Bold.ttf
+│   │   ├── NotoNaskh-Regular.ttf
+│   │   ├── NotoNaskhUI-Bold.ttf
+│   │   ├── NotoNaskhUI-Regular.ttf
+│   │   ├── NotoSansArmenian-Bold.ttf
+│   │   ├── NotoSansArmenian-Regular.ttf
+│   │   ├── NotoSansBalinese-Regular.ttf
+│   │   ├── NotoSansBatak-Regular.ttf
+│   │   ├── NotoSansBengali-Bold.ttf
+│   │   ├── NotoSansBengali-Regular.ttf
+│   │   ├── NotoSansBengaliUI-Bold.ttf
+│   │   ├── NotoSansBengaliUI-Regular.ttf
+│   │   ├── NotoSansBuginese-Regular.ttf
+│   │   ├── NotoSansBuhid-Regular.ttf
+│   │   ├── NotoSansCanadianAboriginal-Regular.ttf
+│   │   ├── NotoSansCham-Bold.ttf
+│   │   ├── NotoSansCham-Regular.ttf
+│   │   ├── NotoSansCherokee-Regular.ttf
+│   │   ├── NotoSansCoptic-Regular.ttf
+│   │   ├── NotoSansDevanagari-Bold.ttf
+│   │   ├── NotoSansDevanagari-Regular.ttf
+│   │   ├── NotoSansDevanagariUI-Bold.ttf
+│   │   ├── NotoSansDevanagariUI-Regular.ttf
+│   │   ├── NotoSansEthiopic-Bold.ttf
+│   │   ├── NotoSansEthiopic-Regular.ttf
+│   │   ├── NotoSansGeorgian-Bold.ttf
+│   │   ├── NotoSansGeorgian-Regular.ttf
+│   │   ├── NotoSansGlagolitic-Regular.ttf
+│   │   ├── NotoSansGujarati-Bold.ttf
+│   │   ├── NotoSansGujarati-Regular.ttf
+│   │   ├── NotoSansGujaratiUI-Bold.ttf
+│   │   ├── NotoSansGujaratiUI-Regular.ttf
+│   │   ├── NotoSansGurmukhi-Bold.ttf
+│   │   ├── NotoSansGurmukhi-Regular.ttf
+│   │   ├── NotoSansGurmukhiUI-Bold.ttf
+│   │   ├── NotoSansGurmukhiUI-Regular.ttf
+│   │   ├── NotoSansHans-Regular.otf
+│   │   ├── NotoSansHant-Regular.otf
+│   │   ├── NotoSansHanunoo-Regular.ttf
+│   │   ├── NotoSansHebrew-Bold.ttf
+│   │   ├── NotoSansHebrew-Regular.ttf
+│   │   ├── NotoSansJavanese-Regular.ttf
+│   │   ├── NotoSansJP-Regular.otf
+│   │   ├── NotoSansKannada-Bold.ttf
+│   │   ├── NotoSansKannada-Regular.ttf
+│   │   ├── NotoSansKannadaUI-Bold.ttf
+│   │   ├── NotoSansKannadaUI-Regular.ttf
+│   │   ├── NotoSansKayahLi-Regular.ttf
+│   │   ├── NotoSansKhmer-Bold.ttf
+│   │   ├── NotoSansKhmer-Regular.ttf
+│   │   ├── NotoSansKhmerUI-Bold.ttf
+│   │   ├── NotoSansKhmerUI-Regular.ttf
+│   │   ├── NotoSansKR-Regular.otf
+│   │   ├── NotoSansLao-Bold.ttf
+│   │   ├── NotoSansLao-Regular.ttf
+│   │   ├── NotoSansLaoUI-Bold.ttf
+│   │   ├── NotoSansLaoUI-Regular.ttf
+│   │   ├── NotoSansLepcha-Regular.ttf
+│   │   ├── NotoSansLimbu-Regular.ttf
+│   │   ├── NotoSansMalayalam-Bold.ttf
+│   │   ├── NotoSansMalayalam-Regular.ttf
+│   │   ├── NotoSansMalayalamUI-Bold.ttf
+│   │   ├── NotoSansMalayalamUI-Regular.ttf
+│   │   ├── NotoSansMeeteiMayek-Regular.ttf
+│   │   ├── NotoSansMyanmar-Bold.ttf
+│   │   ├── NotoSansMyanmar-Regular.ttf
+│   │   ├── NotoSansMyanmarUI-Bold.ttf
+│   │   ├── NotoSansMyanmarUI-Regular.ttf
+│   │   ├── NotoSansOlChiki-Regular.ttf
+│   │   ├── NotoSansRejang-Regular.ttf
+│   │   ├── NotoSansSaurashtra-Regular.ttf
+│   │   ├── NotoSansSinhala-Bold.ttf
+│   │   ├── NotoSansSinhala-Regular.ttf
+│   │   ├── NotoSansSundanese-Regular.ttf
+│   │   ├── NotoSansSylotiNagri-Regular.ttf
+│   │   ├── NotoSansSymbols-Regular-Subsetted.ttf
+│   │   ├── NotoSansTagbanwa-Regular.ttf
+│   │   ├── NotoSansTaiLe-Regular.ttf
+│   │   ├── NotoSansTaiTham-Regular.ttf
+│   │   ├── NotoSansTaiViet-Regular.ttf
+│   │   ├── NotoSansTamil-Bold.ttf
+│   │   ├── NotoSansTamil-Regular.ttf
+│   │   ├── NotoSansTamilUI-Bold.ttf
+│   │   ├── NotoSansTamilUI-Regular.ttf
+│   │   ├── NotoSansTelugu-Bold.ttf
+│   │   ├── NotoSansTelugu-Regular.ttf
+│   │   ├── NotoSansTeluguUI-Bold.ttf
+│   │   ├── NotoSansTeluguUI-Regular.ttf
+│   │   ├── NotoSansThaana-Bold.ttf
+│   │   ├── NotoSansThaana-Regular.ttf
+│   │   ├── NotoSansThai-Bold.ttf
+│   │   ├── NotoSansThai-Regular.ttf
+│   │   ├── NotoSansThaiUI-Bold.ttf
+│   │   ├── NotoSansThaiUI-Regular.ttf
+│   │   ├── NotoSansTifinagh-Regular.ttf
+│   │   ├── NotoSansYi-Regular.ttf
+│   │   ├── NotoSerif-BoldItalic.ttf
+│   │   ├── NotoSerif-Bold.ttf
+│   │   ├── NotoSerif-Italic.ttf
+│   │   ├── NotoSerif-Regular.ttf
+│   │   ├── Roboto-BlackItalic.ttf
+│   │   ├── Roboto-Black.ttf
+│   │   ├── Roboto-BoldItalic.ttf
+│   │   ├── Roboto-Bold.ttf
+│   │   ├── RobotoCondensed-BoldItalic.ttf
+│   │   ├── RobotoCondensed-Bold.ttf
+│   │   ├── RobotoCondensed-Italic.ttf
+│   │   ├── RobotoCondensed-LightItalic.ttf
+│   │   ├── RobotoCondensed-Light.ttf
+│   │   ├── RobotoCondensed-Regular.ttf
+│   │   ├── Roboto-Italic.ttf
+│   │   ├── Roboto-LightItalic.ttf
+│   │   ├── Roboto-Light.ttf
+│   │   ├── Roboto-MediumItalic.ttf
+│   │   ├── Roboto-Medium.ttf
+│   │   ├── Roboto-Regular.ttf
+│   │   ├── Roboto-ThinItalic.ttf
+│   │   ├── Roboto-Thin.ttf
+│   │   ├── slim.ttf
+│   │   └── SmartZawgyi.ttf
+│   ├── framework
+│   │   ├── am.jar
+│   │   ├── android.policy.jar
+│   │   ├── android.test.runner.jar
+│   │   ├── apache-xml.jar
+│   │   ├── appops.jar
+│   │   ├── appwidget.jar
+│   │   ├── arm
+│   │   │   ├── am.odex
+│   │   │   ├── android.test.runner.odex
+│   │   │   ├── appops.odex
+│   │   │   ├── appwidget.odex
+│   │   │   ├── bmgr.odex
+│   │   │   ├── boot.art
+│   │   │   ├── boot.oat
+│   │   │   ├── bu.odex
+│   │   │   ├── com.android.contacts.separated.odex
+│   │   │   ├── com.android.future.usb.accessory.odex
+│   │   │   ├── com.android.location.provider.odex
+│   │   │   ├── com.android.mediadrm.signer.odex
+│   │   │   ├── com.android.media.remotedisplay.odex
+│   │   │   ├── com.huawei.systemmanager.separated.odex
+│   │   │   ├── com.mediatek.effect.odex
+│   │   │   ├── content.odex
+│   │   │   ├── CustomPropInterface.odex
+│   │   │   ├── dpm.odex
+│   │   │   ├── ethernet-service.odex
+│   │   │   ├── hwBrowserConfig.odex
+│   │   │   ├── hwcustservices.odex
+│   │   │   ├── hwServices.odex
+│   │   │   ├── hwWifi-service.odex
+│   │   │   ├── ime.odex
+│   │   │   ├── input.odex
+│   │   │   ├── javax.obex.odex
+│   │   │   ├── media_cmd.odex
+│   │   │   ├── monkey.odex
+│   │   │   ├── MultiWindowProxy.odex
+│   │   │   ├── pm.odex
+│   │   │   ├── recovery.odex
+│   │   │   ├── requestsync.odex
+│   │   │   ├── services.odex
+│   │   │   ├── settings.odex
+│   │   │   ├── svc.odex
+│   │   │   ├── uiautomator.odex
+│   │   │   ├── wifi-service.odex
+│   │   │   └── wm.odex
+│   │   ├── bmgr.jar
+│   │   ├── bouncycastle.jar
+│   │   ├── bu.jar
+│   │   ├── com.android.future.usb.accessory.jar
+│   │   ├── com.android.location.provider.jar
+│   │   ├── com.android.mediadrm.signer.jar
+│   │   ├── com.android.media.remotedisplay.jar
+│   │   ├── com.google.android.maps.jar
+│   │   ├── com.google.android.media.effects.jar
+│   │   ├── com.google.widevine.software.drm.jar
+│   │   ├── com.mediatek.effect.jar
+│   │   ├── conscrypt.jar
+│   │   ├── content.jar
+│   │   ├── core-junit.jar
+│   │   ├── core-libart.jar
+│   │   ├── CustomPropInterface.jar
+│   │   ├── dpm.jar
+│   │   ├── ethernet-service.jar
+│   │   ├── ext.jar
+│   │   ├── framework.jar
+│   │   ├── framework-res.apk
+│   │   ├── framework-res-hwext.apk
+│   │   ├── hwAndroid.policy.jar
+│   │   ├── hwcustAndroid.policy.jar
+│   │   ├── hwcustframework.jar
+│   │   ├── hwcustservices.jar
+│   │   ├── hwcustTelephony-common.jar
+│   │   ├── hwEmui.jar
+│   │   ├── hwframework.jar
+│   │   ├── hwpostcamera.jar
+│   │   ├── hwServices.jar
+│   │   ├── hwTelephony-common.jar
+│   │   ├── hwtransition.jar
+│   │   ├── hwWifi-service.jar
+│   │   ├── ime.jar
+│   │   ├── ims-common.jar
+│   │   ├── input.jar
+│   │   ├── javax.obex.jar
+│   │   ├── media_cmd.jar
+│   │   ├── mediatek-common.jar
+│   │   ├── mediatek-framework.jar
+│   │   ├── mediatek-res
+│   │   │   └── mediatek-res.apk
+│   │   ├── mediatek-telephony-common.jar
+│   │   ├── mms-common.jar
+│   │   ├── monkey.jar
+│   │   ├── MultiWindowProxy.jar
+│   │   ├── okhttp.jar
+│   │   ├── org.simalliance.openmobileapi.jar
+│   │   ├── pm.jar
+│   │   ├── recovery.jar
+│   │   ├── requestsync.jar
+│   │   ├── services.jar
+│   │   ├── settings.jar
+│   │   ├── svc.jar
+│   │   ├── telephony-common.jar
+│   │   ├── uiautomator.jar
+│   │   ├── voip-common.jar
+│   │   ├── wifi-service.jar
+│   │   └── wm.jar
+│   ├── lib
+│   │   ├── crtbegin_so.o
+│   │   ├── crtend_so.o
+│   │   ├── drm
+│   │   │   └── libdrmhwomavoneplugin.so
+│   │   ├── egl
+│   │   │   ├── egl.cfg
+│   │   │   ├── libGLES_android.so
+│   │   │   └── libGLES_mali.so
+│   │   ├── hw
+│   │   │   ├── audio_policy.default.so
+│   │   │   ├── audio_policy.stub.so
+│   │   │   ├── audio.primary.default.so
+│   │   │   ├── audio.primary.mt6735.so
+│   │   │   ├── audio.r_submix.default.so
+│   │   │   ├── audio.usb.default.so
+│   │   │   ├── bluetooth.default.so
+│   │   │   ├── camera.mt6735.so
+│   │   │   ├── gps.default.so
+│   │   │   ├── gralloc.default.so
+│   │   │   ├── gralloc.mt6735.so
+│   │   │   ├── hwcomposer.mt6735.so
+│   │   │   ├── keystore.default.so
+│   │   │   ├── lights.default.so
+│   │   │   ├── local_time.default.so
+│   │   │   ├── memtrack.mt6735.so
+│   │   │   ├── mmsdk.default.so
+│   │   │   ├── power.default.so
+│   │   │   ├── sensors.mt6735.so
+│   │   │   └── vibrator.default.so
+│   │   ├── lib3a_sample.so
+│   │   ├── lib3a.so
+│   │   ├── liba3m.so
+│   │   ├── libaal.so
+│   │   ├── libacdk.so
+│   │   ├── libadpcm.so
+│   │   ├── libaed.so
+│   │   ├── libAGifEncoder.so
+│   │   ├── libalspsjni.so
+│   │   ├── libalsps.so
+│   │   ├── libandroidfw.so
+│   │   ├── libandroid_runtime.so
+│   │   ├── libandroid_servers.so
+│   │   ├── libandroid.so
+│   │   ├── libart-compiler.so
+│   │   ├── libart-disassembler.so
+│   │   ├── libart.so
+│   │   ├── libassd.so
+│   │   ├── libatciserv_jni.so
+│   │   ├── libatvctrlservice.so
+│   │   ├── libaudiocompensationfilter.so
+│   │   ├── libaudiocomponentengine.so
+│   │   ├── libaudiocustparam.so
+│   │   ├── libaudiodcrflt.so
+│   │   ├── libaudioeffect_jni.so
+│   │   ├── libaudioflinger.huawei.so
+│   │   ├── libaudioflinger.so
+│   │   ├── libaudiomtkdcremoval.so
+│   │   ├── libaudiopolicymanagerdefault.so
+│   │   ├── libaudiopolicymanager.so
+│   │   ├── libaudiopolicyservice.so
+│   │   ├── libaudio-resampler.so
+│   │   ├── libaudioresampler.so
+│   │   ├── libaudiosetting.so
+│   │   ├── libaudioutils.so
+│   │   ├── libbacktrace_libc++.so
+│   │   ├── libbacktrace.so
+│   │   ├── libbcc.so
+│   │   ├── libbcinfo.so
+│   │   ├── libbessound_hd_mtk.so
+│   │   ├── libbessurround_mtk.so
+│   │   ├── libBestShot.so
+│   │   ├── libbinder.so
+│   │   ├── libblisrc32.so
+│   │   ├── libblisrc.so
+│   │   ├── libbluetoothdrv.so
+│   │   ├── libbluetoothem_mtk.so
+│   │   ├── libbluetooth_jni.so
+│   │   ├── libbluetooth_mtk.so
+│   │   ├── libbluetooth_relayer.so
+│   │   ├── libBnMtkCodec.so
+│   │   ├── libbspatchhwouc.so
+│   │   ├── libbtcust.so
+│   │   ├── libbtcusttable.so
+│   │   ├── libbtcusttc1.so
+│   │   ├── libbtem.so
+│   │   ├── libbtpcm.so
+│   │   ├── libbtsession.so
+│   │   ├── libbtsniff.so
+│   │   ├── libbtstd.so
+│   │   ├── libbwc.so
+│   │   ├── libcam1_utils.so
+│   │   ├── libcam3_app.so
+│   │   ├── libcam3_hwnode.so
+│   │   ├── libcam3_hwpipeline.so
+│   │   ├── libcam3_pipeline.so
+│   │   ├── libcam3_utils.so
+│   │   ├── libcamalgo.so
+│   │   ├── libcam.camadapter.so
+│   │   ├── libcam.camnode.so
+│   │   ├── libcam.camshot.so
+│   │   ├── libcam.client.so
+│   │   ├── libcam.device1.so
+│   │   ├── libcam.device3.so
+│   │   ├── libcamdrv.so
+│   │   ├── libcamera_algo_refocus_process.so
+│   │   ├── libcamera_bestshot_process_omron.so
+│   │   ├── libcamera_bestshot_process.so
+│   │   ├── libcamera_client_mtk.so
+│   │   ├── libcamera_client.so
+│   │   ├── libcamera_common_huawei.so
+│   │   ├── libcameracustom.so
+│   │   ├── libcamera_hwa_doc_dsfbeauty.so
+│   │   ├── libcamera_hwa_doc_vfacebeauty.so
+│   │   ├── libcamera_hwa_front_panorama.so
+│   │   ├── libcamera_metadata.so
+│   │   ├── libcameraservice.so
+│   │   ├── libcam.exif.so
+│   │   ├── libcam.exif.v3.so
+│   │   ├── libcam.hal3a.v3.dng.so
+│   │   ├── libcam.hal3a.v3.so
+│   │   ├── libcam.halsensor.so
+│   │   ├── libcam_hwutils.so
+│   │   ├── libcam.iopipe.so
+│   │   ├── libcam.jni.lomohaljni.so
+│   │   ├── libcam.metadataprovider.so
+│   │   ├── libcam.metadata.so
+│   │   ├── libcam_mmp.so
+│   │   ├── libcam.paramsmgr.so
+│   │   ├── libcam_platform.so
+│   │   ├── libcam.sdkclient.so
+│   │   ├── libcam.utils.cpuctrl.so
+│   │   ├── libcam.utils.sensorlistener.so
+│   │   ├── libcam_utils.so
+│   │   ├── libcam.utils.so
+│   │   ├── libccci_util.so
+│   │   ├── libclcore.bc
+│   │   ├── libclcore_debug.bc
+│   │   ├── libclcore_neon.bc
+│   │   ├── libcommon_time_client.so
+│   │   ├── libcompiler_rt.so
+│   │   ├── libcontactsmatchname.so
+│   │   ├── libcontactsnaqtodat.so
+│   │   ├── libcrypto.so
+│   │   ├── libc.so
+│   │   ├── libc++.so
+│   │   ├── libcurl.so
+│   │   ├── libcustom_jni.so
+│   │   ├── libcustom_nvram.so
+│   │   ├── libcustom_prop.so
+│   │   ├── libcustpwmanager_jni.so
+│   │   ├── libcutils.so
+│   │   ├── libcvsd_mtk.so
+│   │   ├── libdefcontainer_jni.so
+│   │   ├── libdirect-coredump.so
+│   │   ├── libdiskconfig.so
+│   │   ├── libdl.so
+│   │   ├── libdngop.so
+│   │   ├── libdpframework.so
+│   │   ├── libdrmbitmap.huawei.so
+│   │   ├── libdrmframework_jni.so
+│   │   ├── libdrmframework.so
+│   │   ├── libdrmmtkutil.so
+│   │   ├── libdrmmtkwhitelist.so
+│   │   ├── libeffects.so
+│   │   ├── libEGL.so
+│   │   ├── libem_bt_jni.so
+│   │   ├── libem_gpio_jni.so
+│   │   ├── libem_lte_jni.so
+│   │   ├── libem_modem_jni.so
+│   │   ├── libempty.so
+│   │   ├── libem_sensor_jni.so
+│   │   ├── libem_support_jni.so
+│   │   ├── libem_usb_jni.so
+│   │   ├── libem_wifi_jni.so
+│   │   ├── libETC1.so
+│   │   ├── libexif.so
+│   │   ├── libexpat.so
+│   │   ├── libext2_blkid.so
+│   │   ├── libext2_com_err.so
+│   │   ├── libext2_e2p.so
+│   │   ├── libext2fs.so
+│   │   ├── libext2_profile.so
+│   │   ├── libext2_quota.so
+│   │   ├── libext2_uuid.so
+│   │   ├── libext4_utils.so
+│   │   ├── libextadvanced_jni.so
+│   │   ├── libextbip_jni.so
+│   │   ├── libextbip.so
+│   │   ├── libextbpp_jni.so
+│   │   ├── libextbpp.so
+│   │   ├── libextdun_jni.so
+│   │   ├── libextem.so
+│   │   ├── libextftp_jni.so
+│   │   ├── libextftp.so
+│   │   ├── libextmap_jni.so
+│   │   ├── libextmap.so
+│   │   ├── libextsimap_jni.so
+│   │   ├── libextsimap.so
+│   │   ├── libextsys_jni.so
+│   │   ├── libextsys.so
+│   │   ├── libexttestmode.so
+│   │   ├── libf2fs_sparseblock.so
+│   │   ├── libfeatureiodrv.so
+│   │   ├── libfeatureio.so
+│   │   ├── libffmpeg_neon.so
+│   │   ├── libFFTEm.so
+│   │   ├── libffvplayer.so
+│   │   ├── libfgauge.so
+│   │   ├── libfile_op.so
+│   │   ├── libfilterfw.so
+│   │   ├── libfilterpack_facedetect.so
+│   │   ├── libfilterpack_imageproc.so
+│   │   ├── libfmcust.so
+│   │   ├── libfm_jni.so
+│   │   ├── libfmjni.so
+│   │   ├── libfmmt6620.so
+│   │   ├── libfmmt6627.so
+│   │   ├── libfmmt6628.so
+│   │   ├── libfmmt6630.so
+│   │   ├── libFNVfbEngineLib.so
+│   │   ├── libft2.so
+│   │   ├── libgabi++.so
+│   │   ├── libgccdemangle.so
+│   │   ├── libGdmaScalerPipe.so
+│   │   ├── libged.so
+│   │   ├── libgifEncoder_jni.so
+│   │   ├── libGLES_trace.so
+│   │   ├── libGLESv1_CM.so
+│   │   ├── libGLESv2.so
+│   │   ├── libgpu_aux.so
+│   │   ├── libgralloc_extra.so
+│   │   ├── libgraphite2.so
+│   │   ├── libgui_ext.so
+│   │   ├── libgui.so
+│   │   ├── libh264enc_sa.ca7.so
+│   │   ├── libh264enc_sb.ca7.so
+│   │   ├── libhardware_legacy.so
+│   │   ├── libhardware.so
+│   │   ├── libharfbuzz_ng.so
+│   │   ├── libHEVCdec_sa.ca7.android.so
+│   │   ├── libhidisk_security.so
+│   │   ├── libhotknot.so
+│   │   ├── libhotknot_vendor.so
+│   │   ├── libhuaqinnvram.so
+│   │   ├── libhwlog_jni.so
+│   │   ├── libHwMotionRecognition.so
+│   │   ├── libhwm.so
+│   │   ├── libhwouc_jni.so
+│   │   ├── libHW_Pano_f.so
+│   │   ├── libhwtheme_jni.so
+│   │   ├── libHwTmr.so
+│   │   ├── libhwui.so
+│   │   ├── libicui18n.so
+│   │   ├── libicuuc.so
+│   │   ├── libimageio_plat_drv.so
+│   │   ├── libimageio.so
+│   │   ├── libimg_utils.so
+│   │   ├── libinputflinger.so
+│   │   ├── libinputservice.so
+│   │   ├── libinput.so
+│   │   ├── libion_mtk.so
+│   │   ├── libion.so
+│   │   ├── libiprouteutil.so
+│   │   ├── libIrLearning_jni.so
+│   │   ├── libIvw35_jni_wrapper.so
+│   │   ├── libIvw35.so
+│   │   ├── libja3m.so
+│   │   ├── libjankservice.so
+│   │   ├── libjavacore.so
+│   │   ├── libjavacrypto.so
+│   │   ├── libjhead.so
+│   │   ├── libJniAtvService.so
+│   │   ├── libjni_bardian_filter_effect.so
+│   │   ├── libjnidcamera_visual_effect.so
+│   │   ├── libjni_eglfence.so
+│   │   ├── libjni_feminine_filters.so
+│   │   ├── libjni_filtershow_filters.so
+│   │   ├── libjni_front_panorama_camera.so
+│   │   ├── libjnigraphics.so
+│   │   ├── libjni_latinime.so
+│   │   ├── libjni_lomoeffect.so
+│   │   ├── libjni_morpho_filters.so
+│   │   ├── libjni_mrc_cg_filters_camera.so
+│   │   ├── libjni_mrc_cg_filters.so
+│   │   ├── libjni_mrc_cg_hazeremoval.so
+│   │   ├── libjni_omron_facebeautifier.so
+│   │   ├── libjni_pacprocessor.so
+│   │   ├── libjni_pq.so
+│   │   ├── libjni_SFBE.so
+│   │   ├── libjni_tiltcorrection.so
+│   │   ├── libjpeg.so
+│   │   ├── libJpgDecPipe.so
+│   │   ├── libJpgEncPipe.so
+│   │   ├── libjtranscode.so
+│   │   ├── libkeystore_binder.so
+│   │   ├── libLLVM.so
+│   │   ├── liblog.so
+│   │   ├── liblogwrap.so
+│   │   ├── libm4u.so
+│   │   ├── libmatv_cust.so
+│   │   ├── libmdloggerrecycle.so
+│   │   ├── libmdnssd.so
+│   │   ├── libmedia_jni.huawei.so
+│   │   ├── libmedia_jni.so
+│   │   ├── libmedialogservice.so
+│   │   ├── libmediandk.so
+│   │   ├── libmediaplayerservice.so
+│   │   ├── libmediarecorder.huawei.so
+│   │   ├── libmedia.so
+│   │   ├── libmediatek_exceptionlog.so
+│   │   ├── libmemoryDumpEncoder.so
+│   │   ├── libmemorydumper.so
+│   │   ├── libmemtrack.so
+│   │   ├── libmhalImageCodec.so
+│   │   ├── libminikin.so
+│   │   ├── libmmprofile_jni.so
+│   │   ├── libmmprofile.so
+│   │   ├── libmmsdkservice.feature_platform.so
+│   │   ├── libmmsdkservice.feature.so
+│   │   ├── libmmsdkservice.so
+│   │   ├── libmnl.so
+│   │   ├── libmorpho_memory_allocator.so
+│   │   ├── libmorpho_panorama_gp.so
+│   │   ├── libmp4enc_sa.ca7.so
+│   │   ├── libmp4enc_xa.ca7.so
+│   │   ├── libmpodecoder.so
+│   │   ├── libmpoencoder.so
+│   │   ├── libmpojni.so
+│   │   ├── libmpo.so
+│   │   ├── libmsbc_mtk.so
+│   │   ├── libm.so
+│   │   ├── libmtb.so
+│   │   ├── libmtcloader.so
+│   │   ├── libmtkbtextspp.so
+│   │   ├── libmtk_drvb.so
+│   │   ├── libmtkjpeg.so
+│   │   ├── libmtklimiter.so
+│   │   ├── libmtk_mmutils.so
+│   │   ├── libMtkOmxAdpcmDec.so
+│   │   ├── libMtkOmxAdpcmEnc.so
+│   │   ├── libMtkOmxAlacDec.so
+│   │   ├── libMtkOmxApeDec.so
+│   │   ├── libMtkOmxCore.so
+│   │   ├── libMtkOmxFlacDec.so
+│   │   ├── libMtkOmxG711Dec.so
+│   │   ├── libMtkOmxGsmDec.so
+│   │   ├── libMtkOmxMp3Dec.so
+│   │   ├── libMtkOmxRawDec.so
+│   │   ├── libMtkOmxVdec.so
+│   │   ├── libMtkOmxVenc.so
+│   │   ├── libMtkOmxVorbisEnc.so
+│   │   ├── libmtkplayer.so
+│   │   ├── libmtkshifter.so
+│   │   ├── libmtksqlite3_android.so
+│   │   ├── libmtksqlite3_custom.so
+│   │   ├── libMtkVideoSpeedEffect.so
+│   │   ├── libMtkVideoTranscoder.so
+│   │   ├── libmtp.huawei.so
+│   │   ├── libmtp.so
+│   │   ├── libn3d3a.so
+│   │   ├── libnativebridge.so
+│   │   ├── libnativecheck-jni.so
+│   │   ├── libnativehelper.so
+│   │   ├── libnbaio.so
+│   │   ├── libnetd_client.so
+│   │   ├── libnetlink.so
+│   │   ├── libnetutils.so
+│   │   ├── libnfc_ndef.so
+│   │   ├── libnl.so
+│   │   ├── libnmsp_speex.so
+│   │   ├── libnvramagentclient.so
+│   │   ├── libnvram_daemon_callback.so
+│   │   ├── libnvram_platform.so
+│   │   ├── libnvram_sec.so
+│   │   ├── libnvram.so
+│   │   ├── libOpenMAXAL.so
+│   │   ├── libOpenSLES.so
+│   │   ├── libopus.so
+│   │   ├── libpac.so
+│   │   ├── libpalsecurity.so
+│   │   ├── libpalwlan_mtk.so
+│   │   ├── libpcre.so
+│   │   ├── libpdfium.so
+│   │   ├── libperfservicenative.so
+│   │   ├── libperfservice.so
+│   │   ├── libpixelflinger.so
+│   │   ├── libpng.so
+│   │   ├── libpowergenie_native3.so
+│   │   ├── libpowermanager.so
+│   │   ├── libpower.so
+│   │   ├── libpppbtdun.so
+│   │   ├── libpq_cust.so
+│   │   ├── libPQDCjni.so
+│   │   ├── libPQjni.so
+│   │   ├── libpq_prot.so
+│   │   ├── libprintspooler_jni.so
+│   │   ├── libprocessgroup.so
+│   │   ├── libqrcode.so
+│   │   ├── libreference-ril.so
+│   │   ├── libRefocusContrastPosition.so
+│   │   ├── librilmtkmd2.so
+│   │   ├── librilmtk.so
+│   │   ├── libril.so
+│   │   ├── librilutils.so
+│   │   ├── libRScpp.so
+│   │   ├── libRSCpuRef.so
+│   │   ├── libRSDriver.so
+│   │   ├── librs_jni.so
+│   │   ├── libRS.so
+│   │   ├── librtp_jni.so
+│   │   ├── libsbccodec.so
+│   │   ├── libsec.so
+│   │   ├── libselinux.so
+│   │   ├── libsensorservice.so
+│   │   ├── libservices.huawei.so
+│   │   ├── libserviceutility.so
+│   │   ├── libSFBE.so
+│   │   ├── libshowlogo.so
+│   │   ├── libsigchain.so
+│   │   ├── libskia.so
+│   │   ├── libsoftkeymaster.so
+│   │   ├── libsonivox.so
+│   │   ├── libSonyIMX230PdafLibrary.so
+│   │   ├── libsoundpool.so
+│   │   ├── libsoundtriggerservice.so
+│   │   ├── libsoundtrigger.so
+│   │   ├── libsparse.so
+│   │   ├── libspeech_enh_lib.so
+│   │   ├── libspeexresampler.so
+│   │   ├── libsqlite_jni.so
+│   │   ├── libsqlite.so
+│   │   ├── libssladp.so
+│   │   ├── libssl.so
+│   │   ├── libstagefright_amrnb_common.so
+│   │   ├── libstagefright_avc_common.so
+│   │   ├── libstagefright_enc_common.so
+│   │   ├── libstagefright_foundation.so
+│   │   ├── libstagefright_httplive.so
+│   │   ├── libstagefright_http_support.so
+│   │   ├── libstagefright.huawei.so
+│   │   ├── libstagefrighthw.so
+│   │   ├── libstagefright_omx.so
+│   │   ├── libstagefright.so
+│   │   ├── libstagefright_soft_aacdec.so
+│   │   ├── libstagefright_soft_aacenc.so
+│   │   ├── libstagefright_soft_amrdec.so
+│   │   ├── libstagefright_soft_amrnbenc.so
+│   │   ├── libstagefright_soft_amrwbenc.so
+│   │   ├── libstagefright_soft_flacenc.so
+│   │   ├── libstagefright_soft_g711dec.so
+│   │   ├── libstagefright_soft_gsmdec.so
+│   │   ├── libstagefright_soft_h264dec.so
+│   │   ├── libstagefright_soft_h264enc.so
+│   │   ├── libstagefright_soft_hevcdec.so
+│   │   ├── libstagefright_soft_mp3dec.so
+│   │   ├── libstagefright_soft_mpeg4dec.so
+│   │   ├── libstagefright_soft_mpeg4enc.so
+│   │   ├── libstagefright_soft_opusdec.so
+│   │   ├── libstagefright_soft_rawdec.so
+│   │   ├── libstagefright_soft_vorbisdec.so
+│   │   ├── libstagefright_soft_vpxdec.so
+│   │   ├── libstagefright_soft_vpxenc.so
+│   │   ├── libstagefright_wfd.so
+│   │   ├── libstagefright_yuv.so
+│   │   ├── libstdc++.so
+│   │   ├── libstlport.so
+│   │   ├── libsurfaceflinger_ddmconnection.so
+│   │   ├── libsurfaceflinger.so
+│   │   ├── libsuspend.so
+│   │   ├── libSwJpgCodec.so
+│   │   ├── libSwypeCore.so
+│   │   ├── libsync.so
+│   │   ├── libsysrms_jni.so
+│   │   ├── libsysutils.so
+│   │   ├── libterservice.so
+│   │   ├── libtestbattery_jni.so
+│   │   ├── libtesterbattery_jni.so
+│   │   ├── libtestermemory_jni.so
+│   │   ├── libtestersensor_jni.so
+│   │   ├── libTHImageOCR.so
+│   │   ├── libtimestretch.so
+│   │   ├── libtinyalsa.so
+│   │   ├── libtinycompress.so
+│   │   ├── libtinyxml.so
+│   │   ├── libtouchfilter.so
+│   │   ├── libtranslator_jni.so
+│   │   ├── libttscompat.so
+│   │   ├── libttspico.so
+│   │   ├── libtwcutchr.so
+│   │   ├── libtwcutckr.so
+│   │   ├── libtwcutle.so
+│   │   ├── libtwocr32.so
+│   │   ├── libudf.so
+│   │   ├── libui_ext.so
+│   │   ├── libui.so
+│   │   ├── libunwind-ptrace.so
+│   │   ├── libunwind.so
+│   │   ├── libusbhost.so
+│   │   ├── libutils.so
+│   │   ├── libvariablespeed.so
+│   │   ├── libvc1dec_sa.ca7.so
+│   │   ├── libvcodecdrv.so
+│   │   ├── libvcodec_oal.so
+│   │   ├── libvcodec_utility.so
+│   │   ├── libvie_jni.so
+│   │   ├── libvie.so
+│   │   ├── libvixl.so
+│   │   ├── libvoicerecognition_jni.so
+│   │   ├── libvoicerecognition.so
+│   │   ├── libvorbisidec.so
+│   │   ├── libvp8dec_sa.ca7.so
+│   │   ├── libvp8enc_sa.ca7.so
+│   │   ├── libvp9dec_sa.ca7.so
+│   │   ├── libwapi.so
+│   │   ├── libwebrtc_audio_preprocessing.so
+│   │   ├── libwebviewchromium_loader.so
+│   │   ├── libwebviewchromium_plat_support.so
+│   │   ├── libwifi-service.so
+│   │   ├── libwifitest.so
+│   │   ├── libwilhelm.so
+│   │   ├── libwordseglite.so
+│   │   ├── libwpa_client.so
+│   │   ├── libz.so
+│   │   ├── modules
+│   │   ├── mtk-rilmd2.so
+│   │   ├── mtk-ril.so
+│   │   ├── soundfx
+│   │   │   ├── libaudiopreprocessing.so
+│   │   │   ├── libbundlewrapper.so
+│   │   │   ├── libdownmix.so
+│   │   │   ├── libeffectproxy.so
+│   │   │   ├── libldnhncr.so
+│   │   │   ├── libreverbwrapper.so
+│   │   │   └── libvisualizer.so
+│   │   └── ssl
+│   │       └── engines
+│   │           └── libkeystore.so
+│   ├── lib64
+│   │   ├── libHwTmr.so
+│   │   └── libumetrip.so
+│   ├── lost+found
+│   ├── media
+│   │   ├── audio
+│   │   │   ├── alarms
+│   │   │   │   ├── Alarm_Beep.ogg
+│   │   │   │   ├── Alarm_Classic.ogg
+│   │   │   │   ├── Alarm_Rooster.ogg
+│   │   │   │   ├── Bugle.ogg
+│   │   │   │   ├── Creamy.ogg
+│   │   │   │   ├── Fresh_Air.ogg
+│   │   │   │   ├── Guitar_Heaven.ogg
+│   │   │   │   ├── Ripple.ogg
+│   │   │   │   └── Timer_Beep.ogg
+│   │   │   ├── animationsounds
+│   │   │   │   └── bootSound.ogg
+│   │   │   ├── notifications
+│   │   │   │   ├── Arrow.ogg
+│   │   │   │   ├── Bongo.ogg
+│   │   │   │   ├── Car_Lock.ogg
+│   │   │   │   ├── Crystal_Drop.ogg
+│   │   │   │   ├── Drip.ogg
+│   │   │   │   ├── Hand_Drum.ogg
+│   │   │   │   ├── Huawei_Cascade.ogg
+│   │   │   │   ├── Joyful.ogg
+│   │   │   │   ├── Leaf.ogg
+│   │   │   │   ├── Microwave_Oven.ogg
+│   │   │   │   ├── Old_Bicycle.ogg
+│   │   │   │   ├── Summer.ogg
+│   │   │   │   ├── Twinkle.ogg
+│   │   │   │   ├── Waterflow.ogg
+│   │   │   │   ├── Whisper.ogg
+│   │   │   │   └── Whistle.ogg
+│   │   │   ├── ringtones
+│   │   │   │   ├── Bounce.ogg
+│   │   │   │   ├── Cartoon.ogg
+│   │   │   │   ├── Digital_Ringtone.ogg
+│   │   │   │   ├── Dream.ogg
+│   │   │   │   ├── Forest_Day.ogg
+│   │   │   │   ├── Harp.ogg
+│   │   │   │   ├── Hello_Ya.ogg
+│   │   │   │   ├── Huawei_Tune.ogg
+│   │   │   │   ├── Huawei_Tune_Piano.ogg
+│   │   │   │   ├── Menuet.ogg
+│   │   │   │   ├── Sax.ogg
+│   │   │   │   ├── Spring.ogg
+│   │   │   │   ├── Taste_Life.ogg
+│   │   │   │   └── Westlake.ogg
+│   │   │   └── ui
+│   │   │       ├── camera_click.ogg
+│   │   │       ├── Effect_Tick.ogg
+│   │   │       ├── KeypressDelete.ogg
+│   │   │       ├── KeypressReturn.ogg
+│   │   │       ├── KeypressSpacebar.ogg
+│   │   │       ├── KeypressStandard.ogg
+│   │   │       ├── Lock.ogg
+│   │   │       ├── LowBattery.ogg
+│   │   │       ├── Unlock.ogg
+│   │   │       ├── VideoPause.ogg
+│   │   │       ├── VideoRecordEnd.ogg
+│   │   │       └── VideoRecord.ogg
+│   │   ├── images
+│   │   │   └── drm_disable_icon.png
+│   │   ├── Pre-loaded
+│   │   │   ├── Music
+│   │   │   │   ├── Bach_Suite.mp3
+│   │   │   │   ├── Closer_Tonight.mp3
+│   │   │   │   ├── Love_Me_For_Me.mp3
+│   │   │   │   └── Passing_Through.mp3
+│   │   │   └── Pictures
+│   │   └── video
+│   │       ├── edge720p.png
+│   │       ├── edge.png
+│   │       └── gen30.mp4
+│   ├── net_example.txt
+│   ├── ons.bin
+│   ├── plugin
+│   │   ├── FwkPlugin
+│   │   │   ├── arm
+│   │   │   │   └── FwkPlugin.odex
+│   │   │   ├── FwkPlugin.apk
+│   │   │   └── FwkPlugin.mpinfo
+│   │   └── Signatures
+│   │       └── mplugin_guard.xml
+│   ├── priv-app
+│   │   ├── AndroidForWork
+│   │   │   ├── AndroidForWork.apk
+│   │   │   └── arm
+│   │   │       └── AndroidForWork.odex
+│   │   ├── BackupRestoreConfirmation
+│   │   │   ├── arm
+│   │   │   │   └── BackupRestoreConfirmation.odex
+│   │   │   └── BackupRestoreConfirmation.apk
+│   │   ├── CDS_INFO
+│   │   │   ├── arm
+│   │   │   │   └── CDS_INFO.odex
+│   │   │   └── CDS_INFO.apk
+│   │   ├── CellBroadcastReceiver
+│   │   │   ├── arm
+│   │   │   │   └── CellBroadcastReceiver.odex
+│   │   │   └── CellBroadcastReceiver.apk
+│   │   ├── Contacts
+│   │   │   ├── Contacts.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── ContactsProvider
+│   │   │   ├── arm
+│   │   │   │   └── ContactsProvider.odex
+│   │   │   └── ContactsProvider.apk
+│   │   ├── DefaultContainerService
+│   │   │   ├── arm
+│   │   │   │   └── DefaultContainerService.odex
+│   │   │   ├── DefaultContainerService.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── DownloadProvider
+│   │   │   ├── arm
+│   │   │   │   └── DownloadProvider.odex
+│   │   │   └── DownloadProvider.apk
+│   │   ├── Email
+│   │   │   ├── arm
+│   │   │   │   └── Email.odex
+│   │   │   └── Email.apk
+│   │   ├── Exchange2
+│   │   │   ├── arm
+│   │   │   │   └── Exchange2.odex
+│   │   │   └── Exchange2.apk
+│   │   ├── ExternalStorageProvider
+│   │   │   ├── arm
+│   │   │   │   └── ExternalStorageProvider.odex
+│   │   │   └── ExternalStorageProvider.apk
+│   │   ├── FactoryServiceHQ
+│   │   │   ├── arm
+│   │   │   │   └── FactoryServiceHQ.odex
+│   │   │   └── FactoryServiceHQ.apk
+│   │   ├── FmRadio
+│   │   │   ├── arm
+│   │   │   │   └── FmRadio.odex
+│   │   │   ├── FmRadio.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   ├── FusedLocation
+│   │   │   ├── arm
+│   │   │   │   └── FusedLocation.odex
+│   │   │   └── FusedLocation.apk
+│   │   ├── Gallery2
+│   │   │   ├── Gallery2.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           ├── libamapv304ex.so
+│   │   │           ├── libamapv304.so
+│   │   │           ├── libmrc_cg_hazeremoval.so
+│   │   │           ├── libmrc_cg_myFilter.so
+│   │   │           ├── libtiltcorrection.so
+│   │   │           └── libVenusCropImageFace.so
+│   │   ├── GmsCore
+│   │   │   ├── GmsCore.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           ├── libAppDataSearch.so
+│   │   │           ├── libappstreaming_jni.so
+│   │   │           ├── libconscrypt_gmscore_jni.so
+│   │   │           ├── libdirect-audio.so
+│   │   │           ├── libgcastv2_base.so
+│   │   │           ├── libgcastv2_support.so
+│   │   │           ├── libgmscore.so
+│   │   │           ├── libgms-ocrclient.so
+│   │   │           ├── libjgcastservice.so
+│   │   │           ├── libleveldbjni.so
+│   │   │           ├── libNearbyApp.so
+│   │   │           ├── libsslwrapper_jni.so
+│   │   │           ├── libwearable-selector.so
+│   │   │           └── libWhisper.so
+│   │   ├── GoogleBackupTransport
+│   │   │   ├── arm
+│   │   │   │   └── GoogleBackupTransport.odex
+│   │   │   └── GoogleBackupTransport.apk
+│   │   ├── GoogleFeedback
+│   │   │   ├── arm
+│   │   │   │   └── GoogleFeedback.odex
+│   │   │   └── GoogleFeedback.apk
+│   │   ├── GoogleLoginService
+│   │   │   ├── arm
+│   │   │   │   └── GoogleLoginService.odex
+│   │   │   └── GoogleLoginService.apk
+│   │   ├── GoogleOneTimeInitializer
+│   │   │   ├── arm
+│   │   │   │   └── GoogleOneTimeInitializer.odex
+│   │   │   └── GoogleOneTimeInitializer.apk
+│   │   ├── GooglePartnerSetup
+│   │   │   ├── arm
+│   │   │   │   └── GooglePartnerSetup.odex
+│   │   │   └── GooglePartnerSetup.apk
+│   │   ├── GoogleServicesFramework
+│   │   │   ├── arm
+│   │   │   │   └── GoogleServicesFramework.odex
+│   │   │   └── GoogleServicesFramework.apk
+│   │   ├── Huawei_Swype
+│   │   │   └── Huawei_Swype.apk
+│   │   ├── HwCamera
+│   │   │   ├── arm
+│   │   │   │   └── HwCamera.odex
+│   │   │   ├── HwCamera.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           └── libempty.so
+│   │   ├── HwMediaCenter
+│   │   │   └── HwMediaCenter.apk
+│   │   ├── HwNotePad
+│   │   │   ├── arm
+│   │   │   │   └── HwNotePad.odex
+│   │   │   ├── HwNotePad.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           ├── libamapv304ex.so
+│   │   │           └── libamapv304.so
+│   │   ├── HwPhoneService
+│   │   │   └── HwPhoneService.apk
+│   │   ├── HwVPlayer
+│   │   │   ├── HwVPlayer.apk
+│   │   │   └── lib
+│   │   │       └── arm
+│   │   │           ├── libffmpeg_neon.so
+│   │   │           └── libffvplayer.so
+│   │   ├── InCallUI
+│   │   │   ├── arm
+│   │   │   │   └── InCallUI.odex
+│   │   │   └── InCallUI.apk
+│   │   ├── InputDevices
+│   │   │   ├── arm
+│   │   │   │   └── InputDevices.odex
+│   │   │   └── InputDevices.apk
+│   │   ├── Keyguard
+│   │   │   └── Keyguard.apk
+│   │   ├── ManagedProvisioning
+│   │   │   ├── arm
+│   │   │   │   └── ManagedProvisioning.odex
+│   │   │   └── ManagedProvisioning.apk
+│   │   ├── MediaProvider
+│   │   │   ├── arm
+│   │   │   │   └── MediaProvider.odex
+│   │   │   └── MediaProvider.apk
+│   │   ├── MmsService
+│   │   │   ├── arm
+│   │   │   │   └── MmsService.odex
+│   │   │   └── MmsService.apk
+│   │   ├── OneTimeInitializer
+│   │   │   ├── arm
+│   │   │   │   └── OneTimeInitializer.odex
+│   │   │   └── OneTimeInitializer.apk
+│   │   ├── Phonesky
+│   │   │   └── Phonesky.apk
+│   │   ├── PicoTts
+│   │   │   ├── arm
+│   │   │   │   └── PicoTts.odex
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   └── PicoTts.apk
+│   │   ├── PredefinedEapSim
+│   │   │   └── PredefinedEapSim.apk
+│   │   ├── ProxyHandler
+│   │   │   ├── arm
+│   │   │   │   └── ProxyHandler.odex
+│   │   │   └── ProxyHandler.apk
+│   │   ├── Settings
+│   │   │   ├── arm
+│   │   │   │   └── Settings.odex
+│   │   │   └── Settings.apk
+│   │   ├── SettingsProvider
+│   │   │   ├── arm
+│   │   │   │   └── SettingsProvider.odex
+│   │   │   └── SettingsProvider.apk
+│   │   ├── SetupWizard
+│   │   │   ├── arm
+│   │   │   │   └── SetupWizard.odex
+│   │   │   └── SetupWizard.apk
+│   │   ├── SharedStorageBackup
+│   │   │   ├── arm
+│   │   │   │   └── SharedStorageBackup.odex
+│   │   │   └── SharedStorageBackup.apk
+│   │   ├── Shell
+│   │   │   ├── arm
+│   │   │   │   └── Shell.odex
+│   │   │   └── Shell.apk
+│   │   ├── SystemUI
+│   │   │   ├── arm
+│   │   │   │   └── SystemUI.odex
+│   │   │   └── SystemUI.apk
+│   │   ├── Telecom
+│   │   │   ├── arm
+│   │   │   │   └── Telecom.odex
+│   │   │   └── Telecom.apk
+│   │   ├── TelephonyProvider
+│   │   │   ├── arm
+│   │   │   │   └── TelephonyProvider.odex
+│   │   │   └── TelephonyProvider.apk
+│   │   ├── TeleService
+│   │   │   ├── arm
+│   │   │   │   └── TeleService.odex
+│   │   │   └── TeleService.apk
+│   │   ├── Velvet
+│   │   │   ├── lib
+│   │   │   │   └── arm
+│   │   │   │       ├── libbrotli.so
+│   │   │   │       ├── libcronet.so
+│   │   │   │       ├── libframesequence.so
+│   │   │   │       ├── libgoogle_speech_jni.so
+│   │   │   │       ├── libgoogle_speech_micro_jni.so
+│   │   │   │       ├── libnativecrashreporter.so
+│   │   │   │       ├── liboffline_actions_jni.so
+│   │   │   │       └── libthird_party_brotli_dec_jni.so
+│   │   │   └── Velvet.apk
+│   │   ├── VpnDialogs
+│   │   │   ├── arm
+│   │   │   │   └── VpnDialogs.odex
+│   │   │   └── VpnDialogs.apk
+│   │   └── WallpaperCropper
+│   │       ├── arm
+│   │       │   └── WallpaperCropper.odex
+│   │       └── WallpaperCropper.apk
+│   ├── recovery-from-boot.p
+│   ├── res
+│   │   ├── images
+│   │   │   ├── lcd_test_00.png
+│   │   │   ├── lcd_test_01.png
+│   │   │   └── lcd_test_02.png
+│   │   └── sound
+│   │       ├── ringtone.wav
+│   │       └── testpattern1.wav
+│   ├── themes
+│   │   ├── Default(Newbloom).hwt
+│   │   ├── Lotus.hwt
+│   │   └── Stellar.hwt
+│   ├── tts
+│   │   ├── lang_iflytek
+│   │   │   ├── jiajia.irf
+│   │   │   └── xiaoyan.irf
+│   │   ├── lang_iflytek_drive
+│   │   │   └── Resource.irf
+│   │   └── lang_pico
+│   │       ├── de-DE_gl0_sg.bin
+│   │       ├── de-DE_ta.bin
+│   │       ├── en-GB_kh0_sg.bin
+│   │       ├── en-GB_ta.bin
+│   │       ├── en-US_lh0_sg.bin
+│   │       ├── en-US_ta.bin
+│   │       ├── es-ES_ta.bin
+│   │       ├── es-ES_zl0_sg.bin
+│   │       ├── fr-FR_nk0_sg.bin
+│   │       ├── fr-FR_ta.bin
+│   │       ├── it-IT_cm0_sg.bin
+│   │       └── it-IT_ta.bin
+│   ├── usr
+│   │   ├── icu
+│   │   │   └── icudt53l.dat
+│   │   ├── idc
+│   │   │   ├── qwerty2.idc
+│   │   │   └── qwerty.idc
+│   │   ├── keychars
+│   │   │   ├── Generic.kcm
+│   │   │   ├── qwerty2.kcm
+│   │   │   ├── qwerty.kcm
+│   │   │   └── Virtual.kcm
+│   │   ├── keylayout
+│   │   │   ├── ACCDET.kl
+│   │   │   ├── AVRCP.kl
+│   │   │   ├── Generic.kl
+│   │   │   ├── mtk-kpd.kl
+│   │   │   ├── qwerty.kl
+│   │   │   ├── Vendor_0079_Product_0011.kl
+│   │   │   ├── Vendor_045e_Product_028e.kl
+│   │   │   ├── Vendor_046d_Product_b501.kl
+│   │   │   ├── Vendor_046d_Product_c216.kl
+│   │   │   ├── Vendor_046d_Product_c219.kl
+│   │   │   ├── Vendor_046d_Product_c21d.kl
+│   │   │   ├── Vendor_046d_Product_c21f.kl
+│   │   │   ├── Vendor_046d_Product_c294.kl
+│   │   │   ├── Vendor_046d_Product_c299.kl
+│   │   │   ├── Vendor_046d_Product_c532.kl
+│   │   │   ├── Vendor_054c_Product_0268.kl
+│   │   │   ├── Vendor_0583_Product_2060.kl
+│   │   │   ├── Vendor_05ac_Product_0239.kl
+│   │   │   ├── Vendor_0b05_Product_4500.kl
+│   │   │   ├── Vendor_1038_Product_1412.kl
+│   │   │   ├── Vendor_12bd_Product_d015.kl
+│   │   │   ├── Vendor_1532_Product_0900.kl
+│   │   │   ├── Vendor_1689_Product_fd00.kl
+│   │   │   ├── Vendor_1689_Product_fd01.kl
+│   │   │   ├── Vendor_1689_Product_fe00.kl
+│   │   │   ├── Vendor_18d1_Product_2c40.kl
+│   │   │   ├── Vendor_1949_Product_0401.kl
+│   │   │   ├── Vendor_1bad_Product_f016.kl
+│   │   │   ├── Vendor_1bad_Product_f023.kl
+│   │   │   ├── Vendor_1bad_Product_f027.kl
+│   │   │   ├── Vendor_1bad_Product_f036.kl
+│   │   │   ├── Vendor_1d79_Product_0009.kl
+│   │   │   ├── Vendor_22b8_Product_093d.kl
+│   │   │   ├── Vendor_2378_Product_1008.kl
+│   │   │   └── Vendor_2378_Product_100a.kl
+│   │   ├── share
+│   │   │   ├── bmd
+│   │   │   │   ├── RFFspeed_501.bmd
+│   │   │   │   └── RFFstd_501.bmd
+│   │   │   └── zoneinfo
+│   │   │       └── tzdata
+│   │   └── srec
+│   │       ├── Android.mk
+│   │       └── en-US
+│   │           ├── action.pumpkin
+│   │           ├── c_fst
+│   │           ├── class_normalizer.mfar
+│   │           ├── CLG.prewalk.fst
+│   │           ├── commands.abnf
+│   │           ├── compile_grammar.config
+│   │           ├── config.pumpkin
+│   │           ├── contacts.abnf
+│   │           ├── CONTACTS.fst
+│   │           ├── CONTACTS.syms
+│   │           ├── dict
+│   │           ├── dictation.config
+│   │           ├── dist_belief
+│   │           ├── dnn
+│   │           ├── endpointer_dictation.config
+│   │           ├── endpointer_model.mmap
+│   │           ├── endpointer_voicesearch.config
+│   │           ├── g2p.data
+│   │           ├── g2p_fst
+│   │           ├── grammar.config
+│   │           ├── graphemes.syms
+│   │           ├── hmmlist
+│   │           ├── hmm_symbols
+│   │           ├── input_mean_std_dev
+│   │           ├── lexicon.U.fst
+│   │           ├── lstm_model.uint8.data
+│   │           ├── magic_mic.config
+│   │           ├── metadata
+│   │           ├── normalizer.mfar
+│   │           ├── norm_fst
+│   │           ├── offensive_word_normalizer.mfar
+│   │           ├── phonelist
+│   │           ├── phonelist.syms
+│   │           ├── phonemes.syms
+│   │           ├── rescoring.fst.louds
+│   │           ├── semantics.pumpkin
+│   │           ├── voice_actions_compiler.config
+│   │           ├── voice_actions.config
+│   │           └── wordlist.syms
+│   ├── vendor
+│   │   ├── lib
+│   │   │   ├── drm
+│   │   │   │   └── libdrmwvmplugin.so
+│   │   │   ├── hw
+│   │   │   │   ├── audio.a2dp.blueangel.so
+│   │   │   │   └── bluetooth.blueangel.so
+│   │   │   ├── libwvdrm_L3.so
+│   │   │   ├── libwvm.so
+│   │   │   ├── libWVStreamControlAPI_L3.so
+│   │   │   └── mediadrm
+│   │   │       ├── libdrmclearkeyplugin.so
+│   │   │       ├── libmockdrmcryptoplugin.so
+│   │   │       └── libwvdrmengine.so
+│   │   ├── media
+│   │   │   ├── LMspeed_508.emd
+│   │   │   └── PFFprec_600.emd
+│   │   └── operator
+│   ├── watermark
+│   │   └── wm
+│   │       ├── wm_1_1.zip
+│   │       ├── wm_1_2.zip
+│   │       ├── wm_1_3.zip
+│   │       ├── wm_1_4.zip
+│   │       ├── wm_1_5.zip
+│   │       ├── wm_1_6.zip
+│   │       ├── wm_1_7.zip
+│   │       ├── wm_2_10.zip
+│   │       ├── wm_2_11.zip
+│   │       ├── wm_2_12.zip
+│   │       ├── wm_2_13.zip
+│   │       ├── wm_2_14.zip
+│   │       ├── wm_2_15.zip
+│   │       ├── wm_2_1.zip
+│   │       ├── wm_2_2.zip
+│   │       ├── wm_2_3.zip
+│   │       ├── wm_2_4.zip
+│   │       ├── wm_2_5.zip
+│   │       ├── wm_2_6.zip
+│   │       ├── wm_2_7.zip
+│   │       ├── wm_2_8.zip
+│   │       ├── wm_2_9.zip
+│   │       ├── wm_3_10.zip
+│   │       ├── wm_3_1.zip
+│   │       ├── wm_3_2.zip
+│   │       ├── wm_3_3.zip
+│   │       ├── wm_3_4.zip
+│   │       ├── wm_3_5.zip
+│   │       ├── wm_3_6.zip
+│   │       ├── wm_3_8.zip
+│   │       ├── wm_3_9.zip
+│   │       ├── wm_5_1.zip
+│   │       ├── wm_5_2.zip
+│   │       ├── wm_5_3.zip
+│   │       ├── wm_5_4.zip
+│   │       ├── wm_5_5.zip
+│   │       ├── wm_5_6.zip
+│   │       ├── wm_5_7.zip
+│   │       ├── wm_6_10.zip
+│   │       ├── wm_6_11.zip
+│   │       ├── wm_6_12.zip
+│   │       ├── wm_6_13.zip
+│   │       ├── wm_6_14.zip
+│   │       ├── wm_6_1.zip
+│   │       ├── wm_6_2.zip
+│   │       ├── wm_6_3.zip
+│   │       ├── wm_6_4.zip
+│   │       ├── wm_6_7.zip
+│   │       ├── wm_6_8.zip
+│   │       └── wm_6_9.zip
+│   └── xbin
+├── test
+└── ueventd.rc
+
+674 directories, 1781 files
