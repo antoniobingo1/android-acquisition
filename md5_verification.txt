@@ -1,0 +1,21 @@
+shell@HWCUN-L6735:/mnt/shell/emulated/0/DCIM/Camera $ md5 *
+064410fe1bffddde7edcbc0d9bb6f13a  IMG_20100101_000218.jpg
+ce830b97777ea483169463040d01a4db  IMG_20100101_000228.jpg
+680a76e9f488f836e05255c2614d0c1a  IMG_20100101_000243.jpg
+163fe277ea6b14b0b3ca2ec387aad15e  IMG_20100108_023201.jpg
+31428c16df521f62be6a680c1124cee6  IMG_20100108_023212.jpg
+
+ccf@raspberrypi:/mnt/testadapt/mnt/shell/emulated/0/DCIM/Camera $ md5sum *
+064410fe1bffddde7edcbc0d9bb6f13a  IMG_20100101_000218.jpg
+ce830b97777ea483169463040d01a4db  IMG_20100101_000228.jpg
+680a76e9f488f836e05255c2614d0c1a  IMG_20100101_000243.jpg
+163fe277ea6b14b0b3ca2ec387aad15e  IMG_20100108_023201.jpg
+31428c16df521f62be6a680c1124cee6  IMG_20100108_023212.jpg
+
+shell@HWCUN-L6735:/mnt/shell/emulated/0/Download $ md5 *
+0c2d813238ca2d60d24bca9b84d397eb  an2018-mpls.pdf
+cdec62f0948258c958951772574de51f  an2018-quic.pdf
+
+ccf@raspberrypi:/mnt/testadapt/mnt/shell/emulated/0/Download $ md5sum *
+0c2d813238ca2d60d24bca9b84d397eb  an2018-mpls.pdf
+cdec62f0948258c958951772574de51f  an2018-quic.pdf
