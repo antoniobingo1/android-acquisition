@@ -4,7 +4,7 @@
 usage="adbbackup.sh is a program that automates a full backup of a Android device.\n
 In order to use the program an argument has to be given where the backup (locally) will be stored...\n\n
 
-e.g. ./addbackup.sh /mnt/fullbackup.ab"
+e.g. ./addbackup.sh /location/backup.ab extract_folder"
 if [[ $# -eq 0 ]] ; then
 	echo -e $usage
 	exit 0
@@ -26,6 +26,8 @@ adb start-server
 echo "ADB server started"
 echo "Performing a backup of device $device_name saved on '$file_name'"
 
+#Create folder where backup will be stored
+mkdir "$(dirname $file_name)"
 
 #Run backup
 #.apk files, shared storage, all installed apps and system

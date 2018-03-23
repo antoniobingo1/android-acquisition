@@ -57,7 +57,7 @@ pull_recur(){
 				#	continue
 				#fi
 				echo "Trying to pull: $pull_object"/"$file"
-				adb pull -a "$pull_object"/"$file" "$local_location"/"$pull_object"/
+				adb pull -a "$pull_object/$file" "$local_location/$pull_object/"
 				if [ ! $? -eq 0 ]
 				then
 					echo "Failure on: $pull_object/$file"
@@ -79,7 +79,7 @@ pull_recur(){
 		echo $list_of_dirs | grep -i 'permission denied' &> /dev/null
 		if [ ! $? == 0 ]
 		then
-			# Check if a empty list of directory is returned
+			# Check if an empty list of directory is returned
 			if [ ! -z "$list_of_dirs" ]
 			then
 				echo -e "List of directories:\n$list_of_dirs\n"
@@ -102,6 +102,6 @@ pull_recur(){
 pull_recur $remote_location
 
 #Make a hash of all pulled files
-echo "Done pulling all files from , now creating a hash of all files... This could take some time."
+echo "Done pulling all files from '$remote_location', now creating a hash of all files... This could take some time."
 find $local_location -type f | while read files; do echo $(sha256sum "$files"); done > $local_location/hash_files.txt
 echo "A hash of all the files can be found in '$local_location/hash_files.txt'"
