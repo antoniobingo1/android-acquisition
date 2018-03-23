@@ -41,7 +41,7 @@ pull_recur(){
 	fi
 
 	# Pull files
-	local list_of_files=$(adb shell "ls -la '$pull_object' | grep '^-'" | awk '{print(" ",$7,$8)}')
+	local list_of_files=$(adb shell "ls -la '$pull_object' | grep '^-'" | awk -F':[0-9]* ' '/:/{print $2}')
         echo "$list_of_files" | grep 'No such file' &> /dev/null
 	if [ $? == 0 ]
 	then
@@ -74,7 +74,7 @@ pull_recur(){
 	echo -e "\n\nPulled all files in directory: $pull_object\n\n"
 
 	# Recurse through directories
-	local list_of_dirs=$(adb shell "ls -la '$pull_object' | grep '^d' | grep -Eo '[^ ]+$'")
+	local list_of_dirs=$(adb shell "ls -la '$pull_object' | grep '^d'" | awk -F':[0-9]* ' '/:/{print $2}')
         echo $list_of_dirs | grep 'No such file' &> /dev/null
 	if [ $? == 0 ]
 	then
@@ -87,6 +87,7 @@ pull_recur(){
 			if [ ! -z "$list_of_dirs" ]
 			then
 				echo -e "List of directories:\n$list_of_dirs\n"
+				IFS=$'\n'
 				for directory in $list_of_dirs
 				do
 					local directory="$(echo -n "$directory" | tr -d '\r')"
@@ -95,6 +96,7 @@ pull_recur(){
 					echo -e "\n\n Calling function pull_recur $pull_object/$directory \n\n"
 					pull_recur "$pull_object/$directory"
 				done
+				IFS="$OLDIFS"
 			else
 				echo "Failure on $pull_object: No directories found"
 			fi
