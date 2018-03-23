@@ -27,6 +27,8 @@ if [[ $device_state = "unauthorized" ]]; then
 	exit
 fi
 
+# Store old IFS
+OLDIFS="$IFS"
 mkdir $local_location
 pull_recur(){
 	local pull_object=$1
@@ -39,7 +41,7 @@ pull_recur(){
 	fi
 
 	# Pull files
-	local list_of_files=$(adb shell "ls -la '$pull_object' | grep '^-' | grep -Eo '[^ ]+$'")
+	local list_of_files=$(adb shell "ls -la '$pull_object' | grep '^-'" | awk '{print(" ",$7,$8)}')
         echo "$list_of_files" | grep 'No such file' &> /dev/null
 	if [ $? == 0 ]
 	then
@@ -49,6 +51,7 @@ pull_recur(){
 		if [ ! $? == 0 ]
 		then
 			echo -e "List of files:\n$list_of_files\n"
+			IFS=$'\n'
 			for file in $list_of_files
 			do
 				local file="$(echo -n "$file" | tr -d '\r')"
@@ -63,6 +66,7 @@ pull_recur(){
 					echo "Failure on: $pull_object/$file"
 				fi
 			done
+			IFS="$OLDIFS"
 		else
 			echo "Failure on list for files: Permission denied"
 		fi
