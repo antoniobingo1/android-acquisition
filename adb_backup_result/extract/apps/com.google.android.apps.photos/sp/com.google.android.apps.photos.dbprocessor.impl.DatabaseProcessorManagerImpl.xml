@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="com.google.android.apps.photos.database.processor:RemoteMimeTypeProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:LocalMimeTypeProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.mediastoreextras:MediaStoreExtension" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:AssociatedEnvelopeProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:CompositionTypeProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:CollectionAudienceProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:SharedMimeTypeProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:UpdateEditsMediaStoreUriProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:AlbumSortKeyProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:AlbumOrderProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:DimensionsProcessor" value="true" />
+    <boolean name="com.google.android.apps.photos.database.processor:MonthTimestampProcessor" value="true" />
+</map>

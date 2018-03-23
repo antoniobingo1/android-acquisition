@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="prefer_modular_drm_value" value="2" />
+    <int name="max_allowed_movie_rating_authority" value="-1" />
+    <int name="max_allowed_tv_rating_filter_level" value="-1" />
+    <int name="max_allowed_tv_rating_authority" value="-1" />
+    <boolean name="check_accounts_periodic_sync" value="false" />
+    <int name="max_allowed_movie_rating_safe_search_level" value="-1" />
+    <int name="max_allowed_tv_rating_safe_search_level" value="-1" />
+    <boolean name="check_accounts_sync_status" value="false" />
+    <int name="max_allowed_movie_rating_filter_level" value="-1" />
+</map>

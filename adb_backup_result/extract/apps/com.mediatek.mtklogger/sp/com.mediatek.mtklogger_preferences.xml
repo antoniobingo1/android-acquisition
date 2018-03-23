@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="networklog_logsize">200</string>
+    <string name="mobilelog_logsize">300</string>
+    <string name="modemlog_logsize">600</string>
+    <boolean name="gpslog_autostart" value="false" />
+    <string name="gpslog_logsize">200</string>
+    <boolean name="networklog_autostart" value="false" />
+    <boolean name="mobilelog_autostart" value="false" />
+    <boolean name="modemlog_autostart" value="false" />
+</map>

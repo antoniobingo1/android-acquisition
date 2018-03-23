@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="com.google.android.apps.photos.mediastorescanner0newest_media_store_idcom.google.android.apps.photos.mediastoreextras.MediaStoreExtension2" value="734" />
+    <int name="com.google.android.apps.photos.delete.sdcard.can_write_pref_key_1.10" value="3" />
+    <long name="com.google.android.apps.photos.mediastorescanner0oldest_media_store_idcom.google.android.apps.photos.mediastoreextras.MediaStoreExtension2" value="532" />
+    <long name="com.google.android.apps.photos.mediastorescanner0last_modified_milliscom.google.android.apps.photos.mediastoreextras.MediaStoreExtension2" value="1420078026" />
+    <string name="gservices_hjn@2605797">Default</string>
+    <boolean name="com.google.android.apps.photos.mediastoreextras.MediaStoreExtensionImpl.migration_complete" value="true" />
+    <int name="bom_last_listener_id" value="0" />
+</map>

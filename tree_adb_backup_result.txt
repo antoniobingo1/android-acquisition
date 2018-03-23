@@ -1,0 +1,276 @@
+adb_backup_result/
+├── backup.ab
+└── extract
+    ├── apps
+    │   ├── android
+    │   │   ├── _manifest
+    │   │   └── r
+    │   │       └── wallpaper_info.xml
+    │   ├── com.android.browser.provider
+    │   │   └── _manifest
+    │   ├── com.android.calculator2
+    │   │   └── _manifest
+    │   ├── com.android.captiveportallogin
+    │   │   └── _manifest
+    │   ├── com.android.documentsui
+    │   │   └── _manifest
+    │   ├── com.android.dreams.basic
+    │   │   └── _manifest
+    │   ├── com.android.dreams.phototable
+    │   │   └── _manifest
+    │   ├── com.android.externalstorage
+    │   │   └── _manifest
+    │   ├── com.android.galaxy4
+    │   │   └── _manifest
+    │   ├── com.android.htmlviewer
+    │   │   └── _manifest
+    │   ├── com.android.huawei.smartkey
+    │   │   ├── _manifest
+    │   │   └── sp
+    │   │       └── smart_key.xml
+    │   ├── com.android.inputmethod.latin
+    │   │   ├── db
+    │   │   │   ├── pendingUpdates
+    │   │   │   ├── pendingUpdates.com.android.inputmethod.latin
+    │   │   │   ├── pendingUpdates.com.android.inputmethod.latin-journal
+    │   │   │   └── pendingUpdates-journal
+    │   │   └── _manifest
+    │   ├── com.android.managedprovisioning
+    │   │   └── _manifest
+    │   ├── com.android.musicvis
+    │   │   └── _manifest
+    │   ├── com.android.noisefield
+    │   │   └── _manifest
+    │   ├── com.android.onetimeinitializer
+    │   │   ├── _manifest
+    │   │   └── sp
+    │   │       └── oti.xml
+    │   ├── com.android.pacprocessor
+    │   │   └── _manifest
+    │   ├── com.android.partnerbrowsercustomizations.tmobile
+    │   │   └── _manifest
+    │   ├── com.android.phasebeam
+    │   │   └── _manifest
+    │   ├── com.android.providers.downloads.ui
+    │   │   └── _manifest
+    │   ├── com.android.providers.partnerbookmarks
+    │   │   ├── db
+    │   │   │   ├── partnerBookmarks.db
+    │   │   │   └── partnerBookmarks.db-journal
+    │   │   ├── _manifest
+    │   │   └── sp
+    │   │       └── pbppref.xml
+    │   ├── com.android.providers.settings
+    │   │   ├── f
+    │   │   │   └── flattened-data
+    │   │   └── _manifest
+    │   ├── com.android.providers.userdictionary
+    │   │   ├── db
+    │   │   │   ├── user_dict.db
+    │   │   │   └── user_dict.db-journal
+    │   │   └── _manifest
+    │   ├── com.android.proxyhandler
+    │   │   └── _manifest
+    │   ├── com.android.smspush
+    │   │   ├── db
+    │   │   │   ├── wappush.db
+    │   │   │   └── wappush.db-journal
+    │   │   └── _manifest
+    │   ├── com.android.vending
+    │   │   ├── db
+    │   │   │   ├── library.db
+    │   │   │   ├── library.db-journal
+    │   │   │   ├── localappstate.db
+    │   │   │   ├── localappstate.db-journal
+    │   │   │   ├── package_verification.db
+    │   │   │   └── package_verification.db-journal
+    │   │   ├── _manifest
+    │   │   ├── r
+    │   │   │   ├── app_RestoreTracker
+    │   │   │   ├── app_sslcache
+    │   │   │   └── app_widgets
+    │   │   └── sp
+    │   │       ├── finsky.xml
+    │   │       └── vending_preferences.xml
+    │   ├── com.android.wallpapercropper
+    │   │   └── _manifest
+    │   ├── com.android.wallpaper.holospiral
+    │   │   └── _manifest
+    │   ├── com.android.wallpaper.livepicker
+    │   │   └── _manifest
+    │   ├── com.cunkun.mmichoose
+    │   │   └── _manifest
+    │   ├── com.focaltech.ft_terminal_test
+    │   │   └── _manifest
+    │   ├── com.google.android.androidforwork
+    │   │   └── _manifest
+    │   ├── com.google.android.apps.photos
+    │   │   ├── db
+    │   │   │   ├── google_analytics_v4.db
+    │   │   │   ├── google_analytics_v4.db-journal
+    │   │   │   ├── local_trash.db
+    │   │   │   ├── local_trash.db-journal
+    │   │   │   ├── media_store_extras
+    │   │   │   ├── media_store_extras-shm
+    │   │   │   └── media_store_extras-wal
+    │   │   ├── _manifest
+    │   │   ├── r
+    │   │   │   └── app_null
+    │   │   │       └── background_results.bin
+    │   │   └── sp
+    │   │       ├── accounts.xml
+    │   │       ├── background_signed_in_state.xml
+    │   │       ├── com.google.android.apps.photos.dbprocessor.impl.DatabaseProcessorManagerImpl.xml
+    │   │       ├── com.google.android.apps.photos_preferences.xml
+    │   │       ├── com.google.android.gms.analytics.prefs.xml
+    │   │       ├── com.google.android.libraries.social.mediastoresync.reset.xml
+    │   │       ├── MediaStoreUriSynchronizer.xml
+    │   │       └── photos.backup.backup_prefs.xml
+    │   ├── com.google.android.backuptransport
+    │   │   └── _manifest
+    │   ├── com.google.android.feedback
+    │   │   └── _manifest
+    │   ├── com.google.android.gm
+    │   │   └── _manifest
+    │   ├── com.google.android.googlequicksearchbox
+    │   │   ├── db
+    │   │   │   ├── icingcorpora.db
+    │   │   │   ├── icingcorpora.db-journal
+    │   │   │   ├── launcher.db
+    │   │   │   └── launcher.db-journal
+    │   │   ├── ef
+    │   │   │   └── download_cache
+    │   │   ├── f
+    │   │   │   ├── en-GB
+    │   │   │   │   └── hotword.data
+    │   │   │   └── velour
+    │   │   │       └── verified_jars
+    │   │   │           └── jar-1582415423.jar
+    │   │   ├── _manifest
+    │   │   ├── _meta
+    │   │   ├── r
+    │   │   │   ├── app_g3_models
+    │   │   │   ├── app_shared_prefs
+    │   │   │   │   ├── SearchSettings.bin
+    │   │   │   │   └── StartupSettings.bin
+    │   │   │   └── app_webview
+    │   │   │       ├── Cookies
+    │   │   │       └── Cookies-journal
+    │   │   └── sp
+    │   │       ├── com.android.launcher3.managedusers.prefs.xml
+    │   │       ├── com.android.launcher3.prefs.xml
+    │   │       ├── default_process_uncaught_exception_handler_stats.xml
+    │   │       ├── GEL.GSAPrefs.xml
+    │   │       ├── ThrottlingLogger.xml
+    │   │       ├── uncaught_exception_handler_stats.xml
+    │   │       └── WebViewChromiumPrefs.xml
+    │   ├── com.google.android.gsf.login
+    │   │   └── _manifest
+    │   ├── com.google.android.marvin.talkback
+    │   │   └── _manifest
+    │   ├── com.google.android.onetimeinitializer
+    │   │   ├── _manifest
+    │   │   └── sp
+    │   │       └── oti.xml
+    │   ├── com.google.android.setupwizard
+    │   │   ├── _manifest
+    │   │   └── sp
+    │   │       └── SetupWizardLocalPrefs.xml
+    │   ├── com.google.android.syncadapters.calendar
+    │   │   └── _manifest
+    │   ├── com.google.android.syncadapters.contacts
+    │   │   ├── _manifest
+    │   │   └── r
+    │   │       └── app_sslcache
+    │   ├── com.google.android.talk
+    │   │   └── _manifest
+    │   ├── com.google.android.videos
+    │   │   ├── db
+    │   │   │   ├── purchase_store.db
+    │   │   │   ├── purchase_store.db-shm
+    │   │   │   └── purchase_store.db-wal
+    │   │   ├── ef
+    │   │   │   └── Movies
+    │   │   ├── _manifest
+    │   │   ├── r
+    │   │   │   └── app_sslcache
+    │   │   └── sp
+    │   │       ├── com.google.android.videos_preferences.xml
+    │   │       └── youtube.xml
+    │   ├── com.google.android.webview
+    │   │   └── _manifest
+    │   ├── com.huawei.android.FMRadio
+    │   │   └── _manifest
+    │   ├── com.huawei.android.usageManager
+    │   │   └── _manifest
+    │   ├── com.huawei.privacymode
+    │   │   └── _manifest
+    │   ├── com.mediatek.apst.target
+    │   │   └── _manifest
+    │   ├── com.mediatek.floatmenu
+    │   │   └── _manifest
+    │   ├── com.mediatek.fwk.plugin
+    │   │   └── _manifest
+    │   ├── com.mediatek.lbs.em2.ui
+    │   │   └── _manifest
+    │   ├── com.mediatek.mtklogger
+    │   │   ├── _manifest
+    │   │   └── sp
+    │   │       ├── com.mediatek.mtklogger_preferences.xml
+    │   │       └── log_settings.xml
+    │   ├── com.svox.pico
+    │   │   └── _manifest
+    │   └── com.viaforensics.android.aflogical_ose
+    │       ├── a
+    │       │   └── base.apk
+    │       └── _manifest
+    └── shared
+        └── 0
+            ├── Alarms
+            ├── CloudDrive
+            ├── DCIM
+            │   └── Camera
+            │       ├── cache
+            │       │   └── latest
+            │       │       └── IMG_20100108_023212.thumbnail
+            │       ├── IMG_20100101_000218.jpg
+            │       ├── IMG_20100101_000228.jpg
+            │       ├── IMG_20100101_000243.jpg
+            │       ├── IMG_20100108_023201.jpg
+            │       └── IMG_20100108_023212.jpg
+            ├── documents
+            ├── Download
+            │   ├── an2018-mpls.pdf
+            │   └── an2018-quic.pdf
+            ├── forensics
+            │   └── 20150101.0157
+            │       ├── CallLog Calls.csv
+            │       ├── Contacts Phones.csv
+            │       ├── info.xml
+            │       ├── MMS.csv
+            │       ├── MMSParts.csv
+            │       └── SMS.csv
+            ├── HWThemes
+            ├── Movies
+            ├── mtklog
+            │   └── aee_exp_backup
+            │       ├── db.fatal.00.KE
+            │       │   ├── db.fatal.00.KE.dbg
+            │       │   └── ZZ_INTERNAL
+            │       ├── db.fatal.01.KE
+            │       │   ├── db.fatal.01.KE.dbg
+            │       │   └── ZZ_INTERNAL
+            │       ├── db.fatal.02.KE
+            │       │   ├── db.fatal.02.KE.dbg
+            │       │   └── ZZ_INTERNAL
+            │       └── db.fatal.03.KE
+            │           ├── db.fatal.03.KE.dbg
+            │           └── ZZ_INTERNAL
+            ├── Music
+            ├── Notifications
+            ├── Pictures
+            ├── Podcasts
+            ├── Ringtones
+            └── Wi-Fi Direct
+
+127 directories, 146 files

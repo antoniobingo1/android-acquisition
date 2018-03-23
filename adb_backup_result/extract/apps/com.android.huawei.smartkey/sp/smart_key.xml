@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="tabIdLongPress" value="1" />
+    <boolean name="firstStart" value="false" />
+    <string name="classNameLongPress">com.google.android.googlequicksearchbox.SearchActivity</string>
+    <string name="packageNameLongPress">com.google.android.googlequicksearchbox</string>
+</map>

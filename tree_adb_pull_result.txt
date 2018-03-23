@@ -18,6 +18,8 @@ adb_pull_result/
 │   │   ├── notify_on_release
 │   │   └── tasks
 │   ├── uid_1000
+│   ├── uid_10000
+│   ├── uid_10001
 │   ├── uid_10002
 │   ├── uid_10004
 │   ├── uid_10005
@@ -26,47 +28,85 @@ adb_pull_result/
 │   ├── uid_10008
 │   ├── uid_10009
 │   ├── uid_1001
+│   ├── uid_10010
+│   ├── uid_10011
 │   ├── uid_10012
 │   ├── uid_10013
 │   ├── uid_10014
 │   ├── uid_10015
+│   ├── uid_10016
 │   ├── uid_10017
+│   ├── uid_10018
 │   ├── uid_10019
 │   ├── uid_10021
+│   ├── uid_10022
+│   ├── uid_10023
+│   ├── uid_10024
+│   ├── uid_10025
 │   ├── uid_10026
+│   ├── uid_10028
 │   ├── uid_10029
 │   ├── uid_10030
 │   ├── uid_10031
+│   ├── uid_10032
+│   ├── uid_10033
+│   ├── uid_10034
 │   ├── uid_10035
+│   ├── uid_10037
+│   ├── uid_10038
 │   ├── uid_10039
+│   ├── uid_10041
 │   ├── uid_10042
+│   ├── uid_10043
+│   ├── uid_10044
+│   ├── uid_10045
+│   ├── uid_10046
+│   ├── uid_10047
+│   ├── uid_10049
 │   ├── uid_10050
 │   ├── uid_10052
 │   ├── uid_10053
 │   ├── uid_10054
 │   ├── uid_10056
+│   ├── uid_10057
 │   ├── uid_10059
+│   ├── uid_10060
 │   ├── uid_10061
 │   ├── uid_10063
 │   ├── uid_10064
+│   ├── uid_10066
+│   ├── uid_10067
+│   ├── uid_10068
 │   ├── uid_10069
 │   ├── uid_10071
+│   ├── uid_10072
 │   ├── uid_10073
 │   ├── uid_10074
 │   ├── uid_10075
+│   ├── uid_10076
 │   ├── uid_10077
 │   ├── uid_10078
+│   ├── uid_10079
+│   ├── uid_10080
+│   ├── uid_10081
+│   ├── uid_10083
 │   ├── uid_10084
+│   ├── uid_10086
+│   ├── uid_10087
 │   ├── uid_10088
+│   ├── uid_10089
 │   ├── uid_10090
 │   ├── uid_10091
 │   ├── uid_10092
 │   ├── uid_10093
+│   ├── uid_10094
 │   ├── uid_10095
+│   ├── uid_10096
+│   ├── uid_10100
+│   ├── uid_10101
 │   ├── uid_1037
 │   └── uid_1050
 ├── cache
-│   └── test
 ├── config
 ├── cust
 ├── data
@@ -89,215 +129,216 @@ adb_pull_result/
 │   ├── obb
 │   ├── secure
 │   └── shell
-│       ├── emulated
-│       │   ├── 0
-│       │   │   ├── Alarms
-│       │   │   ├── Android
-│       │   │   │   ├── data
-│       │   │   │   │   ├── cn.wps.moffice_eng
-│       │   │   │   │   │   └── cache
-│       │   │   │   │   ├── com.android.browser.provider
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.calculator2
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.captiveportallogin
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.documentsui
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.dreams.basic
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.dreams.phototable
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.externalstorage
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.galaxy4
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.gallery3d
-│       │   │   │   │   │   ├── cache
-│       │   │   │   │   │   │   ├── imgcache.0
-│       │   │   │   │   │   │   ├── imgcache.1
-│       │   │   │   │   │   │   ├── imgcache.idx
-│       │   │   │   │   │   │   ├── multiscreen
-│       │   │   │   │   │   │   ├── rev_geocoding.0
-│       │   │   │   │   │   │   ├── rev_geocoding.1
-│       │   │   │   │   │   │   └── rev_geocoding.idx
-│       │   │   │   │   │   └── VolumeId
-│       │   │   │   │   │       └── 2092526650
-│       │   │   │   │   ├── com.android.htmlviewer
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.huawei.smartkey
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.inputmethod.latin
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.managedprovisioning
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.mediacenter
-│       │   │   │   │   │   └── cache
-│       │   │   │   │   │       ├── 0028D02A8430514E608299474633B7AF
-│       │   │   │   │   │       ├── 0B05E0F4585092EA0A4DD45A00BEECEA
-│       │   │   │   │   │       ├── 4323E646061BE6E1D42977B92EDEF0B7
-│       │   │   │   │   │       └── 9E7A9491BCB85AFDFF9122B05A13003B
-│       │   │   │   │   ├── com.android.musicvis
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.noisefield
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.onetimeinitializer
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.pacprocessor
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.partnerbrowsercustomizations.tmobile
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.phasebeam
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.providers.downloads.ui
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.providers.media
-│       │   │   │   │   │   └── albumthumbs
-│       │   │   │   │   │       ├── 1420070413199
-│       │   │   │   │   │       ├── 1420070413709
-│       │   │   │   │   │       ├── 1420070414071
-│       │   │   │   │   │       └── 1420070414359
-│       │   │   │   │   ├── com.android.providers.partnerbookmarks
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.providers.userdictionary
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.proxyhandler
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.smspush
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.vending
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.wallpapercropper
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.wallpaper.holospiral
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.android.wallpaper.livepicker
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.cunkun.mmichoose
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.focaltech.ft_terminal_test
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.androidforwork
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.apps.docs
-│       │   │   │   │   │   └── cache
-│       │   │   │   │   │       └── projector
-│       │   │   │   │   ├── com.google.android.apps.maps
-│       │   │   │   │   │   ├── cache
-│       │   │   │   │   │   │   ├── cache_vts_GMM.m
-│       │   │   │   │   │   │   └── cache_vts_psm_GMM.m
-│       │   │   │   │   │   ├── files
-│       │   │   │   │   │   └── testdata
-│       │   │   │   │   ├── com.google.android.apps.photos
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.backuptransport
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.feedback
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.googlequicksearchbox
-│       │   │   │   │   │   └── files
-│       │   │   │   │   │       └── download_cache
-│       │   │   │   │   ├── com.google.android.gsf.login
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.marvin.talkback
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.music
-│       │   │   │   │   │   ├── cache
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.onetimeinitializer
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.setupwizard
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.syncadapters.calendar
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.syncadapters.contacts
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.videos
-│       │   │   │   │   │   └── files
-│       │   │   │   │   │       └── Movies
-│       │   │   │   │   ├── com.google.android.webview
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.google.android.youtube
-│       │   │   │   │   │   ├── cache
-│       │   │   │   │   │   │   ├── cronet_media_cache
-│       │   │   │   │   │   │   └── exo
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.huawei.android.FMRadio
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.huawei.android.usageManager
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.huawei.privacymode
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.mediatek.apst.target
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.mediatek.floatmenu
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.mediatek.fwk.plugin
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.mediatek.lbs.em2.ui
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.mediatek.mtklogger
-│       │   │   │   │   │   └── files
-│       │   │   │   │   ├── com.mobilesrepublic.appy
-│       │   │   │   │   │   └── cache
-│       │   │   │   │   │       └── http
-│       │   │   │   │   │           └── journal
-│       │   │   │   │   ├── com.svox.pico
-│       │   │   │   │   │   └── files
-│       │   │   │   │   └── com.viaforensics.android.aflogical_ose
-│       │   │   │   │       └── files
-│       │   │   │   └── media
-│       │   │   │       └── com.google.android.talk
-│       │   │   │           ├── Notifications
-│       │   │   │           │   └── hangouts_message.ogg
-│       │   │   │           └── Ringtones
-│       │   │   │               └── hangouts_incoming_call.ogg
-│       │   │   ├── CloudDrive
-│       │   │   ├── DCIM
-│       │   │   │   └── Camera
-│       │   │   │       ├── cache
-│       │   │   │       │   └── latest
-│       │   │   │       │       └── IMG_20100108_023212.thumbnail
-│       │   │   │       ├── IMG_20100101_000218.jpg
-│       │   │   │       ├── IMG_20100101_000228.jpg
-│       │   │   │       ├── IMG_20100101_000243.jpg
-│       │   │   │       ├── IMG_20100108_023201.jpg
-│       │   │   │       └── IMG_20100108_023212.jpg
-│       │   │   ├── Direct
-│       │   │   ├── documents
-│       │   │   ├── Download
-│       │   │   │   ├── an2018-mpls.pdf
-│       │   │   │   └── an2018-quic.pdf
-│       │   │   ├── forensics
-│       │   │   │   └── 20150101.0157
-│       │   │   │       ├── info.xml
-│       │   │   │       ├── MMS.csv
-│       │   │   │       ├── MMSParts.csv
-│       │   │   │       └── SMS.csv
-│       │   │   ├── HWThemes
-│       │   │   ├── Movies
-│       │   │   ├── mtklog
-│       │   │   │   └── aee_exp_backup
-│       │   │   │       ├── db.fatal.00.KE
-│       │   │   │       │   ├── db.fatal.00.KE.dbg
-│       │   │   │       │   └── ZZ_INTERNAL
-│       │   │   │       ├── db.fatal.01.KE
-│       │   │   │       │   ├── db.fatal.01.KE.dbg
-│       │   │   │       │   └── ZZ_INTERNAL
-│       │   │   │       ├── db.fatal.02.KE
-│       │   │   │       │   ├── db.fatal.02.KE.dbg
-│       │   │   │       │   └── ZZ_INTERNAL
-│       │   │   │       └── db.fatal.03.KE
-│       │   │   │           ├── db.fatal.03.KE.dbg
-│       │   │   │           └── ZZ_INTERNAL
-│       │   │   ├── Music
-│       │   │   ├── Notifications
-│       │   │   ├── Pictures
-│       │   │   ├── Podcasts
-│       │   │   └── Ringtones
-│       │   ├── legacy
-│       │   └── obb
-│       └── test
+│       └── emulated
+│           ├── 0
+│           │   ├── Alarms
+│           │   ├── Android
+│           │   │   ├── data
+│           │   │   │   ├── cn.wps.moffice_eng
+│           │   │   │   │   └── cache
+│           │   │   │   ├── com.android.browser.provider
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.calculator2
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.captiveportallogin
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.documentsui
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.dreams.basic
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.dreams.phototable
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.externalstorage
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.galaxy4
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.gallery3d
+│           │   │   │   │   ├── cache
+│           │   │   │   │   │   ├── imgcache.0
+│           │   │   │   │   │   ├── imgcache.1
+│           │   │   │   │   │   ├── imgcache.idx
+│           │   │   │   │   │   ├── multiscreen
+│           │   │   │   │   │   ├── rev_geocoding.0
+│           │   │   │   │   │   ├── rev_geocoding.1
+│           │   │   │   │   │   └── rev_geocoding.idx
+│           │   │   │   │   └── VolumeId
+│           │   │   │   │       └── 2092526650
+│           │   │   │   ├── com.android.htmlviewer
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.huawei.smartkey
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.inputmethod.latin
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.managedprovisioning
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.mediacenter
+│           │   │   │   │   └── cache
+│           │   │   │   │       ├── 0028D02A8430514E608299474633B7AF
+│           │   │   │   │       ├── 0B05E0F4585092EA0A4DD45A00BEECEA
+│           │   │   │   │       ├── 4323E646061BE6E1D42977B92EDEF0B7
+│           │   │   │   │       └── 9E7A9491BCB85AFDFF9122B05A13003B
+│           │   │   │   ├── com.android.musicvis
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.noisefield
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.onetimeinitializer
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.pacprocessor
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.partnerbrowsercustomizations.tmobile
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.phasebeam
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.providers.downloads.ui
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.providers.media
+│           │   │   │   │   └── albumthumbs
+│           │   │   │   │       ├── 1420070413199
+│           │   │   │   │       ├── 1420070413709
+│           │   │   │   │       ├── 1420070414071
+│           │   │   │   │       └── 1420070414359
+│           │   │   │   ├── com.android.providers.partnerbookmarks
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.providers.userdictionary
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.proxyhandler
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.smspush
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.vending
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.wallpapercropper
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.wallpaper.holospiral
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.android.wallpaper.livepicker
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.cunkun.mmichoose
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.focaltech.ft_terminal_test
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.androidforwork
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.apps.docs
+│           │   │   │   │   └── cache
+│           │   │   │   │       └── projector
+│           │   │   │   ├── com.google.android.apps.maps
+│           │   │   │   │   ├── cache
+│           │   │   │   │   │   ├── cache_vts_GMM.m
+│           │   │   │   │   │   └── cache_vts_psm_GMM.m
+│           │   │   │   │   ├── files
+│           │   │   │   │   └── testdata
+│           │   │   │   ├── com.google.android.apps.photos
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.backuptransport
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.feedback
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.googlequicksearchbox
+│           │   │   │   │   └── files
+│           │   │   │   │       └── download_cache
+│           │   │   │   ├── com.google.android.gsf.login
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.marvin.talkback
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.music
+│           │   │   │   │   ├── cache
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.onetimeinitializer
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.setupwizard
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.syncadapters.calendar
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.syncadapters.contacts
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.videos
+│           │   │   │   │   └── files
+│           │   │   │   │       └── Movies
+│           │   │   │   ├── com.google.android.webview
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.google.android.youtube
+│           │   │   │   │   ├── cache
+│           │   │   │   │   │   ├── cronet_media_cache
+│           │   │   │   │   │   └── exo
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.huawei.android.FMRadio
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.huawei.android.usageManager
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.huawei.privacymode
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.mediatek.apst.target
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.mediatek.floatmenu
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.mediatek.fwk.plugin
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.mediatek.lbs.em2.ui
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.mediatek.mtklogger
+│           │   │   │   │   └── files
+│           │   │   │   ├── com.mobilesrepublic.appy
+│           │   │   │   │   └── cache
+│           │   │   │   │       └── http
+│           │   │   │   │           └── journal
+│           │   │   │   ├── com.svox.pico
+│           │   │   │   │   └── files
+│           │   │   │   └── com.viaforensics.android.aflogical_ose
+│           │   │   │       └── files
+│           │   │   └── media
+│           │   │       └── com.google.android.talk
+│           │   │           ├── Notifications
+│           │   │           │   └── hangouts_message.ogg
+│           │   │           └── Ringtones
+│           │   │               └── hangouts_incoming_call.ogg
+│           │   ├── CloudDrive
+│           │   ├── DCIM
+│           │   │   └── Camera
+│           │   │       ├── cache
+│           │   │       │   └── latest
+│           │   │       │       └── IMG_20100108_023212.thumbnail
+│           │   │       ├── IMG_20100101_000218.jpg
+│           │   │       ├── IMG_20100101_000228.jpg
+│           │   │       ├── IMG_20100101_000243.jpg
+│           │   │       ├── IMG_20100108_023201.jpg
+│           │   │       └── IMG_20100108_023212.jpg
+│           │   ├── documents
+│           │   ├── Download
+│           │   │   ├── an2018-mpls.pdf
+│           │   │   └── an2018-quic.pdf
+│           │   ├── forensics
+│           │   │   └── 20150101.0157
+│           │   │       ├── CallLog Calls.csv
+│           │   │       ├── Contacts Phones.csv
+│           │   │       ├── info.xml
+│           │   │       ├── MMS.csv
+│           │   │       ├── MMSParts.csv
+│           │   │       └── SMS.csv
+│           │   ├── HWThemes
+│           │   ├── Movies
+│           │   ├── mtklog
+│           │   │   └── aee_exp_backup
+│           │   │       ├── db.fatal.00.KE
+│           │   │       │   ├── db.fatal.00.KE.dbg
+│           │   │       │   └── ZZ_INTERNAL
+│           │   │       ├── db.fatal.01.KE
+│           │   │       │   ├── db.fatal.01.KE.dbg
+│           │   │       │   └── ZZ_INTERNAL
+│           │   │       ├── db.fatal.02.KE
+│           │   │       │   ├── db.fatal.02.KE.dbg
+│           │   │       │   └── ZZ_INTERNAL
+│           │   │       └── db.fatal.03.KE
+│           │   │           ├── db.fatal.03.KE.dbg
+│           │   │           └── ZZ_INTERNAL
+│           │   ├── Music
+│           │   ├── Notifications
+│           │   ├── Pictures
+│           │   ├── Podcasts
+│           │   ├── Ringtones
+│           │   └── Wi-Fi Direct
+│           ├── legacy
+│           └── obb
 ├── nvdata
 ├── persist
 ├── proc
@@ -2452,7 +2493,6 @@ adb_pull_result/
 │   │       ├── wm_6_8.zip
 │   │       └── wm_6_9.zip
 │   └── xbin
-├── test
 └── ueventd.rc
 
-674 directories, 1781 files
+715 directories, 1780 files

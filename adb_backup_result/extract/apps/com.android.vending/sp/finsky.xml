@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="last_version_code" value="80641200" />
+    <long name="last-time-back-stack-updated-ms" value="1263590152922" />
+    <string name="adid-cached-value">4aab101c-1b59-483e-b6e6-21b870eeecba</string>
+    <int name="last-replicated-database-version" value="12" />
+    <long name="device-data-partition-bytes" value="4398956544" />
+    <long name="logs-flush-schedule-expired-timestamp" value="0" />
+    <boolean name="auto_update_enabled" value="true" />
+    <long name="adid-cached-timestamp-ms" value="1263590152868" />
+    <long name="dailyhygiene-lastsuccess" value="1520519173072" />
+    <long name="verify-installed-apps-last-success-ms" value="1520519221135" />
+    <string name="anti-malware-consent-model">SecureSettingsConsent</string>
+    <boolean name="dailyhygiene-holdoff-complete" value="true" />
+    <boolean name="adid-limit-tracking-cached-value" value="false" />
+    <boolean name="update_over_wifi_only" value="true" />
+</map>

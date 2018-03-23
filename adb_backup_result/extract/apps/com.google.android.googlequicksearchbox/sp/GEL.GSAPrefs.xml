@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="GSAPrefs.now_background_refresh_toast_enabled" value="false" />
+    <boolean name="GSAPrefs.should_show_now_cards" value="false" />
+    <int name="GEL.GSAPrefs.now_opted_in_version" value="-1" />
+    <boolean name="GSAPrefs.np_stream_allowed" value="false" />
+    <boolean name="GEL.GSAPrefs.can_optin_to_now" value="false" />
+    <boolean name="GEL.GSAPrefs.search_widget_in_gel" value="false" />
+    <boolean name="GSAPrefs.show_first_run_optin" value="true" />
+    <boolean name="GSAPrefs.hotword_enabled" value="true" />
+    <boolean name="GEL.GSAPrefs.log_gel_events" value="false" />
+    <string name="GEL.GSAPrefs.gel_tag">GEL</string>
+    <string name="GSAPrefs.hotword_prompt">Ok Google</string>
+    <boolean name="GEL.GSAPrefs.search_widget_topdeck_content" value="false" />
+    <boolean name="GSAPrefs.now_promo_dismissed" value="false" />
+</map>

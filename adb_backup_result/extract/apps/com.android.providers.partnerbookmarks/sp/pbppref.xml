@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="config">mmc=0-mnc=0-loc=en_GB</string>
+    <boolean name="BOOKMARK_CACHE_KEY" value="true" />
+</map>

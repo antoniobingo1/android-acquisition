@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="boot_time">2010_0114_221947</string>
+    <boolean name="hasStartedDebugMode" value="false" />
+    <long name="begin_recording_time" value="0" />
+    <boolean name="usb_connected" value="true" />
+    <int name="usb_mode" value="18" />
+</map>
