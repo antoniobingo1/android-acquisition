@@ -11,7 +11,7 @@ if [[ $# -eq 0 ]] ; then
 fi
 
 #Declare variables from arguments
-file_name=$1
+backup_location=$1
 extract_folder=$2
 device_name=$(adb devices | tail -2 | head -1 | awk '{print $1}')
 device_state=$(adb devices | tail -2 | head -1 | awk '{print $2}')
@@ -24,24 +24,25 @@ fi
 #Start ADB server
 adb start-server
 echo "ADB server started"
-echo "Performing a backup of device $device_name saved on '$file_name'"
+echo "Performing a backup of device $device_name saved on '$backup_location'"
 
 #Create folder where backup will be stored
-mkdir "$(dirname $file_name)"
+mkdir "$(dirname $backup_location)"
 
 #Run backup
 #.apk files, shared storage, all installed apps and system
 #https://developer.android.com/studio/command-line/adb.html
-adb backup -apk -shared -all -f $file_name
-echo "Finshed backup! Now the hash of the backup will be calculated..."
-
-#Get hash of the backup
-hashAB=$(sha256sum $file_name)
-echo "The hash of the file is: $hashAB"
+adb backup -apk -shared -all -f $backup_location
+echo "Finshed backup! Now the backup will be extracted... This could take some time."
 
 #Extract backup
-echo "Extracting backup"
 mkdir $extract_folder
-( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 $file_name ) | tar xfz - -C $extract_folder
-hashExtract=$(tar c $extract_folder | sha256sum)
-echo "Extracted data hash: $hashExtract"
+( printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" ; tail -c +25 $backup_location ) | tar xfz - -C $extract_folder
+
+#Get hashes
+hash_backup=$(sha256sum $backup_location)
+echo $hash_backup > $(dirname $backup_location)/hash_backup.txt
+echo "A hash of the backup-file can be found in '$(dirname $backup_location)/hash_backup.txt'"
+echo "Now a hash of all all files is created... This could take some time."
+find $extract_folder -type f | while read files; do echo $(sha256sum "$files"); done > $extract_folder/hash_files.txt
+echo "A hash of all the files can be found in '$extraxt_folder/hash_files.txt'"
