@@ -45,4 +45,4 @@ echo $hash_backup > $(dirname $backup_location)/hash_backup.txt
 echo "A hash of the backup-file can be found in '$(dirname $backup_location)/hash_backup.txt'"
 echo "Now a hash of all all files is created... This could take some time."
 find $extract_folder -type f | while read files; do echo $(sha256sum "$files"); done > $extract_folder/hash_files.txt
-echo "A hash of all the files can be found in '$extraxt_folder/hash_files.txt'"
+echo "A hash of all the files can be found in '$extract_folder/hash_files.txt'"
